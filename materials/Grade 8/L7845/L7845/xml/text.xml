@@ -1,0 +1,1110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<menuPopup>
+		<menuPopup_1>
+			<![CDATA[You will lose your work if you leave this activity.<br/><br/>Are you sure you want to continue?]]>
+		</menuPopup_1>
+	</menuPopup>
+	<p100_s1>
+		<p100_s1_1>
+			<![CDATA[Trig degrees]]>
+		</p100_s1_1>
+		<p100_s1_2>
+			<![CDATA[Let's investigate trigonometry.<br/><br/>Select an activity below.]]>
+		</p100_s1_2>
+		<p100_s1_3>
+			<![CDATA[Congratulations!<br/><br/>You have completed Trig degrees. Excellent work!]]>
+		</p100_s1_3>
+		<p100_s1_5>
+			<![CDATA[<b>Sine to 360°</b>]]>
+		</p100_s1_5>
+		<p100_s1_6>
+			<![CDATA[<b>Cosine to 360°</b>]]>
+		</p100_s1_6>
+		<p100_s1_7>
+			<![CDATA[<b>Tangent to 360°</b>]]>
+		</p100_s1_7>
+		<p100_popup_1>
+			<![CDATA[Excellent work! <br/><br/>You have completed <br/><b>Trig degrees: sine to 360°</b>. <br/><br/>Try investigating a different function.]]>
+		</p100_popup_1>
+		<p100_popup_2>
+			<![CDATA[Excellent work! <br/><br/>You have completed <br/><b>Trig degrees: cosine to 360°</b>. <br/><br/>Try investigating a different function.]]>
+		</p100_popup_2>
+		<p100_popup_3>
+			<![CDATA[Excellent work! <br/><br/>You have completed <br/><b>Trig degrees: tangent to 360°</b>. <br/><br/>Try investigating a different function.]]>
+		</p100_popup_3>
+		<p100_s2_6a>
+			<![CDATA[Congratulations!<br/><br/>You have completed <b>Trig degrees</b>.<br/><br/>If you wish to start an activity again, select <b>OK</b>.<br/><br/>Thanks for all your work!]]>
+		</p100_s2_6a>
+		<p100_s2_6b>
+			<![CDATA[Thanks for your work on finding and graphing cosine!]]>
+		</p100_s2_6b>
+	</p100_s1>
+	<p101_s1a>
+		<p101_s1a_1>
+			<![CDATA[Trig degrees: sine to 360°]]>
+		</p101_s1a_1>
+		<p101_s1a_4>
+			<![CDATA[Trigonometry is not just something we have to<br/>learn in class. It is an important tool in geography,<br/>navigation, engineering and other fields.<br/><br/>Trigonometry is extremely useful for solving problems<br/>involving distance and angles. For example, it can be<br/>used to calculate how far a boat is from shore.]]>
+		</p101_s1a_4>
+	</p101_s1a>
+	<p101_s1b>
+		<p101_s1b_4>
+			<![CDATA[   Trigonometric functions can also model periodic<br/>   events, such as the changing depth of water<br/>   caused by ocean tides.<br/><br/>   This is important information if you are navigating<br/>   a boat into a harbour.]]>
+		</p101_s1b_4>
+	</p101_s1b>
+	<p101_s2>
+		<p101_s2_1>
+			<![CDATA[Let's watch an animation that shows how sine and cosine are defined.]]>
+		</p101_s2_1>
+	</p101_s2>
+	<p101_s3>
+		<p101_s3_1>
+			<![CDATA[You've just seen how mathematicians use a circle with a radius of 1 unit to define two ratios used in trigonometry: sine and cosine.<br/><br/>Let's review it step by step.]]>
+		</p101_s3_1>
+		<p101_s3_1a>
+			<![CDATA[Review animation]]>
+		</p101_s3_1a>
+		<p101_s3_5>
+			<![CDATA[Mathematicians divide up the unit circle into four equal sectors called quadrants. The sectors are always numbered as shown here.<br/><br/>So when someone refers to the third quadrant, everyone knows which sector they are talking about.]]>
+		</p101_s3_5>
+		<p101_s3_8>
+			<![CDATA[To start, we've created an angle.<br/><br/>Let's look at the next step.]]>
+		</p101_s3_8>
+		<p101_s3_12>
+			<![CDATA[The circle is called a <b>unit circle</b> because it has a radius of 1 unit.]]>
+		</p101_s3_12>
+		<p101_s3_17>
+			<![CDATA[The length <b>OB</b> is called the <b>cosine</b> of the angle.<br/><br/>In this example, it is the cosine of 35°.]]>
+		</p101_s3_17>
+		<p101_s3_23>
+			<![CDATA[The length <b>OA</b> is called the <b>sine</b> of the angle. In this example, it is the sine of 35°. It has the numerical value of 0.5735... (as shown).]]>
+		</p101_s3_23>
+		<p101_s3_23b>
+			<![CDATA[Notice that the lengths <b>PB</b> and <b>OA</b> are the same.<br/><br/>The line <b>PB</b> is often used to define sine in the unit circle because it forms part of the <b>OPB</b> triangle.]]>
+		</p101_s3_23b>
+		<p101_s3_25>
+			<![CDATA[Trigonometric ratios can be used to solve measurement problems with right-angled triangles.<br/><br/>Let's see how the unit circle definition of sine relates to right-angled triangles.]]>
+		</p101_s3_25>
+	</p101_s3>
+	<p101_s4>
+		<p101_s4_5>
+			<![CDATA[NEEDS GRAPHIC]]>
+		</p101_s4_5>
+		<p101_s4_7>
+			<![CDATA[The unit circle tool is useful because it allows us to look at the sine of angles greater than 90°.<br/><br/>Let's find out how.]]>
+		</p101_s4_7>
+		<p101_s4_10>
+			<![CDATA[The length <b>OA</b> is the sine of the angle. As <b>OT</b> rotates, the sine of the angle will change.<br/><br/>Use the handle at <b>T</b> to rotate <b>OT</b> around the circle. Watch how the angle and the value of sine changes. You can go all the way around the circle.]]>
+		</p101_s4_10>
+	</p101_s4>
+	<p101_s5a>
+		<p101_s5a_2>
+			<![CDATA[Your task is to discover the two missing values of sine in the table.<br/><br/>First, locate an angle by moving the handle at <b>T</b>. Then enter its value of sine.<br/><br/>You need to round the values to two decimal places.]]>
+		</p101_s5a_2>
+		<p101_s5a_5>
+			<![CDATA[That's correct!<br/><br/>Now try some questions about the values of sine in the first quadrant.]]>
+		</p101_s5a_5>
+		<p101_s5a_6>
+			<![CDATA[At least one of the sine values you entered is incorrect. Any incorrect values are highlighted in the table.<br/><br/>Fix any incorrect values.]]>
+		</p101_s5a_6>
+		<p101_s5a_7>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s5a_7>
+		<p101_s5a_8>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Now try some questions about the values of sine in the first quadrant.]]>
+		</p101_s5a_8>
+	</p101_s5a>
+	<p101_s5b>
+		<p101_s5b_2>
+			<![CDATA[In the first quadrant, the range of the sine function is 0 to 1.<br/><br/>If sin Ø = 0.5, what is the angle Ø?]]>
+		</p101_s5b_2>
+		<p101_s5b_3a>
+			<![CDATA[30°]]>
+		</p101_s5b_3a>
+		<p101_s5b_3b>
+			<![CDATA[45°]]>
+		</p101_s5b_3b>
+		<p101_s5b_3c>
+			<![CDATA[50°]]>
+		</p101_s5b_3c>
+		<p101_s5b_6>
+			<![CDATA[That's correct!<br/><br/>Try another question.]]>
+		</p101_s5b_6>
+		<p101_s5b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find sin Ø = 0.5.<br/>Then check what the angle is.]]>
+		</p101_s5b_7>
+		<p101_s5b_7b>
+			<![CDATA[That's still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s5b_7b>
+		<p101_s5b_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Now try another question.]]>
+		</p101_s5b_8>
+		<p101_s5b_10>
+			<![CDATA[When the angle moves from the first to the second quadrant, the value of the sine function changes.<br/><br/>What do you think occurs?]]>
+		</p101_s5b_10>
+		<p101_s5b_11a>
+			<![CDATA[It continues to increase and remains positive.]]>
+		</p101_s5b_11a>
+		<p101_s5b_11b>
+			<![CDATA[It decreases and remains positive.]]>
+		</p101_s5b_11b>
+		<p101_s5b_11c>
+			<![CDATA[It decreases and becomes negative.]]>
+		</p101_s5b_11c>
+		<p101_s5b_12>
+			<![CDATA[Excellent!<br/><br/>Let's look at the values of sine in the second quadrant.]]>
+		</p101_s5b_12>
+		<p101_s5b_13>
+			<![CDATA[That's not it.<br/><br/>Move the handle at <b>T</b> and note what happens to the <b>y</b> coordinate of <b>A</b> as it moves into the second quadrant.]]>
+		</p101_s5b_13>
+		<p101_s5b_13b>
+			<![CDATA[That's not it.<br/><br/>Move the handle at <b>T</b> and note what happens to the <b>y</b> coordinate of <b>A</b> as it moves into the second quadrant.]]>
+		</p101_s5b_13b>
+		<p101_s5b_14>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Let's look at the values of sine in the second quadrant.]]>
+		</p101_s5b_14>
+	</p101_s5b>
+	<p101_s6a>
+		<p101_s6a_2>
+			<![CDATA[The table now includes angles from the second quadrant.<br/><br/>Move the handle to find 123°, then enter its sine value in the table.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p101_s6a_2>
+		<p101_s6a_5>
+			<![CDATA[That's it!<br/><br/>Now try some questions on the values of sine in the second quadrant.]]>
+		</p101_s6a_5>
+		<p101_s6a_6>
+			<![CDATA[That sine value is incorrect.<br/><br/>Move the handle at <b>T</b> to 123° and check the sine value.]]>
+		</p101_s6a_6>
+		<p101_s6a_7>
+			<![CDATA[That's still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s6a_7>
+		<p101_s6a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct sine value has been entered for you.<br/><br/>Now try some questions about the values of sine in the second quadrant.]]>
+		</p101_s6a_8>
+	</p101_s6a>
+	<p101_s6b>
+		<p101_s6b_2>
+			<![CDATA[In the second quadrant, the sine function appears to be decreasing.<br/><br/>The table below shows that in the first quadrant, sin 41° is 0.66.<br/><br/>In the second quadrant, what angle has a value of sine that is also 0.66?]]>
+		</p101_s6b_2>
+		<p101_s6b_3a>
+			<![CDATA[121°]]>
+		</p101_s6b_3a>
+		<p101_s6b_3b>
+			<![CDATA[139°]]>
+		</p101_s6b_3b>
+		<p101_s6b_3c>
+			<![CDATA[166°]]>
+		</p101_s6b_3c>
+		<p101_s6b_6>
+			<![CDATA[That's correct!<br/><br/>Try another question.]]>
+		</p101_s6b_6>
+		<p101_s6b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find sin Ø = 0.66 in the second quadrant. Then check what the angle is.]]>
+		</p101_s6b_7>
+		<p101_s6b_7b>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find sin  = 0.66 in the second quadrant. Then check what the angle is.]]>
+		</p101_s6b_7b>
+		<p101_s6b_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Now try another question.]]>
+		</p101_s6b_8>
+		<p101_s6b_10>
+			<![CDATA[Using the same logic, which angle in the first quadrant has the same sine value as 110°?<br/><br/>Enter your answer below.]]>
+		</p101_s6b_10>
+		<p101_s6b_12>
+			<![CDATA[That's correct!<br/><br/>Choose whether to complete the table of sine values yourself or to have it completed for you.]]>
+		</p101_s6b_12>
+		<p101_s6b_13>
+			<![CDATA[That's not correct.]]>
+		</p101_s6b_13>
+		<p101_s6b_14>
+			<![CDATA[That's still not correct.<br/><br/>Move the handle at <b>T</b> to find the sine value for 110°, then locate the angle with the same sine value in the first quadrant.]]>
+		</p101_s6b_14>
+		<p101_s6b_15>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been entered for you.<br/><br/>Choose whether to complete the table of sine values yourself or to have it completed for you.]]>
+		</p101_s6b_15>
+		<p101_s6b_18>
+			<![CDATA[Move the handle to find the angles and enter the missing sine values in the table.<br/><br/>Remember, you need to round the values to two decimal places.]]>
+		</p101_s6b_18>
+		<p101_s6b_20>
+			<![CDATA[Well done!<br/><br/>Let's look at the values of sine in the third quadrant.]]>
+		</p101_s6b_20>
+		<p101_s6b_21>
+			<![CDATA[At least one of the sine values you entered is incorrect. Any incorrect values are highlighted in the table.<br/><br/>Fix any incorrect values.]]>
+		</p101_s6b_21>
+		<p101_s6b_22>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s6b_22>
+		<p101_s6b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Let's look at the values of sine in the third quadrant.]]>
+		</p101_s6b_23>
+	</p101_s6b>
+	<p101_s7a>
+		<p101_s7a_2>
+			<![CDATA[The table now includes angles from the third quadrant.<br/><br/>Enter the value of sine for 208° in the table.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p101_s7a_2>
+		<p101_s7a_5>
+			<![CDATA[That's correct!<br/><br/>Now try some questions about the values of sine in the third quadrant.]]>
+		</p101_s7a_5>
+		<p101_s7a_6>
+			<![CDATA[That's incorrect.<br/><br/>Move the handle at <b>T</b> to find the value of sine for 208°.]]>
+		</p101_s7a_6>
+		<p101_s7a_7>
+			<![CDATA[That's still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s7a_7>
+		<p101_s7a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct value has been entered for you.<br/><br/>Now try some questions about the values of sine in the third quadrant.]]>
+		</p101_s7a_8>
+	</p101_s7a>
+	<p101_s7b>
+		<p101_s7b_2>
+			<![CDATA[In the third quadrant, the sine function has become negative.<br/><br/>Which angle in the third quadrant has the lowest value for the sine function?]]>
+		</p101_s7b_2>
+		<p101_s7b_3a>
+			<![CDATA[180°]]>
+		</p101_s7b_3a>
+		<p101_s7b_3b>
+			<![CDATA[225°]]>
+		</p101_s7b_3b>
+		<p101_s7b_3c>
+			<![CDATA[270°]]>
+		</p101_s7b_3c>
+		<p101_s7b_3d>
+			<![CDATA[360°]]>
+		</p101_s7b_3d>
+		<p101_s7b_6>
+			<![CDATA[That's correct!<br/><br/>Try another question.]]>
+		</p101_s7b_6>
+		<p101_s7b_7>
+			<![CDATA[That's not it.<br/><br/>Move the handle at <b>T</b> to find the lowest sine value in the third quadrant.]]>
+		</p101_s7b_7>
+		<p101_s7b_7b>
+			<![CDATA[That's not it.<br/><br/>Move the handle at <b>T</b> to find the lowest sine value in the third quadrant.]]>
+		</p101_s7b_7b>
+		<p101_s7b_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Now try another question.]]>
+		</p101_s7b_8>
+		<p101_s7b_10>
+			<![CDATA[What is the minimum value for the sine function in the third quadrant?<br/><br/>Enter the value below.]]>
+		</p101_s7b_10>
+		<p101_s7b_12>
+			<![CDATA[That's correct!<br/><br/>Choose whether to complete the table of sine values yourself or to have it completed for you.]]>
+		</p101_s7b_12>
+		<p101_s7b_13>
+			<![CDATA[That's not correct.]]>
+		</p101_s7b_13>
+		<p101_s7b_14>
+			<![CDATA[That's still not correct.<br/><br/>Move the handle at <b>T</b> to find the lowest value of sine in the third quadrant.]]>
+		</p101_s7b_14>
+		<p101_s7b_15>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been entered for you.<br/><br/>Choose whether to complete the table of sine values yourself or to have it completed for you.]]>
+		</p101_s7b_15>
+		<p101_s7b_18>
+			<![CDATA[Move the handle to find the angles and enter the missing sine values in the table.<br/><br/>Remember, you need to round the values to two decimal places.]]>
+		</p101_s7b_18>
+		<p101_s7b_20>
+			<![CDATA[That's correct!<br/><br/>Let's look at the values of sine in the fourth quadrant.]]>
+		</p101_s7b_20>
+		<p101_s7b_21>
+			<![CDATA[Some of the sine values you entered are incorrect. These are highlighted in the table.<br/><br/>Fix any incorrect values and then select <b>OK</b>.]]>
+		</p101_s7b_21>
+		<p101_s7b_22>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s7b_22>
+		<p101_s7b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Let's look at the values of sine in the fourth quadrant.]]>
+		</p101_s7b_23>
+	</p101_s7b>
+	<p101_s8a>
+		<p101_s8a_2>
+			<![CDATA[The table now includes angles from the fourth quadrant.<br/><br/>Enter the value of sine for 288°.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p101_s8a_2>
+		<p101_s8a_5>
+			<![CDATA[That's correct!<br/><br/>Now try some questions about the values of sine in the fourth quadrant.]]>
+		</p101_s8a_5>
+		<p101_s8a_6>
+			<![CDATA[That sine value is incorrect.<br/><br/>Move the handle at <b>T</b> to find 288° and check the sine value. ]]>
+		</p101_s8a_6>
+		<p101_s8a_7>
+			<![CDATA[That's still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s8a_7>
+		<p101_s8a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct value has been entered for you.<br/><br/>Now try some questions about the values of sine in the fourth quadrant.]]>
+		</p101_s8a_8>
+	</p101_s8a>
+	<p101_s8b>
+		<p101_s8b_2>
+			<![CDATA[You may have noticed that in the fourth quadrant, the sine function is increasing again.<br/><br/>What do you think the value of sine is at the end of the fourth quadrant?<br/><br/>Enter the value below.]]>
+		</p101_s8b_2>
+		<p101_s8b_5>
+			<![CDATA[That's correct!<br/><br/>Try another question.]]>
+		</p101_s8b_5>
+		<p101_s8b_6>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to the end of the fourth quadrant and check the value of sine.]]>
+		</p101_s8b_6>
+		<p101_s8b_6b>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to the end of the fourth quadrant and check the value of sine.]]>
+		</p101_s8b_6b>
+		<p101_s8b_7>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been entered for you.<br/><br/>Now try another question.]]>
+		</p101_s8b_7>
+		<p101_s8b_9>
+			<![CDATA[What angle in the fourth quadrant has the same value of sine as 251°?]]>
+		</p101_s8b_9>
+		<p101_s8b_10a>
+			<![CDATA[289°]]>
+		</p101_s8b_10a>
+		<p101_s8b_10b>
+			<![CDATA[331°]]>
+		</p101_s8b_10b>
+		<p101_s8b_10c>
+			<![CDATA[351°]]>
+		</p101_s8b_10c>
+		<p101_s8b_13>
+			<![CDATA[That's correct!<br/><br/>Choose whether to complete the table of sine values yourself or to have it completed for you.]]>
+		</p101_s8b_13>
+		<p101_s8b_14>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to find the sine of 251°, then locate the angle with the same sine value in the fourth quadrant.]]>
+		</p101_s8b_14>
+		<p101_s8b_14b>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to find the sine of 251°, then locate the angle with the same sine value in the fourth quadrant.]]>
+		</p101_s8b_14b>
+		<p101_s8b_15>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Choose whether to complete the table of sine values yourself or to have it completed for you.]]>
+		</p101_s8b_15>
+		<p101_s8b_18>
+			<![CDATA[Move the handle to find the angles and enter the missing sine values in the table.<br/><br/>Remember, you need to round the values to two decimal places.]]>
+		</p101_s8b_18>
+		<p101_s8b_20>
+			<![CDATA[That's correct!<br/><br/>The sine values for angles in the fourth quadrant <b>increase</b>.]]>
+		</p101_s8b_20>
+		<p101_s8b_21>
+			<![CDATA[At least one of the sine values you entered is incorrect. Any incorrect values are highlighted in the table.<br/><br/>Fix any incorrect values.]]>
+		</p101_s8b_21>
+		<p101_s8b_22>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Remember, if the third decimal place is <br/>5 or more, round the second decimal <b>up</b>.]]>
+		</p101_s8b_22>
+		<p101_s8b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.]]>
+		</p101_s8b_23>
+	</p101_s8b>
+	<p101_s9a>
+		<p101_s9a_9>
+			<![CDATA[Now that we have the sine values for angles from 0° to 360°, let's see how this looks when plotted on a graph.]]>
+		</p101_s9a_9>
+		<p101_s9a_9b>
+			<![CDATA[Move the handle to join the points.]]>
+		</p101_s9a_9b>
+		<p101_s9a_13>
+			<![CDATA[This graph helps us understand the properties of sine.<br/><br/>It represents the function:<br/><br/><b>y = sin x</b><br/><br/>where every <b>y</b> value on the curve is the sine of the corresponding <b>x</b> value.]]>
+		</p101_s9a_13>
+	</p101_s9a>
+	<p101_s9b>
+		<p101_s9b_3>
+			<![CDATA[Enter the correct answers in the spaces.]]>
+		</p101_s9b_3>
+		<p101_s9b_6>
+			<![CDATA[Some of the values are incorrect. These are highlighted.<br/><br/>Fix any incorrect values and then select <b>OK</b>.]]>
+		</p101_s9b_6>
+		<p101_s9b_7>
+			<![CDATA[At least one of the values you entered is incorrect. Any incorrect values are highlighted.<br/><br/>Fix any incorrect values.]]>
+		</p101_s9b_7>
+		<p101_s9b_8>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Use the tool to find the correct values.<br/>Remember to round the sine values.]]>
+		</p101_s9b_8>
+		<p101_s9b_9>
+			<![CDATA[That's still not right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Now try another question.]]>
+		</p101_s9b_9>
+		<p101_s9b_12>
+			<![CDATA[Enter the correct answers in the spaces.<br/>Remember to round the sine values to two decimal places.]]>
+		</p101_s9b_12>
+		<p101_s9b_21>
+			<![CDATA[Think of an angle (Ø) in the second quadrant.<br/><br/>Which of the following would be the same as sin (Ø)? ]]>
+		</p101_s9b_21>
+		
+		<p101_s9b_22a>
+			<![CDATA[sin(90 + Ø)]]>
+		</p101_s9b_22a>
+		<p101_s9b_22b>
+			<![CDATA[sin(Ø / 2)]]>
+		</p101_s9b_22b>
+		<p101_s9b_22c>
+			<![CDATA[sin(180 – Ø)]]>
+		</p101_s9b_22c>
+	
+		<p101_s9b_26>
+			<![CDATA[That's not correct.<br/><br/>Use the sine graph to help you. Remember that angle (Ø) is in the second quadrant.]]>
+		</p101_s9b_26>
+		<p101_s9b_26b>
+			<![CDATA[That's still not right.<br/><br/>Imagine a horizontal line joining the two angles that have the same value for sine. Work out how the angles are related.]]>
+		</p101_s9b_26b>
+		<p101_s9b_29>
+			<![CDATA[The unit circle can be used to find the sine of angles of any size. If we keep moving the point around the unit circle, past the <b>x</b>-axis, we get angles greater than 360°. <br/><br/>Which of the angles below has a sine of –1?]]>
+		</p101_s9b_29>
+		<p101_s9b_30a>
+			<![CDATA[450°]]>
+		</p101_s9b_30a>
+		<p101_s9b_30b>
+			<![CDATA[570°]]>
+		</p101_s9b_30b>
+		<p101_s9b_30c>
+			<![CDATA[630°]]>
+		</p101_s9b_30c>
+		<p101_s9b_30d>
+			<![CDATA[720°]]>
+		</p101_s9b_30d>
+		<p101_s9b_33>
+			<![CDATA[That's right!<br/><br/>Now try the final question.]]>
+		</p101_s9b_33>
+		<p101_s9b_34>
+			<![CDATA[That's not correct.<br/><br/>Look at the graph to see where sine has a value of –1.]]>
+		</p101_s9b_34>
+		<p101_s9b_34b>
+			<![CDATA[That's still not correct.<br/><br/>Begin from the <b>x</b>-axis. After doing a full rotation (360°) the point needs to move another 270° to have a sine of –1.]]>
+		</p101_s9b_34b>
+		<p101_s9b_35>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Now try the final question.]]>
+		</p101_s9b_35>
+		<p101_s9b_37>
+			<![CDATA[Which of the angles below has the same sine as 165°?]]>
+		</p101_s9b_37>
+		<p101_s9b_38a>
+			<![CDATA[375°]]>
+		</p101_s9b_38a>
+		<p101_s9b_38b>
+			<![CDATA[425°]]>
+		</p101_s9b_38b>
+		<p101_s9b_38c>
+			<![CDATA[555°]]>
+		</p101_s9b_38c>
+		<p101_s9b_41>
+			<![CDATA[That's correct!<br/><br/>The sine value at 165° is the same as the sine value at 15°. The angle 375° is in the same position in the first quadrant as the angle 15° because 375° = 15° + 360°.]]>
+		</p101_s9b_41>
+		<p101_s9b_41b>
+			<![CDATA[That's not correct.<br/><br/>Remember that there is an angle in the first quadrant with the same sine value as an angle in the second quadrant.]]>
+		</p101_s9b_41b>
+		<p101_s9b_42>
+			<![CDATA[That's still not right.<br/><br/>Remember that the value of sine at 165° is the same as the sine value at 15°. After doing a complete rotation and then continuing, at which angle would sine have the same value as it does at 15°? ]]>
+		</p101_s9b_42>
+		<p101_s9b_43>
+			<![CDATA[That's still not right.<br/><br/>The correct answer has been selected for you.<br/><br/>You've completed all the questions.]]>
+		</p101_s9b_43>
+	</p101_s9b>
+	<p101_s10>
+		<p101_s10_3>
+			<![CDATA[We've discovered that the cosine ratio<br/>changes as the size of the angle changes.<br/><br/>The pattern formed by the sine value, in particular,<br/>is easily observed in real life. This wave-shaped<br/>curve is called the <b>sine function.</b> It is used to<br/>describe sound, light, radio and many other<br/>wave forms.<br/><br/>Let's look at some examples.]]>
+		</p101_s10_3>
+		<p101_s10_7>
+			<![CDATA[<br/><br/>Congratulations! You have completed <b>Trig degrees</b>.<br/><br/>If you wish to start an activity again, select <b>Menu</b>.<br/><br/>Thanks for all your work!]]>
+		</p101_s10_7>
+	</p101_s10>
+	<p102_s3>
+		<p102_s3_17>
+			<![CDATA[The length <b>OB</b> is called the <b>cosine</b> of the angle. In this example, it is the cosine of 35°. It has the numerical value of 0.8191... (as shown).]]>
+		</p102_s3_17>
+		<p102_s3_23>
+			<![CDATA[The length <b>OA</b> is called the <b>sine</b> of the angle.<br/><br/>In this example, it is the sine of 35°.]]>
+		</p102_s3_23>
+		<p102_s3_25>
+			<![CDATA[Trigonometric ratios can be used to solve measurement problems with right-angled triangles.<br/><br/>Let's see how the unit circle definition of cosine relates to right-angled triangles.]]>
+		</p102_s3_25>
+	</p102_s3>
+	<p102_s4>
+		<p102_s4_7>
+			<![CDATA[The unit circle tool is useful because it allows us to look at the cosine of angles greater than 90°.<br/><br/>Let's find out how.]]>
+		</p102_s4_7>
+		<p102_s4_10>
+			<![CDATA[The length <b>OB</b> is the cosine of the angle. As <b>OT</b> rotates, the cosine of the angle will change.<br/><br/>Use the handle at <b>T</b> to rotate <b>OT</b> around the circle. Watch how the angle and the value of cosine changes. You can go all the way around the circle.]]>
+		</p102_s4_10>
+	</p102_s4>
+	<p102_s5a>
+		<p102_s5a_2>
+			<![CDATA[Your task is to discover the two missing values of cosine in the table.<br/><br/>First, locate an angle by moving the handle at <b>T</b>. Then enter its value of cosine.<br/><br/>You need to round the values to two decimal places.]]>
+		</p102_s5a_2>
+		<p102_s5a_5>
+			<![CDATA[That's correct!<br/><br/>Now try a question about the values of cosine in the first quadrant.]]>
+		</p102_s5a_5>
+		<p102_s5a_6>
+			<![CDATA[At least one of the cosine values you entered is incorrect. Any incorrect values are highlighted in the table.<br/><br/>Fix any incorrect values.]]>
+		</p102_s5a_6>
+		<p102_s5a_8>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Now try a question about the value of cosine in the first quadrant.]]>
+		</p102_s5a_8>
+	</p102_s5a>
+	<p102_s5b>
+		<p102_s5b_2>
+			<![CDATA[In the first quadrant, the range of the cosine function is 0 to 1. It starts at 1 and decreases to 0. <br/><br/>If cos Ø = 0.5, what is the angle Ø?]]>
+		</p102_s5b_2>
+		<p102_s5b_3a>
+			<![CDATA[60°]]>
+		</p102_s5b_3a>
+		<p102_s5b_3b>
+			<![CDATA[45°]]>
+		</p102_s5b_3b>
+		<p102_s5b_3c>
+			<![CDATA[30°]]>
+		</p102_s5b_3c>
+		<p102_s5b_6>
+			<![CDATA[That's correct!<br/><br/>Now let's look at the values of cosine in the second quadrant.]]>
+		</p102_s5b_6>
+		<p102_s5b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find cos Ø = 0.5.<br/>Then check what the angle is.  ]]>
+		</p102_s5b_7>
+		<p102_s5b_8>
+			<![CDATA[That still wasn't right. <br/><br/>The correct answer has been selected for you.<br/><br/>Now let's look at the values of cosine in the second quadrant.]]>
+		</p102_s5b_8>
+	</p102_s5b>
+	<p102_s6a>
+		<p102_s6a_2>
+			<![CDATA[The table now includes angles from the second quadrant.<br/><br/>Move the handle to find 123°, then enter its cosine value in the table.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p102_s6a_2>
+		<p102_s6a_5>
+			<![CDATA[That's it!<br/><br/>Now try some questions on the values of cosine in the second quadrant.]]>
+		</p102_s6a_5>
+		<p102_s6a_6>
+			<![CDATA[That cosine value is incorrect.<br/><br/>Move the handle at <b>T</b> to 123° and check the cosine value.]]>
+		</p102_s6a_6>
+		<p102_s6a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct cosine value has been entered for you.<br/><br/>Now try some questions about the values of cosine in the second quadrant.]]>
+		</p102_s6a_8>
+	</p102_s6a>
+	<p102_s6b>
+		<p102_s6b_2>
+			<![CDATA[In the second quadrant, the cosine function appears to be negative.<br/><br/>Which angle has the lowest value of cosine in the second quadrant?]]>
+		</p102_s6b_2>
+		<p102_s6b_3a>
+			<![CDATA[90°]]>
+		</p102_s6b_3a>
+		<p102_s6b_3b>
+			<![CDATA[135°]]>
+		</p102_s6b_3b>
+		<p102_s6b_3c>
+			<![CDATA[180°]]>
+		</p102_s6b_3c>
+		<p102_s6b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to find the lowest value of cosine in the second quadrant. Then check what the angle is.]]>
+		</p102_s6b_7>
+		<p102_s6b_10>
+			<![CDATA[What is the lowest value of cosine in the second quadrant?<br/><br/>Enter your answer below.]]>
+		</p102_s6b_10>
+		<p102_s6b_12>
+			<![CDATA[That's correct!<br/><br/>Choose whether to complete the table of cosine values yourself or to have it completed for you.]]>
+		</p102_s6b_12>
+		<p102_s6b_14>
+			<![CDATA[That's still not correct.<br/><br/>Move the handle at <b>T</b> to find the lowest value of cosine in the second quadrant.]]>
+		</p102_s6b_14>
+		<p102_s6b_15>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been entered for you.<br/><br/>Choose whether to complete the table of cosine values yourself or to have it completed for you. ]]>
+		</p102_s6b_15>
+		<p102_s6b_18>
+			<![CDATA[Move the handle to find the angles and enter the missing cosine values in the table.<br/><br/>Remember, you need to round the values to two decimal places.]]>
+		</p102_s6b_18>
+		<p102_s6b_20>
+			<![CDATA[Well done!<br/><br/>Let's look at the values of cosine in the third quadrant.]]>
+		</p102_s6b_20>
+		<p102_s6b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Let's look at the values of cosine in the third quadrant.]]>
+		</p102_s6b_23>
+	</p102_s6b>
+	<p102_s7a>
+		<p102_s7a_2>
+			<![CDATA[The cosine values in the second quadrant continue to decrease. Now the table includes angles from the third quadrant.<br/><br/>Enter the value of cosine for 208° in the table.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p102_s7a_2>
+		<p102_s7a_5>
+			<![CDATA[That's correct! <br/><br/>Now try some questions about the values of cosine in the third quadrant.]]>
+		</p102_s7a_5>
+		<p102_s7a_6>
+			<![CDATA[That's incorrect.<br/><br/>Move the handle at <b>T</b> to find the value of cosine for 208°.]]>
+		</p102_s7a_6>
+		<p102_s7a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct cosine value has been entered for you.<br/><br/>Now try some questions about the values of cosine in the third quadrant.]]>
+		</p102_s7a_8>
+	</p102_s7a>
+	<p102_s7b>
+		<p102_s7b_2>
+			<![CDATA[In the third quadrant, the cosine function increases.<br/><br/>The table below shows that in the second quadrant, cos 131° is –0.66.<br/><br/>In the third quadrant, what angle has a cosine value that is also –0.66?]]>
+		</p102_s7b_2>
+		<p102_s7b_3a>
+			<![CDATA[229°]]>
+		</p102_s7b_3a>
+		<p102_s7b_3b>
+			<![CDATA[231°]]>
+		</p102_s7b_3b>
+		<p102_s7b_3c>
+			<![CDATA[262°]]>
+		</p102_s7b_3c>
+		<p102_s7b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find cos Ø = –0.66 in the third quadrant. Then check what the angle is.]]>
+		</p102_s7b_7>
+		<p102_s7b_10>
+			<![CDATA[Using the same logic, which angle in the second quadrant has the same cosine as 215°? <br/><br/>Enter your answer below.]]>
+		</p102_s7b_10>
+		<p102_s7b_14>
+			<![CDATA[That's still not correct.<br/><br/>Move the handle at <b>T</b> to find the cosine value for 215°, then locate the angle in the second quadrant with the same cosine value.]]>
+		</p102_s7b_14>
+		<p102_s7b_20>
+			<![CDATA[That's correct!<br/><br/>Let's look at the values of cosine in the fourth quadrant.]]>
+		</p102_s7b_20>
+		<p102_s7b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Let's look at the values of cosine in the fourth quadrant.]]>
+		</p102_s7b_23>
+	</p102_s7b>
+	<p102_s8a>
+		<p102_s8a_2>
+			<![CDATA[The table now includes angles from the fourth quadrant.<br/><br/>Enter the value of cosine for 288°.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p102_s8a_2>
+		<p102_s8a_5>
+			<![CDATA[That's correct!<br/><br/>Now try some questions about the values of cosine in the fourth quadrant.]]>
+		</p102_s8a_5>
+		<p102_s8a_6>
+			<![CDATA[That cosine value is incorrect. <br/><br/>Move the handle at <b>T</b> to find 288° and check the cosine value. ]]>
+		</p102_s8a_6>
+		<p102_s8a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct value has been entered for you.<br/><br/>Now try some questions about the values of cosine in the fourth quadrant.]]>
+		</p102_s8a_8>
+	</p102_s8a>
+	<p102_s8b>
+		<p102_s8b_2>
+			<![CDATA[You may have noticed that in the fourth quadrant the cosine function continues to increase.<br/><br/>What do you think the value of cosine is at the end of the fourth quadrant? <br/><br/>Enter the value below.]]>
+		</p102_s8b_2>
+		<p102_s8b_6>
+			<![CDATA[That's not correct.]]>
+		</p102_s8b_6>
+		<p102_s8b_7>
+			<![CDATA[That's still not right.<br/><br/>Move the handle at <b>T</b> to the end of the fourth quadrant and check the value of cosine.]]>
+		</p102_s8b_7>
+		<p102_s8b_7a>
+			<![CDATA[That's still not right.<br/><br/>The correct value has been entered for you.<br/><br/>Now try another question.]]>
+		</p102_s8b_7a>
+		<p102_s8b_9>
+			<![CDATA[What angle in the fourth quadrant has the same value of cosine as 19°?]]>
+		</p102_s8b_9>
+		<p102_s8b_10a>
+			<![CDATA[289°]]>
+		</p102_s8b_10a>
+		<p102_s8b_10b>
+			<![CDATA[319°]]>
+		</p102_s8b_10b>
+		<p102_s8b_10c>
+			<![CDATA[341°]]>
+		</p102_s8b_10c>
+		<p102_s8b_14>
+			<![CDATA[That's still not right.<br/><br/>Move the handle at <b>T</b> to find the cosine of 19°, then locate the angle with the same cosine value in the fourth quadrant.]]>
+		</p102_s8b_14>
+		<p102_s8b_15>
+			<![CDATA[That's still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Choose whether to complete the table of cosine values yourself or to have it completed for you.]]>
+		</p102_s8b_15>
+		<p102_s8b_20>
+			<![CDATA[That's correct!<br/><br/>The cosine values for angles in the fourth quadrant <b>increase</b>.]]>
+		</p102_s8b_20>
+		<p102_s8b_21>
+			<![CDATA[At least one of the cosine values you entered is incorrect. Any incorrect values are highlighted in the table.<br/><br/>Fix any incorrect values.]]>
+		</p102_s8b_21>
+		<p102_s8b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.]]>
+		</p102_s8b_23>
+	</p102_s8b>
+	<p102_s9a>
+		<p102_s9a_9>
+			<![CDATA[Now that we have the cosine values for angles from 0° to 360°, let's see how this looks when plotted on a graph.]]>
+		</p102_s9a_9>
+		<p102_s9a_9b>
+			<![CDATA[Move the handle to join the points.]]>
+		</p102_s9a_9b>
+		<p102_s9a_12>
+			<![CDATA[This graph helps us understand the properties of cosine.<br/><br/>It represents the function:<br/><br/><b>y = cos x</b><br/><br/>where every <b>y</b> value on the curve is the cosine of the corresponding <b>x</b> value.]]>
+		</p102_s9a_12>
+	</p102_s9a>
+	<p102_s9b>
+		<p102_s9b_3>
+			<![CDATA[Enter the correct answers in the spaces.<br/>Remember to round the cosine values to two decimal places.]]>
+		</p102_s9b_3>
+		<p102_s9b_8>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Use the tool to find the correct values.<br/>Remember to round the cosine values.]]>
+		</p102_s9b_8>
+		<p102_s9b_21>
+			<![CDATA[Think of an angle (Ø) in the first quadrant. <br/><br/>Which of the following would be the same<br/>as cos (Ø)?]]>
+		</p102_s9b_21>
+		<p102_s9b_22a>
+			<![CDATA[cos (180 + Ø)]]>
+		</p102_s9b_22a>
+		<p102_s9b_22b>
+			<![CDATA[cos (360 – Ø)]]>
+		</p102_s9b_22b>
+		<p102_s9b_22c>
+			<![CDATA[cos (Ø – 360)]]>
+		</p102_s9b_22c>
+		<p102_s9b_26>
+			<![CDATA[That's not correct.<br/><br/>Use the cosine graph to help you. Remember that the angle is in the first quadrant.]]>
+		</p102_s9b_26>
+		<p102_s9b_26b>
+			<![CDATA[That's still not correct.<br/><br/>Imagine a horizontal line joining the two angles that have the same value for cosine. Work out how the angles are related.]]>
+		</p102_s9b_26b>
+		<p102_s9b_29>
+			<![CDATA[The unit circle can be used to find the cosine of angles of any size.<br/><br/>Which angle below has a cosine of –1?]]>
+		</p102_s9b_29>
+		<p102_s9b_30a>
+			<![CDATA[450°]]>
+		</p102_s9b_30a>
+		<p102_s9b_30b>
+			<![CDATA[540°]]>
+		</p102_s9b_30b>
+		<p102_s9b_30c>
+			<![CDATA[630°]]>
+		</p102_s9b_30c>
+		<p102_s9b_30d>
+			<![CDATA[720°]]>
+		</p102_s9b_30d>
+		<p102_s9b_34>
+			<![CDATA[That's not correct.<br/><br/>Look at the graph to see where cosine has a value of –1.]]>
+		</p102_s9b_34>
+		<p102_s9b_34b>
+			<![CDATA[That's still not correct.<br/><br/>Begin from the <b>x</b>-axis. After doing a full rotation (360°) the point needs to move another 180° to have a cosine of –1.]]>
+		</p102_s9b_34b>
+		<p102_s9b_37>
+			<![CDATA[Which of the angles below has the same cosine as 65°?]]>
+		</p102_s9b_37>
+		<p102_s9b_38a>
+			<![CDATA[245°]]>
+		</p102_s9b_38a>
+		<p102_s9b_38b>
+			<![CDATA[475°]]>
+		</p102_s9b_38b>
+		<p102_s9b_38c>
+			<![CDATA[655°]]>
+		</p102_s9b_38c>
+		<p102_s9b_41>
+			<![CDATA[That's correct!<br/><br/>The cosine value at 65° is the same as the cosine value at 295°. The angle 655° is in the same position in the fourth quadrant as the angle 295° because 655° = 295° + 360°.]]>
+		</p102_s9b_41>
+		<p102_s9b_41b>
+			<![CDATA[That's not correct.<br/><br/>Remember that there is an angle in the fourth quadrant with the same cosine value as an angle in the first quadrant.]]>
+		</p102_s9b_41b>
+		<p102_s9b_42>
+			<![CDATA[That's still not right.<br/><br/>Remember that the value of cosine at 65° is the same as the cosine value at 295°. After doing a complete rotation, and then continuing into the fourth quadrant, at which angle would cosine have the same value as it does at 65°?]]>
+		</p102_s9b_42>
+	</p102_s9b>
+	<p102_s10>
+		<p102_s10_6>
+			<![CDATA[Thanks for your work on finding and graphing cosine!]]>
+		</p102_s10_6>
+	</p102_s10>
+	<p103_s1a>
+		<p103_s1a_1>
+			<![CDATA[Trig degrees: tangent to 360°]]>
+		</p103_s1a_1>
+	</p103_s1a>
+	<p103_s2>
+		<p103_s2_1>
+			<![CDATA[Let's watch an animation that shows how sine, cosine and tangent are defined.]]>
+		</p103_s2_1>
+	</p103_s2>
+	<p103_s3>
+		<p103_s3_1>
+			<![CDATA[You've just seen how mathematicians use a circle with a radius of 1 unit to define three ratios used in trigonometry: sine, cosine and tangent.<br/><br/>Let's review it step by step.]]>
+		</p103_s3_1>
+		<p103_s3_24>
+			<![CDATA[The length <b>OA</b> is called the <b>sine</b> of the angle.<br/><br/>In this example, it is the sine of 35°.]]>
+		</p103_s3_24>
+		<p103_s3_29>
+			<![CDATA[The length <b>DQ</b> is called the <b>tangent</b> of the angle. In this example, it is the tangent of 35°. It has the numerical value of 0.7002... <br/>(as shown).]]>
+		</p103_s3_29>
+		<p103_s3_31>
+			<![CDATA[Trigonometric ratios can be used to solve measurement problems with right-angled triangles.<br/><br/>Let's see how the unit circle definition of tangent relates to right-angled triangles.]]>
+		</p103_s3_31>
+	</p103_s3>
+	<p103_s4a>
+		<p103_s4a_4>
+			<![CDATA[The triangles <b>OPB</b> and <b>OQD</b> are <b>similar</b>.<br/><br/>Select <b>Next</b> to see why.]]>
+		</p103_s4a_4>
+	</p103_s4a>
+	<p103_s4b>
+		<p103_s4b_8>
+			<![CDATA[The unit circle tool is useful because it allows us to look at the trigonometry ratios of angles greater than 90°.<br/><br/>Let's find out how.]]>
+		</p103_s4b_8>
+		<p103_s4b_10>
+			<![CDATA[As <b>OT</b> rotates, the values of the tangent, sine and cosine of the angle will change.<br/><br/>Use the handle at <b>T</b> to rotate <b>OT</b> around the circle. Watch how the angle and the values of the trigonometric functions change. You can go all the way around the circle.]]>
+		</p103_s4b_10>
+	</p103_s4b>
+	<p103_s5a>
+		<p103_s5a_2>
+			<![CDATA[Your task is to discover the missing value of the tangent in the table below.<br/><br/>First, locate the angle by moving the handle at <b>T</b>. Then enter its tangent value.<br/><br/>You need to round the value to two decimal places.]]>
+		</p103_s5a_2>
+		<p103_s5a_5>
+			<![CDATA[That's correct!<br/><br/>Now try a question about the tangent values in the first quadrant.]]>
+		</p103_s5a_5>
+		<p103_s5a_6>
+			<![CDATA[That tangent value is incorrect.<br/><br/>Move the handle at <b>T</b> until the angle is 76°. Then check the tangent value.]]>
+		</p103_s5a_6>
+		<p103_s5a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct tangent value has been entered for you.<br/><br/>Now try a question about the tangent values in the first quadrant.]]>
+		</p103_s5a_8>
+	</p103_s5a>
+	<p103_s5b>
+		<p103_s5b_2>
+			<![CDATA[In the first quadrant, the tangent function starts at 0° and gets larger and larger. The tangent at 90° is undefined. Close to 90°, the value of the tangent function becomes infinitely large and positive.<br/><br/>If tan Ø = 1, what is the angle Ø?]]>
+		</p103_s5b_2>
+		<p103_s5b_3a>
+			<![CDATA[50°]]>
+		</p103_s5b_3a>
+		<p103_s5b_3b>
+			<![CDATA[45°]]>
+		</p103_s5b_3b>
+		<p103_s5b_3c>
+			<![CDATA[30°]]>
+		</p103_s5b_3c>
+		<p103_s5b_6>
+			<![CDATA[That's correct!<br/><br/>Let's look at the tangent values in the second quadrant.]]>
+		</p103_s5b_6>
+		<p103_s5b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find tan Ø = 1. Then check what the angle is.]]>
+		</p103_s5b_7>
+		<p103_s5b_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Let's look at the tangent values in the second quadrant.]]>
+		</p103_s5b_8>
+	</p103_s5b>
+	<p103_s6a>
+		<p103_s6a_2>
+			<![CDATA[The table now includes angles from the second quadrant.<br/><br/>Move the handle to find 99°, then enter its tangent value in the table.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p103_s6a_2>
+		<p103_s6a_5>
+			<![CDATA[That's it!<br/><br/>Now try some questions on the tangent values in the second quadrant.]]>
+		</p103_s6a_5>
+		<p103_s6a_6>
+			<![CDATA[That tangent value is incorrect.<br/><br/>Move the handle at <b>T</b> to 99° and then check the tangent value.]]>
+		</p103_s6a_6>
+		<p103_s6a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct tangent value has been entered for you.<br/><br/>Now try some questions about the tangent values in the second quadrant.]]>
+		</p103_s6a_8>
+	</p103_s6a>
+	<p103_s6b>
+		<p103_s6b_2>
+			<![CDATA[In the second quadrant, the tangent function appears to be negative.<br/><br/>Which angle has the largest tangent value in the second quadrant?]]>
+		</p103_s6b_2>
+		<p103_s6b_3a>
+			<![CDATA[91°]]>
+		</p103_s6b_3a>
+		<p103_s6b_3b>
+			<![CDATA[135°]]>
+		</p103_s6b_3b>
+		<p103_s6b_3c>
+			<![CDATA[180°]]>
+		</p103_s6b_3c>
+		<p103_s6b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to find the largest value of the tangent in the second quadrant. Then check what the angle is.]]>
+		</p103_s6b_7>
+		<p103_s6b_10>
+			<![CDATA[What is the maximum value of the tangent in the second quadrant?]]>
+		</p103_s6b_10>
+		<p103_s6b_11a>
+			<![CDATA[–1]]>
+		</p103_s6b_11a>
+		<p103_s6b_11b>
+			<![CDATA[0]]>
+		</p103_s6b_11b>
+		<p103_s6b_11c>
+			<![CDATA[1]]>
+		</p103_s6b_11c>
+		<p103_s6b_12>
+			<![CDATA[That's correct!<br/><br/>Choose whether to complete the table of tangent values yourself or to have it completed for you.]]>
+		</p103_s6b_12>
+		<p103_s6b_14>
+			<![CDATA[That's still not correct.<br/><br/>Move the handle at <b>T</b> to find the largest tangent value in the second quadrant.]]>
+		</p103_s6b_14>
+		<p103_s6b_15>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been selected for you.<br/><br/>Choose whether to complete the table of tangent values yourself or have it completed for you.]]>
+		</p103_s6b_15>
+		<p103_s6b_18>
+			<![CDATA[Move the handle to find the angles and enter the missing tangent values in the table.<br/><br/>Remember, you need to round the values to two decimal places.]]>
+		</p103_s6b_18>
+		<p103_s6b_20>
+			<![CDATA[Well done!<br/><br/>Let's look at the tangent values in the third quadrant.]]>
+		</p103_s6b_20>
+		<p103_s6b_21>
+			<![CDATA[At least one of the tangent values you entered is incorrect. Any incorrect values are highlighted in the table.<br/><br/>Fix any incorrect values.]]>
+		</p103_s6b_21>
+		<p103_s6b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Let's look at the tangent values in the third quadrant.]]>
+		</p103_s6b_23>
+	</p103_s6b>
+	<p103_s7a>
+		<p103_s7a_2>
+			<![CDATA[Check the values in the table. Do you see a pattern?<br/><br/>Now the table includes angles from the third quadrant. Enter the tangent value for 208° in the table.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p103_s7a_2>
+		<p103_s7a_5>
+			<![CDATA[That's correct!<br/><br/>Now try some questions about the tangent values in the third quadrant.]]>
+		</p103_s7a_5>
+		<p103_s7a_6>
+			<![CDATA[That's incorrect.<br/><br/>Move the handle at <b>T</b> to find the value of the tangent for 208°.]]>
+		</p103_s7a_6>
+		<p103_s7a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct tangent value has been entered for you.<br/><br/>Now try some questions about the tangent values in the third quadrant.]]>
+		</p103_s7a_8>
+	</p103_s7a>
+	<p103_s7b>
+		<p103_s7b_2>
+			<![CDATA[In the third quadrant, the tangent function is positive and increasing.<br/><br/>The table below shows that in the first quadrant, tan 41° is 0.87.<br/><br/>In the third quadrant, what angle has a tangent value that is also 0.87?]]>
+		</p103_s7b_2>
+		<p103_s7b_3a>
+			<![CDATA[216°]]>
+		</p103_s7b_3a>
+		<p103_s7b_3b>
+			<![CDATA[221°]]>
+		</p103_s7b_3b>
+		<p103_s7b_3c>
+			<![CDATA[245°]]>
+		</p103_s7b_3c>
+		<p103_s7b_7>
+			<![CDATA[That's not right.<br/><br/>Move the handle to find tan Ø = 0.87 in the third quadrant. Then check what the angle is.]]>
+		</p103_s7b_7>
+		<p103_s7b_10>
+			<![CDATA[Using the same logic, which angle in the first quadrant has the same tangent as 262°?<br/><br/>Enter your answer below.]]>
+		</p103_s7b_10>
+		<p103_s7b_14>
+			<![CDATA[That's still not correct.<br/><br/>Move the handle at <b>T</b> to find the tangent value for 262° then locate the angle with the same tangent value in the first quadrant.]]>
+		</p103_s7b_14>
+		<p103_s7b_15>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been entered for you.<br/><br/>Choose whether to complete the table of tangent values yourself or to have it completed for you.]]>
+		</p103_s7b_15>
+		<p103_s7b_20>
+			<![CDATA[That's correct!<br/><br/>Let's look at the tangent values in the fourth quadrant.]]>
+		</p103_s7b_20>
+		<p103_s7b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.<br/><br/>Let's look at the tangent values in the fourth quadrant.]]>
+		</p103_s7b_23>
+	</p103_s7b>
+	<p103_s8a>
+		<p103_s8a_2>
+			<![CDATA[The table now includes angles from the fourth quadrant.<br/><br/>Enter the value of the tangent for 278°.<br/><br/>Remember, you need to round the value to two decimal places.]]>
+		</p103_s8a_2>
+		<p103_s8a_5>
+			<![CDATA[That's correct!<br/><br/>Now try some questions about the tangent values in the fourth quadrant.]]>
+		</p103_s8a_5>
+		<p103_s8a_6>
+			<![CDATA[That tangent value is incorrect.<br/><br/>Move the handle at <b>T</b> to find 278° and check the tangent value.]]>
+		</p103_s8a_6>
+		<p103_s8a_8>
+			<![CDATA[That still wasn't right.<br/><br/>The correct value has been entered for you.<br/><br/>Now try some questions about the tangent values in the fourth quadrant.]]>
+		</p103_s8a_8>
+	</p103_s8a>
+	<p103_s8b>
+		<p103_s8b_2>
+			<![CDATA[You may have noticed that in the fourth quadrant the tangent function is negative again.<br/><br/>What do you think the value of the tangent is at the end of the fourth quadrant?<br/><br/>Enter the value below.]]>
+		</p103_s8b_2>
+		<p103_s8b_6>
+			<![CDATA[That's not right.<br/><br/>Move the handle at <b>T</b> to the end of the fourth quadrant and check the value of the tangent.]]>
+		</p103_s8b_6>
+		<p103_s8b_7>
+			<![CDATA[That still wasn't right.<br/><br/>The correct answer has been entered for you.<br/><br/>Now try another question.]]>
+		</p103_s8b_7>
+		<p103_s8b_9>
+			<![CDATA[What angle in the fourth quadrant has the same value of the tangent for 119°?]]>
+		</p103_s8b_9>
+		<p103_s8b_10a>
+			<![CDATA[299°]]>
+		</p103_s8b_10a>
+		<p103_s8b_10b>
+			<![CDATA[319°]]>
+		</p103_s8b_10b>
+		<p103_s8b_10c>
+			<![CDATA[341°]]>
+		</p103_s8b_10c>
+		<p103_s8b_14>
+			<![CDATA[That's still not right.<br/><br/>Move the handle at <b>T</b> to find the tangent of 119°, then locate the angle with the same tangent value in the fourth quadrant.]]>
+		</p103_s8b_14>
+		<p103_s8b_20>
+			<![CDATA[That's correct! <br/><br/>The tangent values for angles in the fourth quadrant <b>increase</b>.]]>
+		</p103_s8b_20>
+		<p103_s8b_23>
+			<![CDATA[That still wasn't right.<br/><br/>Any values that were incorrect have now been entered for you.]]>
+		</p103_s8b_23>
+	</p103_s8b>
+	<p103_s9a>
+		<p103_s9a_5>
+			<![CDATA[Now that we have the tangent values for<br/>angles from 0° to 360°, let's see how this<br/>looks when plotted on a graph.]]>
+		</p103_s9a_5>
+		<p103_s9a_5a>
+			<![CDATA[Let's see what the graph looks like.]]>
+		</p103_s9a_5a>
+		<p103_s9a_7>
+			<![CDATA[This graph helps us understand the properties of the tangent.<br/><br/>It represents the function:<br/><br/><b>y = tan x</b><br/><br/>where every <b>y</b> value on the curve is the tangent of the corresponding <b>x</b> value.]]>
+		</p103_s9a_7>
+	</p103_s9a>
+	<p103_s9b>
+		<p103_s9b_3>
+			<![CDATA[Enter the correct answers in the spaces.<br/>Remember to round the tangent values to two decimal places.]]>
+		</p103_s9b_3>
+		<p103_s9b_8>
+			<![CDATA[At least one of the values is still incorrect.<br/><br/>Look at the pattern of positive and negative values of the tangent in the graph.]]>
+		</p103_s9b_8>
+		<p103_s9b_12>
+			<![CDATA[Enter the correct answers in the spaces.]]>
+		</p103_s9b_12>
+		<p103_s9b_17>
+			<![CDATA[At least one of the values is still not right.<br/><br/>Hint: the unit circle showed that tan 45° = 1. Look also at the pattern of positive and negative values of the tangent in the graph.]]>
+		</p103_s9b_17>
+		<p103_s9b_21>
+			<![CDATA[Think of an angle (Ø) in the first quadrant.<br/><br/>Which of the following would be the same as tan (Ø)?]]>
+		</p103_s9b_21>
+		<p103_s9b_22a>
+			<![CDATA[tan (180 + Ø)?]]>
+		</p103_s9b_22a>
+		<p103_s9b_22b>
+			<![CDATA[tan (360 – Ø)]]>
+		</p103_s9b_22b>
+		<p103_s9b_22c>
+			<![CDATA[tan (Ø – 360)]]>
+		</p103_s9b_22c>
+		<p103_s9b_26>
+			<![CDATA[That's not correct.<br/><br/>Use the tangent graph to help you. Remember that angle (Ø) is in the first quadrant.]]>
+		</p103_s9b_26>
+		<p103_s9b_26b>
+			<![CDATA[That's still not right.<br/><br/>Imagine a horizontal line joining the two angles that have the same tangent value. Work out how the angles are related.]]>
+		</p103_s9b_26b>
+		<p103_s9b_29>
+			<![CDATA[The unit circle can be used to find the tangent of angles of any size.<br/><br/>Which of the angles below has a tangent of –1?]]>
+		</p103_s9b_29>
+		<p103_s9b_30a>
+			<![CDATA[405°]]>
+		</p103_s9b_30a>
+		<p103_s9b_30b>
+			<![CDATA[450°]]>
+		</p103_s9b_30b>
+		<p103_s9b_30c>
+			<![CDATA[630°]]>
+		</p103_s9b_30c>
+		<p103_s9b_30d>
+			<![CDATA[675°]]>
+		</p103_s9b_30d>
+		<p103_s9b_34>
+			<![CDATA[That's not correct.<br/><br/>Look at the graph to see where the tangent has a value of –1.]]>
+		</p103_s9b_34>
+		<p103_s9b_34b>
+			<![CDATA[That's still not correct.<br/><br/>The graph shows that the tangent values repeat every 180°, so if the tangent is –1 at 135°, at which angle would the tangent have the same value again?]]>
+		</p103_s9b_34b>
+		<p103_s9b_37>
+			<![CDATA[Which of the angles below has the same tangent as 65°?]]>
+		</p103_s9b_37>
+		<p103_s9b_38a>
+			<![CDATA[425°]]>
+		</p103_s9b_38a>
+		<p103_s9b_38b>
+			<![CDATA[465°]]>
+		</p103_s9b_38b>
+		<p103_s9b_38c>
+			<![CDATA[655°]]>
+		</p103_s9b_38c>
+		<p103_S9b_41>
+			<![CDATA[That's correct!<br/><br/>The tangent values repeat every 180°. <br/>The angle 425° is in the same position <br/>in the first quadrant as the angle 65° <br/>because 425° = 65° + 360°.]]>
+		</p103_S9b_41>
+		<p103_s9b_42>
+			<![CDATA[That's not right.<br/><br/>Imagine what the graph would look like if it continued.]]>
+		</p103_s9b_42>
+		<p103_s9b_42b>
+			<![CDATA[That's still not right.<br/><br/>Remember that the tangent values repeat every 180°, so if the tangent is 2.14 at 65°, at which of these angles would the tangent have the same value again?]]>
+		</p103_s9b_42b>
+	</p103_s9b>
+	<p103_s10>
+		<p103_10_6>
+			<![CDATA[Thanks for your work on finding and graphing tangent!]]>
+		</p103_10_6>
+	</p103_s10>
+</data>

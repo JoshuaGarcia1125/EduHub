@@ -1,0 +1,84 @@
+﻿<digital-rights xmlns="http://lex.thelearningfederation.edu.au/drel/2006/01">
+  <content>
+    <title>Meet a scientist: environmental scientist</title>
+    <version>3.0.0</version>
+    <date-published>2007-09-07</date-published>
+    <catalogue-entry>
+      <catalogue>TLF-LearningObject</catalogue>
+      <entry>503</entry>
+    </catalogue-entry>
+    <ip-category>TLF-Content</ip-category>
+    <licence-refs>OL716</licence-refs>
+  </content>
+  <ip-manifest>
+    <intellectual-property>
+      <title>TLF content for L503</title>
+      <content-type>Multimedia</content-type>
+      <catalogue-entry>
+        <catalogue>TLF-Content</catalogue>
+        <entry>2456</entry>
+      </catalogue-entry>
+      <copyright-status>In copyright (Australia)</copyright-status>
+      <licence-refs>OL716</licence-refs>
+    </intellectual-property>
+  </ip-manifest>
+  <licence-manifest>
+    <licence>
+      <identifier>OL716</identifier>
+      <licensor>
+        <name>
+          <organisation-name>Curriculum Corporation</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url>http://www.curriculum.edu.au</url>
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>1</entry>
+        </catalogue-entry>
+        <organisation-type>Corporation</organisation-type>
+      </licensor>
+      <licensee>
+        <name>
+          <organisation-name>TLF CD User - Trial Conditions of Use</organisation-name>
+          <first-name />
+          <last-name />
+        </name>
+        <url />
+        <catalogue-entry>
+          <catalogue>TLF-Party</catalogue>
+          <entry>8090</entry>
+        </catalogue-entry>
+        <organisation-type>Corporation</organisation-type>
+      </licensee>
+      <expiry>
+        <expiry-rule>Perpetual</expiry-rule>
+      </expiry>
+      <start-date>2006-03-17</start-date>
+      <fee>
+        <amount>0.0</amount>
+      </fee>
+      <exclusivity>Non exclusive</exclusivity>
+      <warranty>No</warranty>
+      <revocability>There is no revocation clause in the Conditions of Use statement</revocability>
+      <catalogue-entry>
+        <catalogue>TLF-Licence</catalogue>
+        <entry>716</entry>
+      </catalogue-entry>
+      <catalogue-entry>
+        <catalogue>TLF-ContentPackage</catalogue>
+        <entry>2</entry>
+      </catalogue-entry>
+      <rights-ref>R32</rights-ref>
+    </licence>
+  </licence-manifest>
+  <rights-manifest>
+    <rights>
+      <identifier>R32</identifier>
+      <user-rights>
+        <market-and-purpose>Education sector and purposes</market-and-purpose>
+        <territory>AU; NZ</territory>
+      </user-rights>
+    </rights>
+  </rights-manifest>
+</digital-rights>

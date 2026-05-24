@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" ?>
+<data>
+	<quadrant instructionText="s4_25" correctText="s4_28" incorrectText1="s4_29" incorrectText2="s4_30" incorrectText3="s4_31">
+		<angles>
+			<angle value="0" instructionText="s4_2" inputText="s4_4" incorrectText1="s4_11" incorrectText2="s4_12" incorrectText3="s4_13" correctText="s4_10"/>
+			<angle value="90" instructionText="s4_16" inputText="s4_17" incorrectText1="s4_20" incorrectText2="s4_21" incorrectText3="s4_22" correctText="s4_19"/>
+		</angles>
+		<sines>
+			<sine value="0" angleValue="0" />
+			<sine value="0.44" angleValue="26" />
+			<sine value="0.74" angleValue="48" />
+			<sine value="0.95" angleValue="71" />
+			<sine value="1" angleValue="90" />
+		</sines>
+	</quadrant>
+	<quadrant instructionText="s5_17" correctText="s5_20" incorrectText1="s5_21" incorrectText2="s5_22" incorrectText3="s5_23">
+		<angles>
+			<angle value="180" instructionText="s5_2" inputText="s5_4" incorrectText1="s5_12" incorrectText2="s5_13" incorrectText3="s5_14" correctText="s5_11"/>
+		</angles>
+		<sines>
+			<sine value="0.84" angleValue="123" />
+			<sine value="0.71" angleValue="135" />
+			<sine value="0.28" angleValue="164" />
+			<sine value="0" angleValue="180" />
+		</sines>
+	</quadrant>
+</data>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<audioItem id="correct">
+		<![CDATA[audio/bellding_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="incorrect">
+		<![CDATA[audio/drum_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="upload">
+		<![CDATA[audio/correct_metrix_tlf_2.mp3]]>
+	</audioItem>
+	
+	<audioItem id="shred">
+		<![CDATA[audio/shred_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="doors">
+		<![CDATA[audio/booth_open_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="checklistBigSlide">
+		<![CDATA[audio/metal_arm_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="checklistSmallSlide">
+		<![CDATA[audio/metal_arm_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="yesNoShapes">
+		<![CDATA[audio/click13_tlf.mp3]]>
+	</audioItem>
+	
+	<audioItem id="laserBeam">
+		<![CDATA[audio/table_tlf.mp3]]>
+	</audioItem>
+	<audioItem id="robotWalk">
+		<![CDATA[audio/spinner_select_tlf.mp3]]>
+	</audioItem>
+	<audioItem id="robotDoor">
+		<![CDATA[audio/click_metrix_tlf.mp3]]>
+	</audioItem>
+	<audioItem id="modifySounds">
+		<![CDATA[audio/click13_tlf.mp3]]>
+	</audioItem>
+
+</data>

@@ -1,0 +1,84 @@
+﻿<xml version="1.0" encoding="UTF-8">
+<acknowledgements>
+	<ack><![CDATA[<p>Please refer to Conditions of use.<br><br>We are grateful to the scientist Stephen Tapsall for his contribution to this learning object.</p>]]></ack>
+</acknowledgements>
+<details name="Stephen">
+	<identikitFace>
+		<item>jpeg/identikit_faces/stephen_1.jpg</item>
+		<item>jpeg/identikit_faces/stephen_2.jpg</item>
+		<item>jpeg/identikit_faces/stephen_3.jpg</item>
+	</identikitFace>
+	<checker><!-- NOTE::  the answers have to exactly match the <icons> names below or they wont work -->
+		<tile>
+			<question>Where do I work?</question>
+			<answer hint="9">Farms/Laboratory</answer>
+		</tile>
+		<tile>
+			<question>What else am I interested in beside science?</question>
+			<answer hint="8">Triathlon</answer>
+		</tile>
+		<tile>
+			<question>What area of science do I work in?</question>
+			<answer hint="1">Environmental science</answer>
+		</tile>
+	</checker>	
+</details>
+<mediaRoom>
+  <infoText>
+	<page pageTitle="About me" image="jpeg/stephen/stephen_1.jpg">
+		<item>Stephen Tapsall – Environmental scientist</item>
+		<item>Married, one child, one red cattle dog </item>
+		<item>I love being a scientist. I think life's a bit like a movie. If you don't really like it, you can walk out and go see another one, as far as jobs and careers. I started out as a yacht-rigger and sail-maker ... now I'm a scientist.</item>
+		<item>I do have friends and colleagues that I work with who are scientists, but my direct family aren't scientists – except for my brother, who's a marine biologist.</item>
+		<item>Science is a hugely male-dominated field. I think that it's to science's detriment that it doesn't have more female scientists.</item>
+	</page>
+	<page pageTitle="At home" image="jpeg/stephen/stephen_2.jpg">
+		<item>I enjoy working with people; I enjoy being with people. Socialising, I think, is quite creative. You've got to think on your feet and discuss things, and conversation is quite creative in itself.</item>
+		<item>Sporting ... I like being expressive in my sport. You have to be in touch with yourself, know what you're feeling at the time, so you can extend yourself at the right time [...]</item>
+	</page>
+	<page pageTitle="Being a scientist" image="jpeg/stephen/stephen_3.jpg">
+		<item>I enjoy learning about how things work, and I enjoy sharing that with other people. That's probably the up side of it.</item>
+		<item>The down side is that, like teachers, like a lot of the medical fraternity, it's not highly regarded enough for the effort you put in. It may not be paid quite so well, but to balance that, the lifestyle is great. You get to do a lot of things that you want to do. Meet some fantastic people, see some countryside that you just can't see otherwise – and you're paid to do it, so it's great!</item>
+	</page>
+  </infoText>
+  <sound>
+  	<page pageTitle="Sound clip 1" image="jpeg/stephen/stephen_7.jpg" mp3="mp3/stephen/stephen_1.mp3">
+		<item>Scientists are just people. And people, they're doing things that they enjoy, and yes, sometimes they have to wear glasses, and sometimes they wear lab coats, but outside of work they have families, and they have lives, and they enjoy doing stuff that everyone else does. An accountant may look boring as well, but they do exciting things and do fun things outside of work as well. So yeah, there's a stereotype, and the reality is, it's not all that 'lab coat and thick glasses'.</item>
+	</page>
+  	<page pageTitle="Sound clip 2" image="jpeg/stephen/stephen_8.jpg" mp3="mp3/stephen/stephen_2.mp3">
+		<item>Yes, I love being a scientist. I think life's a bit like a movie. If you don't really like it, you can walk out and go see another one, as far as jobs and careers. I've chosen to be a scientist.</item>
+	</page>
+	<page pageTitle="Sound clip 3" image="jpeg/stephen/stephen_9.jpg" mp3="mp3/stephen/stephen_3.mp3">
+		<item>Sometimes people say, 'OK, you're a CSIRO scientist!' and they hold you with great esteem. It also puts expectations on you, but I think that people generally should respect each other in the way that they work. I think everyone has a major role in the community, and science is a key role.</item>
+	</page>
+		<page pageTitle="Sound clip 4" image="jpeg/stephen/stephen_4.jpg" mp3="mp3/stephen/stephen_4.mp3">
+		<item>Science means to me understanding. Knowledge and understanding would be the key two things. Finding out how it works, and then recognising and understanding how it works.</item>
+	</page>
+  </sound>
+  <video>
+  	<page pageTitle="Video 1" movie="swf/stephen/stephen_1.swf">
+		<tranScript>
+			<item>Triathlons, well, it becomes a little bit all-consuming! The more you get into it, the more you want to get into it, and so at the moment I'm training up for an Iron Man triathlon. That's a 3.8-k swim, 180-k ride,   42-k run, and so preparation for that is a lot of kilometres, a lot of time on the bike, and a lot of time running. And so fitting that around work is quite a challenge, but it's good fun, and you get to see a lot of countryside.</item>
+		</tranScript>
+		<images>
+			<item frame = "42">jpeg/stephen/stephen_1_042.jpg</item>
+			<item frame = "249">jpeg/stephen/stephen_1_249.jpg</item>
+		</images>
+	</page>
+	<page pageTitle="Video 2" movie="swf/stephen/stephen_2.swf">
+		<tranScript>
+			<item>Most of my work is centred around fieldwork, in which case I load up a 4-wheel drive with my swag, a fridge, all sorts of outdoor equipment, safety equipment, and I travel ... for sort of up to 1000 kilometres in the car, stay on cattle stations, talk to station managers, find out how they manage their land in regards to natural resources and capture that. There's a lot of knowledge there that's not been documented, and that can take up weeks at a time. The other typical day is writing up what I've found, and so that's time in the office, time on the phone, time typing on the computer.</item>
+		</tranScript>
+		<images>
+			<item frame = "023">jpeg/stephen/stephen_2_023.jpg</item>
+			<item frame = "122">jpeg/stephen/stephen_2_122.jpg</item>
+			<item frame = "186">jpeg/stephen/stephen_2_186.jpg</item>
+			<item frame = "333">jpeg/stephen/stephen_2_333.jpg</item>
+		</images>
+	</page>
+  </video>
+</mediaRoom>
+<rewardText>
+	<item><![CDATA[<p>Stephen never knew he was going to be a scientist until he woke up one day and realised he was actually working as one! He's living proof that science doesn't always mean lab coats and goggles.</p>]]></item>
+</rewardText>
+</xml>

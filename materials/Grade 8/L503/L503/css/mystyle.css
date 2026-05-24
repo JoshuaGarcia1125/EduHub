@@ -1,0 +1,44 @@
+html, body
+  {
+    height: 100%;
+	background-color: #003366;
+	color : #FFFFFF;
+}
+div
+  {
+    height: 95%;
+}
+#divCenter{
+		text-align: center;
+}
+#copyright{
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 8pt;
+}
+#conditions{	
+	font-family: Arial,Helvetica,sans-serif;	
+	font-size: 8pt;
+}
+#bold-italic{	
+	font-weight: bold;	
+	font-style: italic;
+}
+#conditions a, #conditions a:link
+  {
+    color: #ffff00;
+  }
+#conditions a:visited
+  {
+    color: #aaaaaa;
+  }
+#conditions a:active
+  {
+    color: #33ff33;
+  }
+#conditions a:hover, #conditions a:focus
+  {
+    color: #00ffff;
+    outline: #ffff00 solid 1px;
+  }
+
+

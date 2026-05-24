@@ -1,0 +1,108 @@
+﻿<xml version="1.0" encoding="UTF-8">
+<learningObject title="MEET A SCIENTIST" accessibility="none"/>
+<prelim_text>
+	<![CDATA[<p>We've all seen scientists on television and in the movies, but<br>what do they really look like?<br><br>Could you decide who's the scientist in a group of people?<br><br>Select <b>Continue</b> to find out more.</p>]]>
+</prelim_text>
+<intro>
+	<helpText>Flip the panels to begin.</helpText>
+	<madScientist>
+		<spiel>
+			<mp3>mp3/doc_1a.mp3</mp3>
+			<transcript><![CDATA[<p>Hello! You're probably thinking, 'Oh, another mad scientist'. But ha! I'm just a stereotype. Appearances can be deceiving. In this activity, you'll discover the many different faces of science.</p>]]></transcript>
+		</spiel>
+		<spiel>
+			<mp3>mp3/doc_1b.mp3</mp3>
+			<transcript><![CDATA[<p>To start, flip the panels to find the scientist, then select <b>Check it</b>. When you've unmasked the scientist, you can learn all about what they do. Prepare to be surprised!</p>]]></transcript>
+		</spiel>
+		<spiel>
+			<mp3>mp3/doc_2.mp3</mp3>
+			<transcript><![CDATA[<p>Well done! If you found it difficult to pick a scientist, I'm not surprised. They don't really look any different from anyone else - and most look nothing like me! Select <b>Continue</b> to find out more about this scientist.</p>]]></transcript>
+		</spiel>
+	</madScientist>
+	<feedback>
+		<correct><![CDATA[<p>Yes! You have found a scientist.<br>Select <b>Continue</b> to find out more.</p>]]></correct>
+		<wrongPerson><![CDATA[<p>You have found a person but they are not a scientist.</p>]]></wrongPerson>
+		<noFace><![CDATA[<p>You have found an interesting face, but it is not all the same person.</p>]]></noFace>
+	</feedback>
+	<scientist name="Stephen" file="xml/stephen.xml" />
+	<identikitFaces>
+		<randomP name="Robert">
+			<info>Hi, I'm Robert. I'm an accountant. I'm not a scientist, but I use the Internet and email, which are products of science.</info>
+			<faces>
+				<item>jpeg/identikit_faces/robert_1.jpg</item>
+				<item>jpeg/identikit_faces/robert_2.jpg</item>
+				<item>jpeg/identikit_faces/robert_3.jpg</item>
+			</faces>
+		</randomP>
+		<randomP name="Saumitra">
+			<info>Hi, I'm Saumitra. I'm a builder. I'm not a scientist, but I use scientific knowledge to build energy-efficient houses.</info>
+			<faces>
+				<item>jpeg/identikit_faces/saumitra_1.jpg</item>
+				<item>jpeg/identikit_faces/saumitra_2.jpg</item>
+				<item>jpeg/identikit_faces/saumitra_3.jpg</item>
+			</faces>
+		</randomP>
+		<randomP name="Tracey">
+			<info>Hi, I'm Tracey. I'm a computer programmer. I'm not a scientist, but I work with computers, which are the products of science.</info>
+			<faces>
+				<item>jpeg/identikit_faces/tracey_1.jpg</item>
+				<item>jpeg/identikit_faces/tracey_2.jpg</item>
+				<item>jpeg/identikit_faces/tracey_3.jpg</item>
+			</faces>
+		</randomP>
+		<randomP name="Karli">
+			<info>Hi, I'm Karli. I work in a chemist shop. I'm not a scientist, but all the drugs and medicines I work with are the result of medical science.</info>
+			<faces>
+				<item>jpeg/identikit_faces/karli_1.jpg</item>
+				<item>jpeg/identikit_faces/karli_2.jpg</item>
+				<item>jpeg/identikit_faces/karli_3.jpg</item>
+			</faces>
+		</randomP>
+		<randomP name="Briana">
+			<info>Hi, I'm Briana. I'm a pilot. I'm not a scientist, but science is all around me, from the plane I fly to the navigation equipment that guides it.</info>
+			<faces>
+				<item>jpeg/identikit_faces/briana_1.jpg</item>
+				<item>jpeg/identikit_faces/briana_2.jpg</item>
+				<item>jpeg/identikit_faces/briana_3.jpg</item>
+			</faces>
+		</randomP>
+	</identikitFaces>
+</intro>
+<mediaRoom>
+	<helptext><![CDATA[<p>Find out more about this scientist by going through all the information in the <b>Media room</b>.</p><br><p>Then flip the panels, choosing the three that respond to the questions about the scientist. Select <b>Check it</b> to see if you're correct.</p>]]></helptext>
+	<feedback>
+		<correct>Excellent! You've answered all the questions correctly.  Here's some more interesting information about this scientist.</correct>
+		<incorrect>Some of the information doesn't match this scientist. Try again.</incorrect>
+		<hint1>The incorrect panels are highlighted. Try again.</hint1>
+		<hint2><![CDATA[<p>Look for the answers in the highlighted sections of the <b>Media room</b>.</p>]]></hint2>
+	</feedback>
+	<!-- these have to match the EXACT order as in the swf file  -->
+	<!-- there must be no gaps between them - just a comma -->
+	<hobbykit>
+		<tile question="Where do I work?">
+			<item>Materials laboratory</item>
+			<item>Bush/Laboratory</item>
+			<item>Electronics laboratory</item>
+			<item>Farms/Laboratory</item>
+			<item>Biomedical laboratory</item>
+			<item>Underwater/Laboratory</item>
+		</tile>
+		<tile question="What else am I interested in apart from science?">
+			<item>Triathlon</item>
+			<item>Aerobics</item>
+			<item>Swimming</item>
+			<item>Cooking</item>
+			<item>Electronics</item>
+			<item>Mountain-biking</item>
+		</tile>
+		<tile question="What area of science do I work in?">
+			<item>Virus research</item>
+			<item>Electronics engineering</item>
+			<item>Geology</item>
+			<item>Environmental science</item>
+			<item>Materials research</item>
+			<item>Venom research</item>
+		</tile>
+	</hobbykit>
+</mediaRoom>
+</xml>

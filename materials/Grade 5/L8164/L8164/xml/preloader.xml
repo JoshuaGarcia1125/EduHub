@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<data>
+		<textItem id="p1_2">
+			<![CDATA[Match pairs of shapes that are <b>similar</b>.]]>
+		</textItem>
+		<textItem id="p1_4">
+			<![CDATA[It's a match!]]>
+		</textItem>
+		<textItem id="pl_5">
+			<![CDATA[<b>Tries</b>]]>
+		</textItem >
+		<textItem id="pl_7">
+			<![CDATA[<b>Go</b>]]>
+		</textItem>
+		<textItem id="pl_8">
+			<![CDATA[Well done!]]>
+		</textItem>
+</data>

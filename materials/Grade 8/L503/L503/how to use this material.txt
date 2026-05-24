@@ -1,0 +1,9 @@
+How to use this material:
+
+1. Search for the "index.html" file in the unzipped folder.
+2. Open the file using any internet browser installed in your computer (Mozilla Firefox, Internet Explorer, etc.).
+3. Once it is opened, follow the instructions provided by the resource.
+
+Note:
+Flash player plugin should be installed in your computer.
+Download link: http://get.adobe.com/flashplayer/

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduHub | Learning Resources</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <link rel="stylesheet" href="resources.css" />
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="#" class="nav-logo">
+    <div class="nav-logo__icon">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+      </svg>
+    </div>
+    <span>EduHub</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" class="nav-link">Home</a></li>
+    <li><a href="#" class="nav-link nav-link--active">Resources</a></li>
+    <li><a href="#" class="nav-link">Tools</a></li>
+    <li><a href="#" class="nav-link">Games</a></li>
+    <li><a href="#" class="nav-link">About</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <h1 class="hero__title">Learning Resources</h1>
+  <p class="hero__sub">
+    Access curated K–12 learning materials adapted from<br>
+    DepEd's Learning Resource Management and Development System.
+  </p>
+</section>
+
+<section class="filters">
+  <div class="filters__inner">
+    <div class="filters__dropdowns">
+      <div class="filter-field">
+        <label class="filter-field__label">Grade Level</label>
+        <select class="filter-select" id="selGrade">
+          <option value="">All Grades</option>
+          <option value="Kinder">Kindergarten</option>
+          <option value="Grade 1">Grade 1</option>
+          <option value="Grade 2">Grade 2</option>
+          <option value="Grade 4">Grade 4</option>
+          <option value="Grade 7">Grade 7</option>
+          <option value="Grade 8">Grade 8</option>
+          <option value="Grade 9">Grade 9</option>
+          <option value="Grade 10">Grade 10</option>
+          <option value="Grade 11">Grade 11</option>
+        </select>
+      </div>
+      <div class="filter-field">
+        <label class="filter-field__label">Subject</label>
+        <select class="filter-select" id="selSubject">
+          <option value="">All Subjects</option>
+          <option value="Mathematics">Mathematics</option>
+          <option value="Science">Science</option>
+          <option value="Filipino">Filipino</option>
+          <option value="English">English</option>
+          <option value="Araling Panlipunan">Araling Panlipunan</option>
+          <option value="ESP">ESP</option>
+          <option value="MAPEH">MAPEH</option>
+          <option value="Health">Health</option>
+          <option value="Applied">Applied / TLE</option>
+          <option value="General">General</option>
+        </select>
+      </div>
+      <div class="filter-field">
+        <label class="filter-field__label">Topic</label>
+        <select class="filter-select" id="selTopic">
+          <option value="">All Topics</option>
+          <option value="module">Module</option>
+          <option value="activity">Activity Sheet</option>
+          <option value="curriculum">Curriculum Guide</option>
+          <option value="worktext">Worktext</option>
+        </select>
+      </div>
+    </div>
+    <div class="filter-search-wrap">
+      <svg class="filter-search-wrap__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+      </svg>
+      <input type="search" class="filter-search-wrap__input" id="searchInput" placeholder="Search Resources..." />
+    </div>
+  </div>
+</section>
+
+
+<main class="resources-area">
+
+
+  <div class="toolbar">
+    <div class="toolbar__left">
+      <span class="toolbar__count" id="countBadge">Showing 0 resources</span>
+      <div class="sort-tabs" id="sortTabs">
+        <button class="sort-tab sort-tab--active" data-sort="grade">By Grade</button>
+        <button class="sort-tab" data-sort="az">A → Z</button>
+        <button class="sort-tab" data-sort="za">Z → A</button>
+        <button class="sort-tab" data-sort="subject">By Subject</button>
+      </div>
+    </div>
+    <div class="toolbar__right">
+      <div class="type-pills" id="typePills">
+        <button class="type-pill type-pill--on" data-type="">All</button>
+        <button class="type-pill" data-type="PDF">PDF</button>
+        <button class="type-pill" data-type="DOCX">DOCX</button>
+        <button class="type-pill" data-type="DOC">DOC</button>
+        <button class="type-pill" data-type="PPT">PPT</button>
+      </div>
+      <div class="view-btns">
+        <button class="view-btn view-btn--on" id="btnGrid" title="Grid view">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+            <rect x="3" y="3" width="7" height="7" rx="1.5"/>
+            <rect x="14" y="3" width="7" height="7" rx="1.5"/>
+            <rect x="3" y="14" width="7" height="7" rx="1.5"/>
+            <rect x="14" y="14" width="7" height="7" rx="1.5"/>
+          </svg>
+        </button>
+        <button class="view-btn" id="btnList" title="List view">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <line x1="9" y1="6"  x2="21" y2="6"/>
+            <line x1="9" y1="12" x2="21" y2="12"/>
+            <line x1="9" y1="18" x2="21" y2="18"/>
+            <circle cx="4" cy="6"  r="1.5" fill="currentColor" stroke="none"/>
+            <circle cx="4" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+            <circle cx="4" cy="18" r="1.5" fill="currentColor" stroke="none"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="cards-grid" id="cardsGrid"></div>
+
+
+  <div class="empty" id="emptyState">
+    <div class="empty__icon">📭</div>
+    <p class="empty__title">No resources found</p>
+    <p class="empty__sub">Try changing your search or filter options.</p>
+    <button class="empty__reset" onclick="resetAll()">Reset All Filters</button>
+  </div>
+
+</main>
+
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+        </svg>
+        <span>EduHub Learning Platform</span>
+      </div>
+      <p class="footer__tagline">Empowering students with accessible<br>learning resources and smart study tools.</p>
+    </div>
+    <div class="footer__col">
+      <h4 class="footer__col-title">Quick Links</h4>
+      <ul class="footer__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Tools</a></li>
+        <li><a href="#">Games</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4 class="footer__col-title">Connect With Us</h4>
+      <div class="footer__socials">
+        <a href="#" class="footer__social" title="Facebook">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="#" class="footer__social" title="Twitter/X">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
+        </a>
+        <a href="#" class="footer__social" title="Instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    © 2025 EduHub Learning Platform · Developed by EduHub Team · AY '25–'26 · Supporting SDG 4: Quality Education
+  </div>
+</footer>
+
+<div class="modal-bg" id="modalBg">
+  <div class="modal" id="modal">
+
+    <div class="modal-bar">
+      <div class="modal-bar__info">
+        <span class="modal-bar__grade" id="mGrade"></span>
+        <span class="modal-bar__title" id="mTitle"></span>
+        <span class="modal-bar__subject" id="mSubject"></span>
+      </div>
+      <div class="modal-bar__actions">
+        <div class="zoom-group">
+          <button class="zoom-btn" id="zoomOut" title="Zoom out">−</button>
+          <span class="zoom-val" id="zoomVal">100%</span>
+          <button class="zoom-btn" id="zoomIn"  title="Zoom in">+</button>
+        </div>
+        <a class="modal-dl" id="mDl" href="#" download title="Download">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+            <polyline points="7 10 12 15 17 10"/>
+            <line x1="12" y1="15" x2="12" y2="3"/>
+          </svg>
+          Download
+        </a>
+        <button class="modal-close" id="modalClose" title="Close (Esc)">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="book-stage">
+      <button class="book-arrow" id="prevBtn" disabled>
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="15 18 9 12 15 6"/>
+        </svg>
+      </button>
+
+      <div class="open-book" id="openBook">
+        <div class="book-spine"></div>
+        <div class="book-page book-page--l" id="pgLeft">
+          <div class="page-loader" id="loaderL">
+            <div class="page-spinner"></div><span>Loading…</span>
+          </div>
+          <canvas id="cvLeft"></canvas>
+          <span class="pg-num pg-num--l" id="pnL"></span>
+        </div>
+        <div class="book-page book-page--r" id="pgRight">
+          <div class="page-loader" id="loaderR">
+            <div class="page-spinner"></div><span>Loading…</span>
+          </div>
+          <canvas id="cvRight"></canvas>
+          <span class="pg-num pg-num--r" id="pnR"></span>
+        </div>
+      </div>
+
+      <button class="book-arrow" id="nextBtn">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+          <polyline points="9 18 15 12 9 6"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="unavail" id="unavail" style="display:none">
+      <div class="unavail__icon" id="unavailIco">📄</div>
+      <h3 class="unavail__title" id="unavailTitle">Preview unavailable</h3>
+      <p class="unavail__text" id="unavailText">This file type cannot be previewed in the browser.</p>
+    </div>
+
+    <div class="modal-foot">
+      <span class="modal-foot__pages" id="mPages"></span>
+      <span class="modal-foot__tip">← → to flip pages &nbsp;·&nbsp; Esc to close</span>
+    </div>
+
+  </div>
+</div>
+
+<script src="resources.js"></script>
+</body>
+</html>

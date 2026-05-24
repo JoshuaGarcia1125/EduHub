@@ -1,0 +1,895 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<groups>
+	<group type="singleShapes" title="S2s_1" congratulations="S1_1_3a" finalCongratulations="S9s_3" checklistSign="S2as_1" door1="S1_6" door2="S1_5" titleSign="S1_1">
+		<checklist title="S2as_5" instruction="S2as_3" subInstruction="S2as_6" postFoundInstruction="S2s_3a/S2s_3b" postFoundDescription="S2s_5" incorrect1="S2as_f3" incorrect2="S2as_f4" incorrect3="S2as_f5" reminderTitle="checklist_s1" reminderBody="checklist_s2">
+			<checklistItem required="true" text="S2as_7a" />
+			<checklistItem required="false" text="S2as_7b" feedback="S2as_f1" />
+			<checklistItem required="true" text="S2as_7c" />
+			<checklistItem required="true" text="S2as_7d" />
+			<checklistItem required="true" text="S2as_7e"  />
+			<checklistItem required="false" text="S2as_7f" feedback="S2as_f2"/>
+		</checklist>
+		<sampleTask title="S3s_1" instruction1="S3s_2_1" instruction2="S3s_2_2" toolButtonLabel="wandtool_1" toolButtonTooltip="S3s_11" buttonYesText="S3s_4" buttonNoText="S3s_6" tipText="S3s_10" />
+		
+		<levels>
+			<level id="1">
+				<sets>
+					<shapeSet id="a">
+						<rules>
+							<rule text="s2.14.2.a.a" required="false" />
+							<rule text="s2.14.2.a.b" required="true" />
+							<rule text="s2.14.2.a.c" required="false" />
+							<rule text="s2.14.2.a.d" required="false" />
+						</rules>
+						<workspaceTask instruction="S4s_3" 
+							feedbackIncorrect1Yes="S4s_f3a1.a"
+							feedbackIncorrect1No="S4s_f3a1.b"
+							feedbackIncorrect2Yes="S4s_f3b1.a"
+							feedbackIncorrect2No="S4s_f3b1.b"
+							feedbackIncorrect3Yes="S4s_f3c1.a.a"
+							feedbackIncorrect3No="S4s_f3c1.b.a"
+							sampleShapesInstruction="S3s_f_2"
+							sampleShapesTooltipYes="S3s_f_4a"
+							sampleShapesTooltipNo="S3s_f_4b"
+							completeInstruction="S4s_c3"
+						/>
+						<programmingTask
+							preProgrammingInstruction="S5s_3"
+							programmingInstruction="S6s_2a"
+							programmingInstructionSubtitle="S6s_4"
+							startInstruction="S7s_3"
+							feedbackIncorrectYes="S7s_f_3a"
+							feedbackIncorrectNo="S7s_f_3b"
+							reprogramFeedback1="S6s_f7a"
+							reprogramFeedback2="S6s_f7b"
+							reprogramFeedback2a="S6s_f7b_2"
+							reprogramFeedback3="S6s_f7c"
+							congratulations="S8s_3a"
+							programmingTitle="S6s_f910"
+						/>
+						<shapes>
+							<sampleYesShapes>
+								<shape asset0Id="shape0" isYesShape="true" sideCount="12" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="false" numberOfAngles="8">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+								
+								<shape asset0Id="shape1" isYesShape="true" sideCount="0" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="false" numberOfAngles="4">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape2" isYesShape="true" sideCount="24" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="true" numberOfAngles="24">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape3" isYesShape="true" sideCount="8" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="true" numberOfAngles="8">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape4" isYesShape="true" sideCount="4" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+
+							</sampleYesShapes>
+							<sampleNoShapes>
+								<shape asset0Id="shape5" isYesShape="false" sideCount="3" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="3">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape6" isYesShape="false" sideCount="0" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape7" isYesShape="false" sideCount="5" rotationSymmetry="true" rotationSymmetryCount="5" sidesStraight="true" numberOfAngles="5">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape8" isYesShape="false" sideCount="4" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape9" isYesShape="false" sideCount="4" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+							</sampleNoShapes>
+							<workspaceShapes>
+								<shape asset0Id="shape10" isYesShape="true" sideCount="0" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape11" isYesShape="false" sideCount="6" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="6">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								
+								<shape asset0Id="shape12" isYesShape="true" sideCount="12" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="true" numberOfAngles="12">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape13" isYesShape="false" sideCount="4" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape14" isYesShape="true" sideCount="4" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+ 
+								<shape asset0Id="shape15" isYesShape="true" sideCount="0" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape16" isYesShape="false" sideCount="3" rotationSymmetry="true" rotationSymmetryCount="3" sidesStraight="true" numberOfAngles="3">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape17" isYesShape="false" sideCount="0" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>							
+							
+								
+								<shape asset0Id="shape18" isYesShape="false" sideCount="10" rotationSymmetry="true" rotationSymmetryCount="5" sidesStraight="true" numberOfAngles="10">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								
+								<shape asset0Id="shape19" isYesShape="true" sideCount="16" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="true" numberOfAngles="16">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+
+							</workspaceShapes>
+					</shapes>
+					</shapeSet>
+				</sets>
+			</level>
+			<level id="2">
+				<sets>
+					<shapeSet id="c">
+						<rules>
+							<rule text="s2.14.2.c.a" required="false" />
+							<rule text="s2.14.2.c.b" required="false" />
+							<rule text="s2.14.2.c.c" required="true" />
+							<rule text="s2.14.2.c.d" required="false" />
+						</rules>
+						<programmingTask
+							preProgrammingInstruction="S5s_3"
+							programmingInstruction="S6s_2b"
+							programmingInstructionSubtitle="S6s_4"
+							startInstruction="S7s_3"
+							feedbackIncorrectYes="S7s_f_3a"
+							feedbackIncorrectNo="S7s_f_3b"
+							reprogramFeedback1="S6s_f7a"
+							reprogramFeedback2="S6s_f7b"
+							reprogramFeedback2a="S6s_f7b_2"
+							reprogramFeedback3="S6s_f7c"
+							programmingTitle="S6s_f910"
+							congratulations="S8s_3c"
+						/>
+						<workspaceTask instruction="S4s_3" 
+							feedbackIncorrect1Yes="S4s_f3a2.a"
+							feedbackIncorrect1No="S4s_f3a2.b"
+							feedbackIncorrect2Yes="S4s_f3b2.a"
+							feedbackIncorrect2No="S4s_f3b2.b"
+							feedbackIncorrect3Yes="S4s_f3c2.a.a"
+							feedbackIncorrect3No="S4s_f3c2.b.a"
+							sampleShapesInstruction="S3s_f_2"
+							sampleShapesTooltipYes="S3s_f_4a"
+							sampleShapesTooltipNo="S3s_f_4b"
+							completeInstruction="S4s_c3"
+						/>
+						<shapes>
+							<sampleYesShapes>
+								<shape asset0Id="shape40" isYesShape="true" sideCount="2" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+
+								<shape asset0Id="shape41" isYesShape="true" sideCount="2" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape42" isYesShape="true" sideCount="6" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="6">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape43" isYesShape="true" sideCount="0" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape44" isYesShape="true" sideCount="4" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+							</sampleYesShapes>
+							<sampleNoShapes>
+								<shape asset0Id="shape45" isYesShape="false" sideCount="3" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="3">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape46" isYesShape="false" sideCount="5" rotationSymmetry="true" rotationSymmetryCount="5" sidesStraight="true" numberOfAngles="5">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape47" isYesShape="false" sideCount="0" rotationSymmetry="true" rotationSymmetryCount="4" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape48" isYesShape="false" sideCount="7" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="7">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+								<shape asset0Id="shape49" isYesShape="false" sideCount="4" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+ 			
+							</sampleNoShapes>
+							<workspaceShapes>
+								<shape asset0Id="shape50" isYesShape="true" sideCount="12" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="12">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape51" isYesShape="false" sideCount="0" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="false" numberOfAngles="0">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape52" isYesShape="true" sideCount="6" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="6">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape53" isYesShape="true" sideCount="4" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape54" isYesShape="false" sideCount="10" rotationSymmetry="true" rotationSymmetryCount="5" sidesStraight="true" numberOfAngles="10">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape55" isYesShape="true" sideCount="6" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="false" numberOfAngles="4">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape56" isYesShape="false" sideCount="6" rotationSymmetry="true" rotationSymmetryCount="6" sidesStraight="true" numberOfAngles="6">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape57" isYesShape="false" sideCount="4" rotationSymmetry="false" rotationSymmetryCount="0" sidesStraight="true" numberOfAngles="4">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape58" isYesShape="false" sideCount="3" rotationSymmetry="true" rotationSymmetryCount="3" sidesStraight="true" numberOfAngles="3">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+									</rules>
+								</shape>
+								<shape asset0Id="shape59" isYesShape="true" sideCount="10" rotationSymmetry="true" rotationSymmetryCount="2" sidesStraight="true" numberOfAngles="10">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+									</rules>
+								</shape>
+
+							</workspaceShapes>
+						</shapes>
+					</shapeSet>
+				</sets>
+			</level>
+		</levels>
+	</group>
+	<group type="pairShapes" title="S2p_1" congratulations="S1_1_3b" finalCongratulations="S9p_3" checklistSign="S2p_1" door1="S1_6" door2="S1_5" titleSign="S1_1">
+		<checklist title="S2ap_5" instruction="S2ap_3" subInstruction="S2ap_6" postFoundInstruction="S2p_3a/S2p_3b" postFoundDescription="S2p_5" incorrect1="S2as_f3" incorrect2="S2as_f4" incorrect3="S2as_f5" reminderTitle="checklist_p1" reminderBody="checklist_p2">
+			<checklistItem required="true" text="S2ap_7a" />
+			<checklistItem required="false" text="S2ap_7b" feedback="S2as_f1" />
+			<checklistItem required="true" text="S2ap_7c" />
+			<checklistItem required="true" text="S2ap_7d" />
+			<checklistItem required="false" text="S2ap_7e" feedback="S2as_f2"/>
+			<checklistItem required="true" text="S2ap_7f"  />
+		</checklist>
+		<sampleTask title="S3p_1" instruction1="S3p_2_1" instruction2="S3p_2_2" toolButtonLabel="modifytool_1" toolButtonTooltip="S3p_11" buttonYesText="S3p_4" buttonNoText="S3p_6" tipText="S3p_10" />
+		
+		<levels>
+			<level id="1">
+				<sets>
+					<shapeSet id="w">
+						<rules>
+							<rule text="s2.31.2.w.a" required="false" />
+							<rule text="s2.31.2.w.b" required="false" />
+							<rule text="s2.31.2.w.c" required="true" />
+							<rule text="s2.31.2.w.d" required="false" />
+						</rules>
+						<workspaceTask instruction="S4p_3" 
+							feedbackIncorrect1Yes="S4p_f3a1.a"
+							feedbackIncorrect1No="S4p_f3a1.b"
+							feedbackIncorrect2Yes="S4p_f3b1.a"
+							feedbackIncorrect2No="S4p_f3b1.b"
+							feedbackIncorrect3Yes="S4p_f3c1.a.a"
+							feedbackIncorrect3No="S4p_f3c1.b.a"
+							sampleShapesInstruction="S3p_f_2"
+							sampleShapesTooltipYes="S3p_f_4a"
+							sampleShapesTooltipNo="S3p_f_4b"
+							completeInstruction="S4p_c3"
+						/>
+						<programmingTask
+							preProgrammingInstruction="S5p_3"
+							programmingInstruction="S6p_2a"
+							programmingInstructionSubtitle="S6p_4"
+							startInstruction="S7p_3"
+							feedbackIncorrectYes="S7p_f_3a"
+							feedbackIncorrectNo="S7p_f_3b"
+							reprogramFeedback1="S6p_f7a"
+							reprogramFeedback2="S6p_f7b"
+							reprogramFeedback2a="S6p_f7b_2"
+							reprogramFeedback3="S6p_f7c"
+							congratulations="S8p_3a"
+							programmingTitle="S6p_f910"
+						/>
+						<pairs>
+							<sampleYesShapes>
+								<shape type="pair" asset0Id='shape80' asset1Id='shape81' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape82' asset1Id='shape83' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape84' asset1Id='shape85' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape86' asset1Id='shape87' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape88' asset1Id='shape89' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+
+							</sampleYesShapes>
+							<sampleNoShapes>
+<shape type="pair" asset0Id='shape90' asset1Id='shape91' isYesShape="false">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape92' asset1Id='shape93' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape94' asset1Id='shape95' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape96' asset1Id='shape97' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape98' asset1Id='shape99' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+							</sampleNoShapes>
+							<workspaceShapes>
+							<shape type="pair" asset0Id='shape100' asset1Id='shape101' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape102' asset1Id='shape103' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape104' asset1Id='shape105' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape106' asset1Id='shape107' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape108' asset1Id='shape109' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape110' asset1Id='shape111' isYesShape="false">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape112' asset1Id='shape113' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape114' asset1Id='shape115' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape116' asset1Id='shape117' isYesShape="true">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+<shape type="pair" asset0Id='shape118' asset1Id='shape119' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+
+							</workspaceShapes>
+						</pairs>
+					</shapeSet>
+				</sets>
+			</level>
+			<level id="2">
+				<sets>
+					<shapeSet id="y">
+						<rules>
+							<rule text="s2.31.2.y.a" required="true" />
+							<rule text="s2.31.2.y.b" required="true" />
+							<rule text="s2.31.2.y.c" required="false" />
+							<rule text="s2.31.2.y.d" required="false" />
+						</rules>
+						<workspaceTask instruction="S4p_3" 
+							feedbackIncorrect1Yes="S4p_f3a2.a"
+							feedbackIncorrect1No="S4p_f3a2.b"
+							feedbackIncorrect2Yes="S4p_f3b1.a"
+							feedbackIncorrect2No="S4p_f3b1.b"
+							feedbackIncorrect3Yes="S4p_f3c2.a"
+							feedbackIncorrect3No="S4p_f3c2.b"
+							sampleShapesInstruction="S3p_f_2"
+							sampleShapesTooltipYes="S3p_f_4a"
+							sampleShapesTooltipNo="S3p_f_4b"
+							completeInstruction="S4p_c3"
+						/>
+						<programmingTask
+							preProgrammingInstruction="S5p_3"
+							programmingInstruction="S6p_2b"
+							programmingInstructionSubtitle="S6p_4"
+							startInstruction="S7p_3"
+							feedbackIncorrectYes="S7p_f_3a"
+							feedbackIncorrectNo="S7p_f_3b"
+							reprogramFeedback1="S6p_f7a"
+							reprogramFeedback2="S6p_f7b"
+							reprogramFeedback2a="S6p_f7b_2"
+							reprogramFeedback3="S6p_f7ca"
+							congratulations="S8p_3c"
+							programmingTitle="S6p_f910"
+						/>
+						<pairs>
+							<sampleYesShapes>
+								<shape type="pair" asset0Id='shape160' asset1Id='shape161' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape162' asset1Id='shape163' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape164' asset1Id='shape165' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape166' asset1Id='shape167' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape168' asset1Id='shape169' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+
+							</sampleYesShapes>
+							<sampleNoShapes>
+								<shape type="pair" asset0Id='shape170' asset1Id='shape171' isYesShape="false">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape172' asset1Id='shape173' isYesShape="false">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape174' asset1Id='shape175' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape176' asset1Id='shape177' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape178' asset1Id='shape179' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+
+							</sampleNoShapes>
+							<workspaceShapes>
+								<shape type="pair" asset0Id='shape180' asset1Id='shape181' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape182' asset1Id='shape183' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape184' asset1Id='shape185' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape186' asset1Id='shape187' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape188' asset1Id='shape189' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape190' asset1Id='shape191' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape192' asset1Id='shape193' isYesShape="false">
+									<rules>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape194' asset1Id='shape195' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape196' asset1Id='shape197' isYesShape="true">
+									<rules>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								<shape type="pair" asset0Id='shape198' asset1Id='shape199' isYesShape="false">
+									<rules>
+										<rule program="false"/>
+										<rule program="true"/>
+										<rule program="true"/>
+										<rule program="false" />
+									</rules>
+								</shape>
+								</workspaceShapes>
+							</pairs>								
+					</shapeSet>
+				</sets>
+			</level>
+		</levels>
+	</group>
+	</groups>
+
+</data>

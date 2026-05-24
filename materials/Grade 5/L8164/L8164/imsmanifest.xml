@@ -1,0 +1,1586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest identifier="584115" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2">
+  <metadata>
+    <schema>IMS Content</schema>
+    <schemaversion>1.2.1</schemaversion>
+    <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+      <imsmd:general>
+        <imsmd:title>
+          <imsmd:langstring xml:lang="en">Shape sorter: more shapes</imsmd:langstring>
+        </imsmd:title>
+        <imsmd:catalogentry>
+          <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+          <imsmd:entry>
+            <imsmd:langstring xml:lang="x-none">L8164</imsmd:langstring>
+          </imsmd:entry>
+        </imsmd:catalogentry>
+        <imsmd:catalogentry>
+          <imsmd:catalog>SCIS</imsmd:catalog>
+          <imsmd:entry>
+            <imsmd:langstring xml:lang="x-none">1403732</imsmd:langstring>
+          </imsmd:entry>
+        </imsmd:catalogentry>
+        <imsmd:language>en</imsmd:language>
+        <imsmd:description>
+          <imsmd:langstring xml:lang="en">Help sort single shapes, or pairs of shapes, in the shape factory. Examine examples of shapes that belong in the Yes set. Examine examples of shapes that do not belong in the set. Work out what features of the shapes are important and test your ideas by sorting some shapes. Then program the robot and see if it sorts the shapes correctly. This learning object is the second in a series of seven objects.</imsmd:langstring>
+        </imsmd:description>
+        <imsmd:keyword>
+          <imsmd:langstring xml:lang="en">Classification</imsmd:langstring>
+        </imsmd:keyword>
+        <imsmd:keyword>
+          <imsmd:langstring xml:lang="en">Inductive reasoning</imsmd:langstring>
+        </imsmd:keyword>
+        <imsmd:keyword>
+          <imsmd:langstring xml:lang="en">Rotational symmetry</imsmd:langstring>
+        </imsmd:keyword>
+        <imsmd:keyword>
+          <imsmd:langstring xml:lang="en">Shapes (Geometry)</imsmd:langstring>
+        </imsmd:keyword>
+        <imsmd:keyword>
+          <imsmd:langstring xml:lang="en">Sorting</imsmd:langstring>
+        </imsmd:keyword>
+        <imsmd:keyword>
+          <imsmd:langstring xml:lang="en">Two-dimensional shapes</imsmd:langstring>
+        </imsmd:keyword>
+        <imsmd:aggregationlevel>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">2</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:aggregationlevel>
+        <tlf:accessibility>
+          <tlf:accessprofile>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Access profile</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Colour independence</tlf:langstring>
+            </tlf:value>
+          </tlf:accessprofile>
+          <tlf:accessprofile>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Access profile</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Device independence</tlf:langstring>
+            </tlf:value>
+          </tlf:accessprofile>
+          <tlf:accessprofile>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Access profile</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Hearing independence</tlf:langstring>
+            </tlf:value>
+          </tlf:accessprofile>
+          <tlf:accessprofile>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Access profile</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Generic</tlf:langstring>
+            </tlf:value>
+          </tlf:accessprofile>
+        </tlf:accessibility>
+      </imsmd:general>
+      <imsmd:lifecycle>
+        <imsmd:version>
+          <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+        </imsmd:version>
+        <imsmd:contribute>
+          <imsmd:role>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Script writer</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:role>
+          <imsmd:centity>
+            <imsmd:vcard>BEGIN:VCARD
+REV:2009-03-16T10:29:16.0+10:30
+ADR:;;;Box Hill South;VIC;3128;Australia
+N:Wagner;Michael ;;;
+FN:Michael   Wagner
+VERSION:3.0
+END:VCARD
+
+</imsmd:vcard>
+          </imsmd:centity>
+        </imsmd:contribute>
+        <imsmd:contribute>
+          <imsmd:role>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Subject matter expert</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:role>
+          <imsmd:centity>
+            <imsmd:vcard>BEGIN:VCARD
+REV:2009-03-16T10:29:50.0+10:30
+ADR:;;;Springwood;NSW;2777;Australia
+N:Way;Jenni;;;
+FN:Jenni  Way
+VERSION:3.0
+END:VCARD
+
+</imsmd:vcard>
+          </imsmd:centity>
+        </imsmd:contribute>
+        <imsmd:contribute>
+          <imsmd:role>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Educational validator</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:role>
+          <imsmd:centity>
+            <imsmd:vcard>BEGIN:VCARD
+REV:2009-03-16T10:30:31.0+10:30
+ADR:;;;Strathfield;NSW;2135;Australia
+N:White;Paul;;;
+FN:Paul  White
+VERSION:3.0
+END:VCARD
+
+</imsmd:vcard>
+          </imsmd:centity>
+        </imsmd:contribute>
+        <imsmd:contribute>
+          <imsmd:role>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Technical implementer</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:role>
+          <imsmd:centity>
+            <imsmd:vcard>BEGIN:VCARD
+REV:2009-03-16T10:31:11.0+10:30
+ADR:;;;Surry Hills;NSW;2010;Australia
+ORG:MassMedia Studios Pty Ltd
+URL:http://www.massmedia.com.au
+VERSION:3.0
+END:VCARD
+
+</imsmd:vcard>
+          </imsmd:centity>
+        </imsmd:contribute>
+        <imsmd:contribute>
+          <imsmd:role>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Publisher</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:role>
+          <imsmd:centity>
+            <imsmd:vcard>BEGIN:VCARD
+REV:2009-03-16T10:31:49.0+10:30
+ADR:;;;Melbourne;VIC;3000;Australia
+ORG:Curriculum Corporation\; The Le@rning Federation
+URL:http://www.thelearningfederation.edu.au
+VERSION:3.0
+END:VCARD
+
+</imsmd:vcard>
+          </imsmd:centity>
+        </imsmd:contribute>
+        <tlf:assurance>
+          <tlf:status>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">LOMv1.0</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Published</tlf:langstring>
+            </tlf:value>
+          </tlf:status>
+          <tlf:date>
+            <tlf:datetime>2009-04-30T07:28:06.0Z</tlf:datetime>
+          </tlf:date>
+          <tlf:remark>
+            <tlf:langstring xml:lang="en">v.1.0 First public release.</tlf:langstring>
+          </tlf:remark>
+        </tlf:assurance>
+      </imsmd:lifecycle>
+      <imsmd:metametadata>
+        <imsmd:language>en</imsmd:language>
+      </imsmd:metametadata>
+      <imsmd:technical>
+        <imsmd:format>text/html</imsmd:format>
+        <imsmd:format>application/x-shockwave-flash</imsmd:format>
+        <imsmd:format>audio/mpeg</imsmd:format>
+        <imsmd:format>image/png</imsmd:format>
+        <imsmd:format>text/css</imsmd:format>
+        <imsmd:format>text/xml</imsmd:format>
+        <imsmd:size>498795</imsmd:size>
+        <imsmd:location>http://resolver.thelearningfederation.edu.au/?rft_id=10257/3605</imsmd:location>
+        <imsmd:requirement>
+          <imsmd:type>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Operating System</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:type>
+          <imsmd:name>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">MacOS</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:name>
+          <imsmd:minimumversion>X</imsmd:minimumversion>
+        </imsmd:requirement>
+        <imsmd:requirement>
+          <imsmd:type>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Operating System</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:type>
+          <imsmd:name>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">MS-Windows</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:name>
+          <imsmd:minimumversion>2000</imsmd:minimumversion>
+          <imsmd:maximumversion>XP</imsmd:maximumversion>
+        </imsmd:requirement>
+        <imsmd:requirement>
+          <imsmd:type>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Browser</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:type>
+          <imsmd:name>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Microsoft Internet Explorer</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:name>
+          <imsmd:minimumversion>6.0 (MS-Windows)</imsmd:minimumversion>
+          <imsmd:maximumversion>7.0 (MS-Windows)</imsmd:maximumversion>
+        </imsmd:requirement>
+        <imsmd:requirement>
+          <imsmd:type>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Browser</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:type>
+          <imsmd:name>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Firefox</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:name>
+          <imsmd:minimumversion>2.0 (MS-Windows)</imsmd:minimumversion>
+        </imsmd:requirement>
+        <imsmd:requirement>
+          <imsmd:type>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Browser</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:type>
+          <imsmd:name>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Safari</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:name>
+          <imsmd:minimumversion>2.0 (MacOS)</imsmd:minimumversion>
+        </imsmd:requirement>
+        <imsmd:requirement>
+          <imsmd:type>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Plug-in</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:type>
+          <imsmd:name>
+            <imsmd:source>
+              <imsmd:langstring xml:lang="x-none">TLFv1.4 Technical requirement</imsmd:langstring>
+            </imsmd:source>
+            <imsmd:value>
+              <imsmd:langstring xml:lang="x-none">Adobe Flash Player</imsmd:langstring>
+            </imsmd:value>
+          </imsmd:name>
+          <imsmd:minimumversion>9.0</imsmd:minimumversion>
+        </imsmd:requirement>
+        <imsmd:otherplatformrequirements>
+          <imsmd:langstring xml:lang="en">This object may not display correctly on the Mac OS X platform in Safari unless viewed with Flash 9 Player 9, 0, 24 (for Safari). Use of earlier increments of the Flash 9 Player may result in playback issues on both PowerPC and Intel based hardware. Indications of an incompatible player are looping and/or flashing animations which are likely to relate to flawed interaction with the API or rendering engine</imsmd:langstring>
+        </imsmd:otherplatformrequirements>
+      </imsmd:technical>
+      <imsmd:educational>
+        <imsmd:learningresourcetype>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">DCMI Type</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">Interactive resource</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:learningresourcetype>
+        <imsmd:typicalagerange>
+          <imsmd:langstring xml:lang="en">9,10,11,12</imsmd:langstring>
+        </imsmd:typicalagerange>
+        <tlf:subject>
+          <tlf:topic>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">ScOT v6.2</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Classification</tlf:langstring>
+            </tlf:value>
+          </tlf:topic>
+          <tlf:topic>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">ScOT v6.2</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Rotational symmetry</tlf:langstring>
+            </tlf:value>
+          </tlf:topic>
+          <tlf:topic>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">ScOT v6.2</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Shapes (Geometry)</tlf:langstring>
+            </tlf:value>
+          </tlf:topic>
+          <tlf:curriculum>
+            <tlf:learningarea>
+              <tlf:source>
+                <tlf:langstring xml:lang="x-none">EDNAv1.1 KLA</tlf:langstring>
+              </tlf:source>
+              <tlf:value>
+                <tlf:langstring xml:lang="x-none">Mathematics</tlf:langstring>
+              </tlf:value>
+            </tlf:learningarea>
+            <tlf:strand>
+              <tlf:source>
+                <tlf:langstring xml:lang="x-none">TLFv1.3 Strands</tlf:langstring>
+              </tlf:source>
+              <tlf:value>
+                <tlf:langstring xml:lang="x-none">Mathematics\Space</tlf:langstring>
+              </tlf:value>
+            </tlf:strand>
+          </tlf:curriculum>
+        </tlf:subject>
+        <tlf:resourcetype>
+          <tlf:studentactivity>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Student activity</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Interactives</tlf:langstring>
+            </tlf:value>
+          </tlf:studentactivity>
+          <tlf:studentactivity>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Student activity</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Experiment</tlf:langstring>
+            </tlf:value>
+          </tlf:studentactivity>
+          <tlf:studentactivity>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Student activity</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Analysis</tlf:langstring>
+            </tlf:value>
+          </tlf:studentactivity>
+          <tlf:studentactivity>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">TLFv1.3 Student activity</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Modelling</tlf:langstring>
+            </tlf:value>
+          </tlf:studentactivity>
+        </tlf:resourcetype>
+        <tlf:audience>
+          <tlf:type>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">EDNAv1.1 Audience</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">Student</tlf:langstring>
+            </tlf:value>
+          </tlf:type>
+          <tlf:sector>
+            <tlf:source>
+              <tlf:langstring xml:lang="x-none">EDNAv1.1 Sector</tlf:langstring>
+            </tlf:source>
+            <tlf:value>
+              <tlf:langstring xml:lang="x-none">School</tlf:langstring>
+            </tlf:value>
+          </tlf:sector>
+          <tlf:userlevel>
+            <tlf:langstring xml:lang="en">5</tlf:langstring>
+          </tlf:userlevel>
+          <tlf:userlevel>
+            <tlf:langstring xml:lang="en">6</tlf:langstring>
+          </tlf:userlevel>
+        </tlf:audience>
+        <tlf:keylearningobjective>
+          <tlf:langstring xml:lang="en">Students apply inductive reasoning to identify rotational symmetry or similarity of 2D shapes.</tlf:langstring>
+        </tlf:keylearningobjective>
+        <tlf:keylearningobjective>
+          <tlf:langstring xml:lang="en">Students compare shape features in order to identify the geometric properties that define a set of shapes.</tlf:langstring>
+        </tlf:keylearningobjective>
+        <tlf:educationalvalue>
+          <tlf:langstring xml:lang="en">Uses a concept-formation process of presenting both positive and negative examples of sets of shapes.</tlf:langstring>
+        </tlf:educationalvalue>
+        <tlf:educationalvalue>
+          <tlf:langstring xml:lang="en">Provides interactive tools for exploring properties of shapes.</tlf:langstring>
+        </tlf:educationalvalue>
+        <tlf:educationalvalue>
+          <tlf:langstring xml:lang="en">Confirms identification of the essential shape features through the selection of word statements.</tlf:langstring>
+        </tlf:educationalvalue>
+        <tlf:educationalvalue>
+          <tlf:langstring xml:lang="en">Includes scaffolded feedback.</tlf:langstring>
+        </tlf:educationalvalue>
+      </imsmd:educational>
+      <imsmd:rights>
+        <tlf:rightsmanagement>
+          <tlf:rights>
+            <tlf:langstring xml:lang="en">&#xa9; Curriculum Corporation, 2009, except where indicated under Acknowledgements</tlf:langstring>
+          </tlf:rights>
+        </tlf:rightsmanagement>
+      </imsmd:rights>
+      <imsmd:relation>
+        <imsmd:kind>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">TLF_relation_v2.1</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">issiblingof</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:kind>
+        <imsmd:resource>
+          <imsmd:catalogentry>
+            <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+            <imsmd:entry>
+              <imsmd:langstring xml:lang="en">L8163</imsmd:langstring>
+            </imsmd:entry>
+          </imsmd:catalogentry>
+        </imsmd:resource>
+      </imsmd:relation>
+      <imsmd:relation>
+        <imsmd:kind>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">TLF_relation_v2.1</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">issiblingof</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:kind>
+        <imsmd:resource>
+          <imsmd:catalogentry>
+            <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+            <imsmd:entry>
+              <imsmd:langstring xml:lang="en">L8165</imsmd:langstring>
+            </imsmd:entry>
+          </imsmd:catalogentry>
+        </imsmd:resource>
+      </imsmd:relation>
+      <imsmd:relation>
+        <imsmd:kind>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">TLF_relation_v2.1</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">issiblingof</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:kind>
+        <imsmd:resource>
+          <imsmd:catalogentry>
+            <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+            <imsmd:entry>
+              <imsmd:langstring xml:lang="en">L8166</imsmd:langstring>
+            </imsmd:entry>
+          </imsmd:catalogentry>
+        </imsmd:resource>
+      </imsmd:relation>
+      <imsmd:relation>
+        <imsmd:kind>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">TLF_relation_v2.1</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">issiblingof</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:kind>
+        <imsmd:resource>
+          <imsmd:catalogentry>
+            <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+            <imsmd:entry>
+              <imsmd:langstring xml:lang="en">L8167</imsmd:langstring>
+            </imsmd:entry>
+          </imsmd:catalogentry>
+        </imsmd:resource>
+      </imsmd:relation>
+      <imsmd:relation>
+        <imsmd:kind>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">TLF_relation_v2.1</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">issiblingof</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:kind>
+        <imsmd:resource>
+          <imsmd:catalogentry>
+            <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+            <imsmd:entry>
+              <imsmd:langstring xml:lang="en">L8168</imsmd:langstring>
+            </imsmd:entry>
+          </imsmd:catalogentry>
+        </imsmd:resource>
+      </imsmd:relation>
+      <imsmd:relation>
+        <imsmd:kind>
+          <imsmd:source>
+            <imsmd:langstring xml:lang="x-none">TLF_relation_v2.1</imsmd:langstring>
+          </imsmd:source>
+          <imsmd:value>
+            <imsmd:langstring xml:lang="x-none">issiblingof</imsmd:langstring>
+          </imsmd:value>
+        </imsmd:kind>
+        <imsmd:resource>
+          <imsmd:catalogentry>
+            <imsmd:catalog>TLF-LearningObject</imsmd:catalog>
+            <imsmd:entry>
+              <imsmd:langstring xml:lang="en">L10331</imsmd:langstring>
+            </imsmd:entry>
+          </imsmd:catalogentry>
+        </imsmd:resource>
+      </imsmd:relation>
+    </imsmd:lom>
+  </metadata>
+  <organizations default="O133491">
+    <organization identifier="O133491">
+      <title>Shape sorter: more shapes</title>
+      <item identifier="O133491I0" identifierref="555078">
+        <title>Start: Shape sorter: more shapes</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="555058" type="webcontent" href="support_files/tlf_logo.png">
+      <file href="support_files/tlf_logo.png">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">tlf_logo.png</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305780</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>image/png</imsmd:format>
+              <imsmd:size>2931</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555059" type="webcontent" href="xml/sounds.xml">
+      <file href="xml/sounds.xml">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">sounds.xml</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305781</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>text/xml</imsmd:format>
+              <imsmd:size>1089</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555063" type="webcontent" href="css/mystyle.css">
+      <file href="css/mystyle.css">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">mystyle.css</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305785</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>text/css</imsmd:format>
+              <imsmd:size>1043</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555065" type="webcontent" href="audio/metal_arm_tlf.mp3">
+      <file href="audio/metal_arm_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">metal_arm_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305787</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>6042</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555066" type="webcontent" href="audio/correct_metrix_tlf.mp3">
+      <file href="audio/correct_metrix_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">correct_metrix_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305788</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>8398</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555067" type="webcontent" href="audio/click13_tlf.mp3">
+      <file href="audio/click13_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">click13_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305789</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>2906</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555068" type="webcontent" href="audio/bellding_tlf.mp3">
+      <file href="audio/bellding_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">bellding_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305790</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>6120</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555069" type="webcontent" href="audio/table_tlf.mp3">
+      <file href="audio/table_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">table_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305791</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>7606</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555070" type="webcontent" href="audio/booth_open_tlf.mp3">
+      <file href="audio/booth_open_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">booth_open_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305792</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>10572</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555071" type="webcontent" href="audio/correct_metrix_tlf_2.mp3">
+      <file href="audio/correct_metrix_tlf_2.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">correct_metrix_tlf_2.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305793</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>8400</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555072" type="webcontent" href="audio/click_metrix_tlf.mp3">
+      <file href="audio/click_metrix_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">click_metrix_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305794</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>3694</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555073" type="webcontent" href="audio/drum_tlf.mp3">
+      <file href="audio/drum_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">drum_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305795</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>4482</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555074" type="webcontent" href="audio/shred_tlf.mp3">
+      <file href="audio/shred_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">shred_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305796</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>9173</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555077" type="webcontent" href="loader.swf">
+      <file href="loader.swf">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">loader.swf</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305799</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>application/x-shockwave-flash</imsmd:format>
+              <imsmd:size>88</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="555078" type="webcontent" href="index.html">
+      <file href="index.html">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">index.html</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305800</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">1.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>text/html</imsmd:format>
+              <imsmd:size>1422</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="576638" type="webcontent" href="xml/texts.xml">
+      <file href="xml/texts.xml">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">texts.xml</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305782</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">3.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>text/xml</imsmd:format>
+              <imsmd:size>24801</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="576640" type="webcontent" href="xml/preloader.xml">
+      <file href="xml/preloader.xml">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">preloader.xml</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305783</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">2.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>text/xml</imsmd:format>
+              <imsmd:size>432</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="576641" type="webcontent" href="xml/structure.xml">
+      <file href="xml/structure.xml">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">structure.xml</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305784</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">3.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>text/xml</imsmd:format>
+              <imsmd:size>33488</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="576643" type="webcontent" href="audio/spinner_select_tlf.mp3">
+      <file href="audio/spinner_select_tlf.mp3">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">spinner_select_tlf.mp3</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305797</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">2.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>audio/mpeg</imsmd:format>
+              <imsmd:size>4467</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="576873" type="webcontent" href="index.swf">
+      <file href="index.swf">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">index.swf</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305798</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">4.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>application/x-shockwave-flash</imsmd:format>
+              <imsmd:size>92007</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="584114" type="webcontent" href="swf/main.swf">
+      <file href="swf/main.swf">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion>
+          <imsmd:lom xmlns:tlf="http://www.thelearningfederation.edu.au/lexmd_v1">
+            <imsmd:general>
+              <imsmd:title>
+                <imsmd:langstring xml:lang="en">main.swf</imsmd:langstring>
+              </imsmd:title>
+              <imsmd:catalogentry>
+                <imsmd:catalog>TLF-File</imsmd:catalog>
+                <imsmd:entry>
+                  <imsmd:langstring xml:lang="x-none">F305786</imsmd:langstring>
+                </imsmd:entry>
+              </imsmd:catalogentry>
+              <imsmd:language>en</imsmd:language>
+              <imsmd:description>
+                <imsmd:langstring xml:lang="en" />
+              </imsmd:description>
+              <imsmd:aggregationlevel>
+                <imsmd:source>
+                  <imsmd:langstring xml:lang="x-none">LOMv1.0</imsmd:langstring>
+                </imsmd:source>
+                <imsmd:value>
+                  <imsmd:langstring xml:lang="x-none">1</imsmd:langstring>
+                </imsmd:value>
+              </imsmd:aggregationlevel>
+            </imsmd:general>
+            <imsmd:lifecycle>
+              <imsmd:version>
+                <imsmd:langstring xml:lang="x-none">6.0</imsmd:langstring>
+              </imsmd:version>
+            </imsmd:lifecycle>
+            <imsmd:metametadata>
+              <imsmd:language>en</imsmd:language>
+            </imsmd:metametadata>
+            <imsmd:technical>
+              <imsmd:format>application/x-shockwave-flash</imsmd:format>
+              <imsmd:size>269634</imsmd:size>
+            </imsmd:technical>
+            <imsmd:rights />
+          </imsmd:lom>
+        </metadata>
+      </file>
+    </resource>
+    <resource identifier="-1" type="webcontent" href="ConditionsOfUse.html">
+      <file href="ConditionsOfUse.html">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion></metadata>
+      </file>
+    </resource>
+    <resource identifier="-2" type="webcontent" href="description.html">
+      <file href="description.html">
+        <metadata>
+          <schema>IMS Content</schema>
+          <schemaversion>1.2.1</schemaversion></metadata>
+      </file>
+    </resource>
+  </resources>
+</manifest>

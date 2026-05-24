@@ -1,0 +1,512 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<textItem id="S1_1">
+		<![CDATA[Shape sorter: more shapes]]>
+	</textItem>
+	<textItem id="S1_3">
+		<![CDATA[Welcome to the shape-sorting factory!<br/><br/>We need your help to program Sirc, our robot,<br/>to sort shapes into sets.<br/><br/>Select a door to begin.]]>
+	</textItem>
+	<textItem id="S1_5">
+		<![CDATA[Shape pairs]]>
+	</textItem>
+	<textItem id="S1_6">		
+		<![CDATA[Single shapes]]>
+	</textItem>
+	<textItem id="S2as_1">
+		<![CDATA[Single shapes]]>
+	</textItem>
+	<textItem id="S2as_3">
+		<![CDATA[Before you program Sirc, you need to work out how he should sort the shapes.<br/><br/>In this part of the factory, we make sets of shapes that share geometric features (for example, the same number of sides). <br/><br/>First, make a <b>Checklist</b> to help you work out the features to look for.]]>
+	</textItem>
+	<textItem id="S2as_5">
+		<![CDATA[<b>Checklist for sorting</b>]]>
+	</textItem>
+	<textItem id="S2as_6">
+		<![CDATA[Select the four most useful questions to ask about each shape:]]>
+	</textItem>
+	<textItem id="S2as_7a">
+		<![CDATA[How many sides does the shape have?]]>
+	</textItem>
+	<textItem id="S2as_7b">
+		<![CDATA[What colour is it?]]>
+	</textItem>
+	<textItem id="S2as_7c">
+		<![CDATA[Does it have rotational symmetry?]]>
+	</textItem>
+	<textItem id="S2as_7d">
+		<![CDATA[Are its sides straight or curved?]]>
+	</textItem>
+	<textItem id="S2as_7e">
+		<![CDATA[How many angles does it have?]]>
+	</textItem>
+	<textItem id="S2as_7f">
+		<![CDATA[What is the name of the shape?]]>
+	</textItem>
+	<textItem id="S2as_f1">
+		<![CDATA[That's not it.<br/><br/>We're not going to sort the shapes<br/>by colour.]]>
+	</textItem>
+	<textItem id="S2as_f2">
+		<![CDATA[That's not it.<br/><br/>We're not going to sort the shapes<br/>by name.]]>
+	</textItem>
+	<textItem id="S2as_f3">
+		<![CDATA[That's not it.<br/><br/>We're not going to sort the shapes by colour or name.]]>
+	</textItem>
+	<textItem id="S2as_f4">
+		<![CDATA[That's still not it.<br/><br/>We don't need to know the colour of the shape or its name because changing these features doesn't change the shape.]]>
+	</textItem>
+	<textItem id="S2as_f5">
+		<![CDATA[Oops!<br/><br/>That still wasn't right.]]>
+	</textItem>
+	<textItem id="S2s_1">
+		<![CDATA[Shapes]]>
+	</textItem>
+	<textItem id="S2s_3a">
+		<![CDATA[This is a useful checklist!<br/><br/>In our factory, shapes that belong to a set are<br/>called YES shapes. You need to work out what<br/>they have in common. <br/><br/>Select <b>Clues</b> to investigate YES and NO shapes.]]>
+	</textItem>
+	<textItem id="S2s_3b">
+		<![CDATA[Now work out what a new set of shapes has in common. <br/><br/>Select <b>Clues</b> to investigate some new YES and NO shapes. Your checklist will still be helpful!]]>
+	</textItem>
+	<textItem id="S2s_5">
+		<![CDATA[<b>Checklist for sorting</b><br/>What makes YES shapes belong together?<br/><br/><u>Features to check:</u><br/>•   How many sides does the shape have?<br/>•   Does the shape have rotational symmetry?<br/>•   Are its sides straight or curved?<br/>•   How many angles does it have?]]>
+	</textItem>
+	<textItem id="S3s_1">
+		<![CDATA[What do YES shapes have in common?]]>
+	</textItem>
+	<textItem id="S3s_2_1">
+		<![CDATA[•   To find clues, select <b>YES shapes</b> to see examples<br/>    of the shapes in a set. Select <b>NO shapes</b> to<br/>    explore the shapes that don't belong.<br/><br/>•   Choose a shape and use the <b>Rotate tool</b> to<br/>    explore its features.<br/><br/>•   Don't forget to use your <b>Checklist</b> if you need to!]]>
+	</textItem>
+	<textItem id="S3s_2_2">
+		<![CDATA[•   To find clues, select <b>YES shapes</b> to see examples<br/>    of the shapes in a set. Select <b>NO shapes</b> to<br/>    explore the shapes that don't belong.<br/>•   Choose a shape and use the <b>Rotate tool</b> to<br/>    explore its features.<br/>•   Don't forget to use your <b>Checklist</b> if you need to!]]>
+	</textItem>
+	<textItem id="S3s_4">
+		<![CDATA[<b>YES<br/>shapes</b>]]>
+	</textItem>
+	<textItem id="S3s_6">
+		<![CDATA[<b>NO<br/>shapes</b>]]>
+	</textItem>
+	<textItem id="S3s_8">
+		<![CDATA[Select a shape to investigate using the <b>Rotate tool</b>.]]>
+	</textItem>
+	<textItem id="S3s_10">
+		<![CDATA[When you've worked out what all the YES shapes have in common, go to the factory.]]>
+	</textItem>
+	<textItem id="S3s_11">
+		<![CDATA[Explore each shape!]]>
+	</textItem>
+	<textItem id="wandtool_1">
+		<![CDATA[<b>Rotate tool</b>]]>
+	</textItem>
+	<textItem id="wandtool_2">
+		<![CDATA[<li>First <b>Copy</b> the shape.</li><li>Next <b>Slide</b> the copy over the original shape.</li><li>Then <b>Rotate</b> it to find out how many times the copy matches the original when it is turned.</li>]]>
+	</textItem>
+	
+	<textItem id="wandtool_5a">
+		<![CDATA[Counts straight sides only, not curves]]>
+	</textItem>
+	
+	<textItem id="wandtool_6a">
+		<![CDATA[Shows 'Yes' only if all sides are straight and are the same length]]>
+	</textItem>
+	
+	<textItem id="wandtool_6b">
+		<![CDATA[<b>All sides equal?</b><br/><br/>Yes/No]]>
+	</textItem>
+	
+	<textItem id="wandtool_8a">
+		<![CDATA[Counts right angles inside the shape only]]>
+	</textItem>
+	
+	<textItem id="wandtool_8b">
+		<![CDATA[<b>Right angles</b><br/><br/>0/1/23/4/5/6/]]>
+	</textItem>
+	<textItem id="wandtool_9a">
+		<![CDATA[Counts all the lines of symmetry in all types of shapes]]>
+	</textItem>	
+	<textItem id="wandtool_9b">
+		<![CDATA[<b>Lines of symmetry</b><br/><br/>0<br/><br/>1/2/3/4/5/6]]>
+	</textItem>
+	<textItem id="wandtool_12">
+		<![CDATA[Records each time the copy matches the original when rotated.]]>
+	</textItem>
+	<textItem id="checklist_s1">
+		<![CDATA[<b>Checklist for sorting</b>]]>
+	</textItem>
+	<textItem id="checklist_s2">
+		<![CDATA[What makes YES shapes belong together?<br/><br/><u>Features to check:</u><br/>•   How many sides does the shape have?<br/>•   Does the shape have rotational symmetry?<br/>•   Are its sides straight or curved?<br/>•   How many angles does it have?]]>
+	</textItem>
+	<textItem id="S4s_3">
+		<![CDATA[Have you discovered what the YES shapes have<br/>in common? <br/><br/>Test if you're right by sorting some shapes.<br/><b>Keep</b> any YES shapes and <b>Shred</b> any NO shapes.<br/><br/>Use the <b>Rotate tool</b> if you need to.]]>	
+	</textItem>
+	<textItem id="S4s_f3a1.a">
+		<![CDATA[Wait! That's a YES shape.<br/><br/>Select <b>Clues</b> to check the feature it has in common with the other YES shapes.]]>
+	</textItem>
+	<textItem id="S4s_f3a1.b">
+		<![CDATA[Wait! That's a NO shape.<br/><br/>Select <b>Clues</b> to try to work out how this shape is different from the YES shapes.]]>
+	</textItem>
+	<textItem id="S4s_f3a2.a">
+		<![CDATA[Wait! That's a YES shape.<br/><br/>Select <b>Clues</b> to check the feature it has in common with the other YES shapes.]]>
+	</textItem>
+	<textItem id="S4s_f3a2.b">
+		<![CDATA[Wait! That's a NO shape.<br/><br/>Select <b>Clues</b> to try to work out how this shape is different from the YES shapes.]]>
+	</textItem>
+	<textItem id="S4s_f3b1.a">
+		<![CDATA[Hold on! That's a YES shape.<br/><br/>Select <b>Clues</b> to compare this shape's rotational symmetry with the other YES shapes.]]>
+	</textItem>
+	<textItem id="S4s_f3b1.b">
+		<![CDATA[Hold on! That's a NO shape.<br/><br/>Select <b>Clues</b> to compare this shape's rotational symmetry with the other YES shapes. ]]>
+	</textItem>
+	<textItem id="S4s_f3b2.a">
+		<![CDATA[Hold on! That's a YES shape.<br/><br/>Select <b>Clues</b> to compare this shape's rotational symmetry with the other YES shapes. ]]>
+	</textItem>
+	<textItem id="S4s_f3b2.b">
+		<![CDATA[Hold on! That's a NO shape.<br/><br/>Select <b>Clues</b> to compare this shape's rotational symmetry with the other YES shapes. ]]>
+	</textItem>
+	
+	
+	<textItem id="S4s_f3c1.a.a">
+		<![CDATA[Stop! That's a <b>YES</b> shape because it has rotational symmetry with exactly four matches.]]>
+	</textItem>
+
+	<textItem id="S4s_f3c1.b.a">
+		<![CDATA[Stop! That's a <b>NO</b> shape because it does not have rotational symmetry with exactly four matches.]]>
+	</textItem>
+
+	
+	
+	<textItem id="S4s_f3c2.a.a">
+		<![CDATA[Stop! That's a <b>YES</b> shape because it has rotational symmetry with exactly two matches.]]>
+	</textItem>
+
+	<textItem id="S4s_f3c2.b.a">
+		<![CDATA[Stop! That's a <b>NO</b> shape because it does not have rotational symmetry with exactly two matches.]]>
+	</textItem>
+
+	
+	
+	<textItem id="S3s_f_1">
+		<![CDATA[Clues for single shapes]]>
+	</textItem>
+	<textItem id="S3s_f_2">
+		<![CDATA[•   To find clues, select <b>YES shapes</b> to see examples<br/>    of the shapes in a set. Select <b>NO shapes</b> to<br/>    explore the shapes that don't belong.<br/>•   Choose a shape and use the <b>Rotate tool</b> to<br/>    explore its features.<br/>•   Don't forget to use your <b>Checklist</b> if you need to!]]>
+	</textItem>
+	<textItem id="S3s_f_4a">
+		<![CDATA[The YES shape you tried to shred]]>
+	</textItem>
+	<textItem id="S3s_f_4b">
+		<![CDATA[The NO shape you tried to keep]]>
+	</textItem>
+	<textItem id="S3s_f_11">
+		<![CDATA[First select a shape to examine with the <b>Rotate tool</b>.]]>
+	</textItem>
+	<textItem id="S4s_c3">
+		<![CDATA[Excellent!<br/><br/>You picked five YES shapes that fit into a set.<br/><br/>You are now ready to train Sirc.]]>
+	</textItem>
+	<textItem id="S4s_c11">
+		<![CDATA[<b>Train Sirc</b>]]>
+	</textItem>
+	<textItem id="S5s_3">
+		<![CDATA[We want Sirc to carry on the job of making sets<br/>of shapes.<br/><br/><b>Program</b> him with the directions for how to pick<br/>YES shapes.]]>
+	</textItem>
+	<textItem id="S6s_2a">
+		<![CDATA[Select the statement that is true for this set of YES shapes, and <b>Upload</b> it to program Sirc.]]>
+	</textItem>
+	<textItem id="S6s_2b">
+		<![CDATA[Select the statement that is true for this set of YES shapes, and <b>Upload</b> it to program Sirc.]]>
+	</textItem>
+	<textItem id="S6s_4">
+		<![CDATA[A YES shape must have:]]>
+	</textItem>
+	<textItem id="S7s_3">
+		<![CDATA[It's time for Sirc to sort the shapes!<br/><br/>Let's see how well you programmed him.]]>
+	</textItem>
+	<textItem id="S7s_f_3a">
+		<![CDATA[Wait! That's a YES shape.<br/><br/>Select <b>Program</b> to retrain Sirc.]]>
+	</textItem>
+	<textItem id="S7s_f_3b">
+		<![CDATA[Wait! That's a NO shape.<br/><br/>Select <b>Program</b> to retrain Sirc.]]>
+	</textItem>
+	<textItem id="S6s_f7a">
+		<![CDATA[Look at the YES shapes again.<br/><br/>Then select the statement[!s] that [!is/are] true for all the YES shapes in this set.]]>
+	</textItem>
+	<textItem id="S6s_f7b">
+		<![CDATA[Still not correct.<br/><br/>Read the statements carefully. Then select the statement[!s] that [!is/are] true for this set of YES shapes.]]>
+	</textItem>
+	<textItem id="S6s_f7b_2">
+		<![CDATA[You correctly selected one statement that is true.<br/><br/>To fully describe our YES shapes you need to select another statement.]]>
+	</textItem>
+	<textItem id="S6s_f7c">
+		<![CDATA[That still isn't right.<br/><br/>Once the correct statement has been chosen for you, select <b>Upload</b> to reprogram Sirc.]]>
+	</textItem>
+	<textItem id="S6s_f910">
+		<![CDATA[<b>YES shapes</b>]]>
+	</textItem>
+	<!-- rules items -->
+	<textItem id="s2.14.2.a.a">
+		<![CDATA[straight sides only ]]>
+	</textItem>
+	<textItem id="s2.14.2.a.b">
+		<![CDATA[rotational symmetry with exactly four matches ]]>
+	</textItem>
+	<textItem id="s2.14.2.a.c">
+		<![CDATA[sides that are all the same length ]]>
+	</textItem>
+	<textItem id="s2.14.2.a.d">
+		<![CDATA[four right angles]]>
+	</textItem>
+	
+	<textItem id="s2.14.2.c.a">
+		<![CDATA[straight sides only]]>
+	</textItem>
+	<textItem id="s2.14.2.c.b">
+		<![CDATA[exactly two lines of symmetry ]]>
+	</textItem>
+	<textItem id="s2.14.2.c.c">
+		<![CDATA[rotational symmetry with exactly two matches ]]>
+	</textItem>
+	<textItem id="s2.14.2.c.d">
+		<![CDATA[sides that are all the same length ]]>
+	</textItem>
+	
+	
+	<textItem id="s2.14.2.d.a">
+		<![CDATA[angles that are all the same size]]>
+	</textItem>
+	<textItem id="s2.14.2.d.b">
+		<![CDATA[straight sides only (that is, the shape must be a polygon]]>
+	</textItem>
+	<textItem id="s2.14.2.d.c">
+		<![CDATA[exactly one line of symmetry]]>
+	</textItem>
+	<textItem id="s2.14.2.d.d">
+		<![CDATA[no lines of symmetry]]>
+	</textItem>
+	<textItem id="S8s_3a">
+		<![CDATA[That's it! You've trained Sirc to find shapes with<br/>one feature in common.<br/><br/>These YES shapes belong in the same set<br/>because they all have:<br/>•   rotational symmetry with exactly four matches.]]>
+	</textItem>
+
+	<textItem id="S8s_3c">
+		<![CDATA[That's it! You've trained Sirc to find shapes with<br/>one feature in common.<br/><br/>These YES shapes belong in the same set<br/>because they all have:<br/>•   rotational symmetry with exactly two matches.]]>
+	</textItem>
+
+	<textItem id="S1_1_3a">
+		<![CDATA[Thanks for teaching Sirc how to sort single shapes with one common feature!<br/>•    Select <b>Shape pairs</b> to program him to sort pairs into sets.<br/><br/>•    Go to <b>Single shapes</b> again to help him sort shapes with two common features.<br/>]]>
+	</textItem>
+	<textItem id="S1_1_3b">
+		<![CDATA[Thanks for teaching Sirc how to sort shape pairs!<br/>•    Select <b>Single shapes</b> to program him to sort single shapes into sets.<br/><br/><br/>•    Go to <b>Shape pairs</b> again to help him sort different pairs of shapes.<br/>]]>
+	</textItem>
+	<textItem id="S2ap_3">
+		<![CDATA[Before you program Sirc, you need to work out how he should sort the shape pairs.<br/><br/>In this part of the factory, we make sets of shape pairs that share geometric features.<br/><br/>First, make a <b>Checklist</b> to help you work out the features to look for.]]>
+	</textItem>
+	<textItem id="S2ap_5">
+		<![CDATA[<b>Checklist for sorting</b>]]>
+	</textItem>
+	<textItem id="S2ap_6">
+		<![CDATA[Select the four most useful questions to ask about each shape pair.]]>
+	</textItem>
+	<textItem id="S2ap_7a">
+		<![CDATA[Do the shapes have angles of the same size?]]>
+	</textItem>
+	<textItem id="S2ap_7b">
+		<![CDATA[Are both shapes the same colour?]]>
+	</textItem>
+	<textItem id="S2ap_7c">
+		<![CDATA[Do the shapes have sides of the same length?]]>
+	</textItem>
+	<textItem id="S2ap_7d">
+		<![CDATA[Has one of the shapes been rotated?]]>
+	</textItem>
+	<textItem id="S2ap_7e">
+		<![CDATA[Do both shapes have the same name?]]>
+	</textItem>
+	<textItem id="S2ap_7f">
+		<![CDATA[Are the shapes the same size?]]>
+	</textItem>
+	<textItem id="S2p_1">
+		<![CDATA[Shape pairs]]>
+	</textItem>
+	<textItem id="S2p_3a">
+		<![CDATA[This is a useful checklist!<br/><br/>In our factory, shape pairs that belong to a set are called YES pairs. You need to work out what the pairs in a set have in common. <br/><br/>Select <b>Clues</b> to investigate YES and NO pairs.]]>
+	</textItem>
+	<textItem id="S2p_3b">
+		<![CDATA[Now work out what a new set of shape pairs has<br/>in common. <br/><br/>Select <b>Clues</b> to investigate some new YES and NO<br/>pairs. Your checklist will still be helpful!]]>
+	</textItem>
+	<textItem id="S2p_5">
+		<![CDATA[<b>Checklist for sorting</b><br/>What makes YES pairs belong together?<br/><br/><u>Features to check:</u><br/>•	Do the shapes have angles of the same size?<br/>•	Do the shapes have sides of the same length?<br/>•	Has one of the shapes been rotated?<br/>•	Are the shapes the same size?]]>	
+	</textItem>
+	<textItem id="S3p_2_1">
+		<![CDATA[•   To find clues, select <b>YES pairs</b> to see examples of<br/>    pairs in a set. Select <b>NO pairs</b> to explore the pairs<br/>    that don't belong.<br/><br/>•   Use the <b>Modify tool</b> on each pair to explore the<br/>    features they have in common.<br/><br/>•   Don't forget to use your <b>Checklist</b> if you need to!]]>
+	</textItem>
+	<textItem id="S3p_2_2">
+		<![CDATA[•   To find clues, select <b>YES pairs</b> to see examples of<br/>    pairs in a set. Select <b>NO pairs</b> to explore the pairs<br/>    that don't belong.<br/>•   Use the <b>Modify tool</b> on each pair to explore the<br/>    features they have in common.<br/>•   Don't forget to use your <b>Checklist</b> if you need to!]]>
+	</textItem>
+	<textItem id="S3p_4">
+		<![CDATA[<b>YES<br/>pairs</b>]]>
+	</textItem>
+	<textItem id="S3p_6">
+		<![CDATA[<b>NO<br/>pairs</b>]]>
+	</textItem>
+	<textItem id="S3p_8">
+		<![CDATA[Select a shape pair to investigate using the <b>Modify tool</b>.]]>
+	</textItem>
+	<textItem id="S3p_10">
+		<![CDATA[When you've worked out what all the YES pairs have in common, go to the factory.]]>
+	</textItem>
+	<textItem id="modifytool_1">
+		<![CDATA[<b>Modify tool</b>]]>
+	</textItem>
+	<textItem id="modifytool_2">
+		<![CDATA[Select a button to modify the shape on the right. See how it compares to the other shape in the pair. ]]>
+	</textItem>
+	<textItem id="checklist_p1">
+		<![CDATA[<b>Checklist for sorting</b>]]>
+	</textItem>
+		<textItem id="checklist_p2">
+		<![CDATA[What makes YES pairs belong together?<br/><br/><u>Features to check:</u><br/>•	Do the shapes have angles of the same size?<br/>•	Do the shapes have sides of the same length?<br/>•	Has one of the shapes been rotated?<br/>•	Are the shapes the same size?]]>
+	</textItem>
+	<textItem id="S4p_3">
+		<![CDATA[Have you discovered what the YES pairs have<br/>in common? <br/><br/>Test if you're right by sorting some pairs.<br/><b>Keep</b> any YES pairs and <b>Shred</b> any NO pairs.<br/><br/>Use the <b>Modify tool</b> if you need to.]]>
+	</textItem>
+		<textItem id="S4p_f3a1.a">
+		<![CDATA[Wait! That's a YES pair.<br/><br/>Select <b>Clues</b> to check what it has in common with the other YES pairs.]]>
+	</textItem>
+	<textItem id="S4p_f3a1.b">
+		<![CDATA[Wait! That's a NO pair.<br/><br/>Select <b>Clues</b> to check how this pair is different to<br/>the YES pairs.]]>
+	</textItem>
+	<textItem id="S4p_f3a2.a">
+		<![CDATA[Wait! That's a YES pair.<br/><br/>Select <b>Clues</b> to check what it has in common with the other YES pairs.]]>
+	</textItem>
+	<textItem id="S4p_f3a2.b">
+		<![CDATA[Wait! That's a NO pair.<br/><br/>Select <b>Clues</b> to check how this pair is different to<br/>the YES pairs.]]>
+	</textItem>
+		<textItem id="S4p_f3b1.a">
+		<![CDATA[Hold on! That's a YES pair.<br/><br/>Select <b>Clues</b> to compare this pair's features with those of the other YES pairs.]]>
+	</textItem>
+	<textItem id="S4p_f3b1.b">
+		<![CDATA[Hold on! That's a NO pair.<br/><br/>Select <b>Clues</b> to compare this pair's features with those of the YES pairs.]]>
+	</textItem>
+	
+	
+	<textItem id="S4p_f3c1.a.a">
+		<![CDATA[Stop! That's a <b>YES</b> pair because the two shapes have the required feature: angles of the same size, but one shape has longer sides.]]>	
+	</textItem>
+
+	<textItem id="S4p_f3c1.b.a">
+		<![CDATA[Stop! That's a <b>NO</b> pair because the two shapes do not have the required feature: angles of the same size, but one shape has longer sides. ]]>
+	</textItem>
+
+	<textItem id="S4p_f3c2.a">
+		<![CDATA[Stop! That's a <b>YES</b> pair because the two shapes have the required features: the same shape, but one has been enlarged, <b>and</b> both are in the same position. ]]>
+	</textItem>
+	<textItem id="S4p_f3c2.b">
+		<![CDATA[Stop! That's a <b>NO</b> pair because the two shapes do not have the required features: the same shape, but one has been enlarged, <b>and</b> both are in the same position. ]]>
+	</textItem>
+	<textItem id="S3p_f_1">
+		<![CDATA[Clues for sorting]]>
+	</textItem>
+		<textItem id="S3p_f_2">
+		<![CDATA[•   To find clues, select <b>YES pairs</b> to see examples of<br/>    pairs in a set. Select <b>NO pairs</b> to explore the pairs<br/>    that don't belong.<br/>•   Use the <b>Modify tool</b> on each pair to explore the<br/>    features they have in common.<br/>•   Don't forget to use your <b>Checklist</b> if you need to!]]>
+	</textItem>
+	<textItem id="S3p_f_4a">
+		<![CDATA[The YES pair you tried to shred]]>
+	</textItem>
+	<textItem id="S3p_f_4b">
+		<![CDATA[The NO pair you tried to keep]]>
+	</textItem>
+		<textItem id="S3p_f_11">
+		<![CDATA[First select a pair to examine using the <b>Modify tool</b>.]]>
+	</textItem>
+	<textItem id="S3p_1">
+		<![CDATA[What do YES pairs have in common?]]>
+	</textItem>
+	<textItem id="S3p_11">
+		<![CDATA[Explore each pair!]]>
+	</textItem>
+	
+
+	<textItem id="S4p_c3">
+		<![CDATA[Excellent!<br/><br/>You picked five YES pairs that fit into a set.<br/><br/>You are now ready to train Sirc.]]>
+	</textItem>
+		<textItem id="S5p_3">
+		<![CDATA[We want Sirc to carry on the job of making sets<br/>of shape pairs. <br/><br/><b>Program</b> him with the directions for how to pick<br/>YES pairs.]]>
+	</textItem>
+	<textItem id="S6p_2a">
+		<![CDATA[Select the statement that is true for this set of YES pairs, and <b>Upload</b> it to program Sirc.]]>
+	</textItem>
+	<textItem id="S6p_2b">
+		<![CDATA[Select the statements that are true for this set of YES pairs, and <b>Upload</b> them to program Sirc.]]>
+	</textItem>
+		<textItem id="S6p_4">
+		<![CDATA[A YES pair must have:]]>
+	</textItem>
+		<textItem id="s2.31.2.w.a">
+		<![CDATA[two shapes that are exactly the same ]]>
+	</textItem>
+		<textItem id="s2.31.2.w.b">
+		<![CDATA[two shapes in the same position ]]>
+	</textItem>
+		<textItem id="s2.31.2.w.c">
+		<![CDATA[two shapes with angles of the same size, but one has longer sides ]]>
+	</textItem>
+		<textItem id="s2.31.2.w.d">
+		<![CDATA[one shape with some smaller angles than the other shape ]]>
+	</textItem>
+		
+		<textItem id="s2.31.2.y.a">
+		<![CDATA[two shapes that are the same, but one has been enlarged ]]>
+	</textItem>
+		<textItem id="s2.31.2.y.b">
+		<![CDATA[both shapes in the same position ]]>
+	</textItem>
+		<textItem id="s2.31.2.y.c">
+		<![CDATA[two shapes with angles of the same size and sides of the same length ]]>
+	</textItem>
+		<textItem id="s2.31.2.y.d">
+		<![CDATA[two shapes that are exactly the same, but one has been rotated ]]>
+	</textItem>
+
+	<textItem id="S7p_3">
+		<![CDATA[It's time for Sirc to sort the shapes!<br/><br/>Let's see how well you programmed him.]]>
+	</textItem>
+	<textItem id="S7p_f_3a">
+		<![CDATA[Wait! That's a YES pair.<br/><br/>Select <b>Program</b> to retrain Sirc.]]>
+	</textItem>
+	<textItem id="S7p_f_3b">
+		<![CDATA[Wait! That's a NO pair.<br/><br/>Select <b>Program</b> to retrain Sirc.]]>
+	</textItem>
+	<textItem id="S6p_f7a">
+		<![CDATA[Look at the YES pairs again.<br/><br/>Then select the statement[!s] that [!is/are] true for all the YES<br/>pairs in this set.]]>
+	</textItem>
+	<textItem id="S6p_f7b">
+		<![CDATA[Still not correct.<br/><br/>Read the statements carefully. Then select the statement[!s] that [!is/are] true for this set of YES pairs.]]>
+	</textItem>
+	<textItem id="S6p_f7b_2">
+		<![CDATA[You correctly selected one statement that is true.<br/><br/>To fully describe our YES pairs you need to select another statement.]]>
+	</textItem>
+	<textItem id="S6p_f7c">
+		<![CDATA[That still isn't right.<br/><br/>Once the correct statement has been chosen for you, select <b>Upload</b> to reprogram Sirc.]]>
+	</textItem>
+	<textItem id="S6p_f7ca">
+		<![CDATA[That still isn't right.<br/><br/>Once the correct statements have been chosen for you, select <b>Upload</b> to reprogram Sirc.]]>
+	</textItem>
+	<textItem id="S6p_f910">
+		<![CDATA[<b>YES pairs</b>]]>
+	</textItem>
+	
+	<textItem id="S8p_3a">
+		<![CDATA[That's it! You've trained Sirc to find shape pairs<br/>that share features.<br/><br/>These YES pairs belong in the same set<br/>because they all have:<br/>•   two shapes with angles of exactly the same<br/>    size, but one shape has longer sides.]]>
+	</textItem>
+
+	<textItem id="S8p_3c">
+		<![CDATA[That's it! You've trained Sirc to find shape pairs<br/>that share features.<br/><br/>These YES pairs belong in the same set<br/>because they all have:<br/>•   two shapes that are the same, but one has<br/>    been enlarged, <b>and</b> both are in the same<br/>    position.]]>
+	</textItem>
+
+	<textItem id="S9s_3">
+		<![CDATA[Now Sirc is trained to sort single shapes into sets! Thanks for all your help!<br/><br/>These shapes belonged together because they had rotational symmetry with the same number of matches.]]>
+	</textItem>
+	<textItem id="S9p_3">
+		<![CDATA[Now Sirc is trained to sort pairs of shapes into sets! Thanks for all your help!<br/><br/>When two shapes are the same, except one has been enlarged, they are called <b>similar</b> shapes.]]>
+	</textItem>
+	<textItem id="S9_6">
+		<![CDATA[Affirmative!]]>
+	</textItem>
+</data>
