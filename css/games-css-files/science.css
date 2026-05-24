@@ -1,0 +1,561 @@
+.science-modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease;
+  z-index: 2000;
+}
+
+.show-science-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+.science-modal-content {
+  background-color: white;
+  width: 92%;
+  max-width: 1050px;
+  max-height: 92vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 18px;
+  padding: 0 0 28px;
+  position: relative;
+  animation: modalFade 0.25s ease-out;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.25);
+}
+
+.science-header {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.science-header h2 {
+  font-size: 46px;
+  color: #14532d;
+  margin-bottom: 12px;
+}
+
+.science-header p {
+  color: #6b7280;
+  font-size: 17px;
+}
+
+.science-stage-selection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+  margin-bottom: 35px;
+}
+
+.science-stage-btn {
+  background-color: white;
+  border: 2px solid #d1d5db;
+  padding: 22px;
+  border-radius: 18px;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.25s ease;
+
+  transition: all 0.2s ease;
+}
+
+.science-stage-btn:hover {
+  transform: translateY(-3px);
+
+  border-color: #16a34a;
+}
+
+.active-science-stage {
+  border-color: #16a34a;
+
+  background-color: #f0fdf4;
+
+  color: #15803d;
+}
+
+.science-progress-section {
+  background: linear-gradient(135deg, #0b1f5c, #15803d);
+
+  padding: 24px;
+
+  border-radius: 20px;
+
+  margin-bottom: 35px;
+
+  color: white;
+}
+
+.science-progress-top {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 18px;
+}
+
+.science-stage-title {
+  font-size: 24px;
+
+  font-weight: 800;
+}
+
+.science-score-display {
+  font-size: 22px;
+
+  font-weight: bold;
+}
+
+.science-progress-bar {
+  width: 100%;
+
+  height: 12px;
+
+  background-color: rgba(255, 255, 255, 0.2);
+
+  border-radius: 999px;
+
+  overflow: hidden;
+}
+
+.science-progress-fill {
+  width: 25%;
+
+  height: 100%;
+
+  background-color: #4ade80;
+
+  border-radius: 999px;
+
+  transition: 0.3s ease;
+}
+
+.science-question-section {
+  text-align: center;
+}
+
+.science-question-icon {
+  font-size: 72px;
+
+  margin-bottom: 18px;
+}
+
+.science-question-box {
+  background-color: #f5f7fb;
+
+  border-radius: 22px;
+
+  padding: 30px;
+
+  margin-bottom: 28px;
+}
+
+.science-question-box p {
+  color: #6b7280;
+
+  font-weight: 700;
+
+  margin-bottom: 12px;
+}
+
+.science-question-box h2 {
+  font-size: 36px;
+
+  color: #0b1f5c;
+}
+
+.science-answers-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+}
+
+.science-answer-btn {
+  background-color: white;
+
+  border: 2px solid #d1d5db;
+
+  padding: 22px;
+
+  border-radius: 16px;
+
+  font-size: 18px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  color: #1e1e1e;
+
+  opacity: 1;
+
+  transform: scale(1);
+
+  box-shadow: none;
+
+  transition:
+    background-color 0.15s ease,
+    border-color 0.15s ease,
+    color 0.15s ease,
+    transform 0.15s ease;
+}
+
+.science-answer-btn:hover {
+  transform: translateY(-3px);
+
+  border-color: #15803d;
+
+  background-color: #f0fdf4;
+}
+
+.science-answer-btn.correct-answer {
+  background: #22c55e;
+  color: white;
+  border-color: #22c55e;
+
+  transform: scale(1.03);
+
+  box-shadow: 0 0 18px rgba(34, 197, 94, 0.35);
+
+  opacity: 0.92;
+}
+
+.science-answer-btn.wrong-answer {
+  background: #ef4444;
+  color: white;
+  border-color: #ef4444;
+
+  opacity: 0.88;
+
+  animation: scienceShake 0.3s ease;
+}
+
+@keyframes scienceShake {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-6px);
+  }
+
+  50% {
+    transform: translateX(6px);
+  }
+
+  75% {
+    transform: translateX(-6px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.science-end-screen {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: 0.3s;
+
+  z-index: 999999;
+}
+
+.show-science-end-screen {
+  opacity: 1;
+  pointer-events: auto;
+
+  z-index: 999999;
+}
+
+.science-end-card {
+  background: white;
+  padding: 40px;
+  border-radius: 24px;
+  text-align: center;
+  min-width: 320px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+
+.science-end-card h2 {
+  font-size: 2rem;
+  color: #0b1f5c;
+  margin-bottom: 12px;
+}
+
+.science-end-card p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.science-end-btn {
+  border: none;
+  background: #2563eb;
+  color: white;
+
+  padding: 14px 28px;
+  border-radius: 14px;
+
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.science-end-card {
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 24px;
+
+  text-align: center;
+
+  width: 320px;
+
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+.science-end-card h2 {
+  font-size: 2rem;
+
+  color: #0b1f5c;
+
+  margin-bottom: 15px;
+}
+
+.science-end-card p {
+  font-size: 1.1rem;
+
+  color: #555;
+
+  margin-bottom: 25px;
+}
+
+#sciencePlayAgainBtn,
+#scienceCloseEndBtn {
+  border: none;
+
+  padding: 14px 22px;
+
+  border-radius: 14px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+
+  margin: 8px;
+
+  transition: 0.2s ease;
+}
+
+#scienceNextStageBtn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 14px;
+  background: #22c55e;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#scienceNextStageBtn:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
+
+#sciencePlayAgainBtn {
+  background: #2563eb;
+
+  color: white;
+}
+
+#sciencePlayAgainBtn:hover {
+  transform: translateY(-2px);
+}
+
+#scienceCloseEndBtn {
+  background: #e5e7eb;
+}
+
+#scienceCloseEndBtn:hover {
+  background: #d1d5db;
+}
+
+#scienceGameplaySection {
+  display: none;
+}
+
+.locked-science-stage {
+  opacity: 0.5;
+  filter: grayscale(100%);
+  cursor: not-allowed;
+}
+
+.science-reset-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 16px;
+}
+
+#resetScienceProgressBtn {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#resetScienceProgressBtn:hover {
+  background: #dc2626;
+  transform: translateY(-2px);
+}
+
+.locked-stage {
+  opacity: 0.45;
+  cursor: not-allowed;
+  position: relative;
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+.locked-stage:hover {
+  transform: none !important;
+  border-color: #d1d5db !important;
+  background: #f3f4f6 !important;
+}
+
+.locked-stage::after {
+  content: "🔒";
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  font-size: 16px;
+}
+
+.science-reset-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#resetScienceProgressBtn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 12px 22px;
+  border-radius: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+#resetScienceProgressBtn:hover {
+  background: #e63939;
+  transform: translateY(-2px);
+}
+
+.science-locked-popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 9999;
+}
+
+.science-locked-popup-card {
+  width: 320px;
+  background: white;
+  border-radius: 24px;
+
+  padding: 32px;
+
+  text-align: center;
+
+  animation: sciencePopupFade 0.25s ease;
+}
+
+.science-locked-popup-card h2 {
+  color: #0f2167;
+  margin-bottom: 12px;
+}
+
+.science-locked-popup-card p {
+  color: #6b7280;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+.science-locked-popup-card button {
+  border: none;
+  background: #2563eb;
+  color: white;
+
+  padding: 12px 24px;
+  border-radius: 12px;
+
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@keyframes sciencePopupFade {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes scienceEndPop {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#scienceGameplaySection {
+  margin-top: -10px;
+}
+
+.science-stage-selection {
+  margin-bottom: 12px;
+}

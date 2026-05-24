@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <title>EduHub</title>
-
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/home.css" />
   </head>
@@ -16,9 +20,8 @@
         <img src="assets/logo.png" alt="EduHub Logo" />
         <h1>EduHub</h1>
       </div>
-
       <nav class="nav-menu">
-        <a href="index.html">Home</a>
+        <a href="index.html" class="nav-active">Home</a>
         <a href="resources.html">Resources</a>
         <a href="study-tools.html">Tools</a>
         <a href="games.html">Games</a>
@@ -27,77 +30,122 @@
     </header>
 
     <main>
+      <!-- Hero -->
       <section class="hero-section">
+        <div class="hero-bg-shape"></div>
         <div class="hero-content">
+          <div class="hero-eyebrow">✦ K-12 Learning Platform</div>
           <h2>
             Learn Better,<br />
-            <span>Study Smarter</span>
+            <span class="hero-highlight">Study Smarter</span>
           </h2>
-
           <p>
             Your all-in-one platform for learning resources, study tools, and
             educational games aligned with the K-12 curriculum.
           </p>
-
-          <a href="resources.html">
-            <button class="hero-button">Start Learning</button>
-          </a>
+          <div class="hero-actions">
+            <a href="resources.html" class="hero-button">Start Learning</a>
+            <a href="games.html" class="hero-button-ghost">Explore Games →</a>
+          </div>
         </div>
-
         <div class="hero-image">
           <img src="assets/home/e-learning.avif" alt="Students Learning" />
         </div>
       </section>
 
+      <!-- Features -->
       <section class="features-section">
-        <h2>Explore Our Features</h2>
+        <div class="features-header">
+          <div class="section-eyebrow">What We Offer</div>
+          <h2>Explore Our Features</h2>
+          <p>
+            Everything you need to learn, practice, and excel — all in one
+            place.
+          </p>
+        </div>
 
         <div class="features-container">
           <div class="feature-card">
-            <img
-              src="assets/home/resources-image.jpeg"
-              alt="Learning Resources"
-            />
-
+            <div class="feature-img-wrap">
+              <img
+                src="assets/home/resources-image.jpeg"
+                alt="Learning Resources"
+              />
+              <div class="feature-tag">Resources</div>
+            </div>
             <div class="feature-content">
               <h3>Learning Resources</h3>
-
-              <p>Access DepEd-based modules, exercises, and worksheets.</p>
-
-              <a href="resources.html"> Browse Resources → </a>
+              <p>
+                Access DepEd-based modules, exercises, and worksheets curated
+                for every grade level.
+              </p>
+              <a href="resources.html" class="feature-link"
+                >Browse Resources →</a
+              >
             </div>
           </div>
 
-          <div class="feature-card">
-            <img src="assets/home/tools-image.jpg" alt="Study Tools" />
-
+          <div class="feature-card feature-card--accent">
+            <div class="feature-img-wrap">
+              <img src="assets/home/tools-image.jpg" alt="Study Tools" />
+              <div class="feature-tag">Tools</div>
+            </div>
             <div class="feature-content">
               <h3>Study Tools</h3>
-
-              <p>Pomodoro timer, notepad, and to-do list tools.</p>
-
-              <a href="study-tools.html"> Open Tools → </a>
+              <p>
+                Pomodoro timer, smart notepad, and to-do list to keep you
+                focused and organized.
+              </p>
+              <a href="study-tools.html" class="feature-link">Open Tools →</a>
             </div>
           </div>
 
           <div class="feature-card">
-            <img src="assets/home/games-image.jpg" alt="Educational Games" />
-
+            <div class="feature-img-wrap">
+              <img src="assets/home/games-image.jpg" alt="Educational Games" />
+              <div class="feature-tag">Games</div>
+            </div>
             <div class="feature-content">
               <h3>Educational Games</h3>
-
-              <p>Play interactive games that make learning fun.</p>
-
-              <a href="games.html"> Play Games → </a>
+              <p>
+                Play interactive games that make learning engaging, fun, and
+                truly memorable.
+              </p>
+              <a href="games.html" class="feature-link">Play Games →</a>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="sdg-section">
-        <div class="sdg-content">
-          <h3>Aligned with SDG 4: Quality Education</h3>
+      <!-- Stats strip -->
+      <section class="stats-section">
+        <div class="stat-item">
+          <span class="stat-number">K–12</span>
+          <span class="stat-label">Curriculum Aligned</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">3</span>
+          <span class="stat-label">Core Study Tools</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Educational Games</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat-item">
+          <span class="stat-number">SDG 4</span>
+          <span class="stat-label">Quality Education</span>
+        </div>
+      </section>
 
+      <!-- SDG Banner -->
+      <section class="sdg-section">
+        <img class="sdg-icon-wrap" src="assets/sdg4logo.png" alt="SDG Icon" />
+        <div class="sdg-content">
+          <div class="sdg-tag">United Nations SDG</div>
+          <h3>Aligned with SDG 4: Quality Education</h3>
           <p>
             We promote inclusive and equitable quality education and support
             lifelong learning opportunities for all.
@@ -111,19 +159,15 @@
         <div class="footer-logo">
           <img src="assets/logo.png" alt="EduHub Logo" />
         </div>
-
         <div class="footer-about">
           <h3>EduHub Learning Platform</h3>
-
           <p>
             Empowering students with accessible learning resources and smart
             study tools.
           </p>
         </div>
-
         <div class="footer-links">
           <h3>Quick Links</h3>
-
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resources.html">Learning Resources</a></li>
@@ -132,10 +176,8 @@
             <li><a href="about.html">About</a></li>
           </ul>
         </div>
-
         <div class="footer-socials">
           <h3>Connect With Us</h3>
-
           <div class="social-icons">
             <a href="#">Facebook</a>
             <a href="#">X</a>
@@ -143,13 +185,11 @@
           </div>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>
           © 2026 EduHub Learning Platform | Developed by Charlie's Angels + 1 |
           INF243
         </p>
-
         <p>Supporting SDG 4: Quality Education</p>
       </div>
     </footer>

@@ -1,0 +1,86 @@
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about-header {
+  text-align: center;
+  padding: 70px 20px 40px;
+}
+
+.about-header h1 {
+  font-size: 48px;
+  color: #001b50;
+}
+
+.about-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  padding: 0 80px 60px;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-card {
+  background-color: #001f6b;
+  border-radius: 14px;
+  padding: 24px;
+  display: flex;
+  gap: 25px;
+  color: white;
+}
+
+.about-icon {
+  background-color: white;
+  color: #001f6b;
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  flex-shrink: 0;
+}
+
+.about-text h2 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+.about-text p {
+  line-height: 1.6;
+  color: #d1d5db;
+}
+
+.sdg-card {
+  background-color: #001f6b;
+  border-radius: 14px;
+  padding: 28px 24px;
+  text-align: center;
+  color: white;
+  height: 100%;
+  place-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.sdg-icon {
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.sdg-card h2 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.sdg-card p {
+  line-height: 1.6;
+  color: #d1d5db;
+}

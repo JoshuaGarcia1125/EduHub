@@ -3,10 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>Study Tools</title>
-
+    <title>Study Tools – EduHub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/study-tools.css" />
+    <script src="js/study-tools.js" defer></script>
   </head>
 
   <body>
@@ -15,11 +21,10 @@
         <img src="assets/logo.png" alt="EduHub Logo" />
         <h1>EduHub</h1>
       </div>
-
       <nav class="nav-menu">
         <a href="index.html">Home</a>
         <a href="resources.html">Resources</a>
-        <a href="study-tools.html">Tools</a>
+        <a href="study-tools.html" class="nav-active">Tools</a>
         <a href="games.html">Games</a>
         <a href="about.html">About</a>
       </nav>
@@ -27,43 +32,54 @@
 
     <main>
       <section class="tools-header">
-        <h1>Study Tools</h1>
-
-        <p>Use these tools to stay focused, organized, and productive.</p>
+        <h1>Your Study Tools</h1>
+        <p>
+          Stay focused, organized, and productive with everything in one place.
+        </p>
       </section>
 
+      <!-- Pomodoro Timer -->
       <section class="pomodoro-section">
-        <div class="pomodoro-header">
-          <h2>Pomodoro Timer</h2>
-
-          <span>⚙</span>
+        <div class="pomodoro-inner">
+          <div class="pomodoro-left">
+            <div class="pomodoro-label">⏱ Pomodoro Timer</div>
+            <div class="timer-display">00:10:00</div>
+            <button class="timer-button">START</button>
+          </div>
+          <div class="pomodoro-right">
+            <div class="timer-tabs">
+              <button class="active-tab">Pomodoro</button>
+              <button>Short Break</button>
+              <button>Long Break</button>
+            </div>
+            <div class="pomodoro-tip">
+              <span class="tip-icon">💡</span>
+              <p>
+                Work in focused sprints. Take short breaks to refresh your mind
+                and maintain peak productivity.
+              </p>
+            </div>
+          </div>
         </div>
-
-        <div class="timer-tabs">
-          <button class="active-tab">Pomodoro</button>
-
-          <button>Short Break</button>
-
-          <button>Long Break</button>
-        </div>
-
-        <div class="timer-display">00:10:00</div>
-
-        <button class="timer-button">START</button>
       </section>
 
+      <!-- Notes + To-Do -->
       <section class="tools-grid">
         <div class="notes-section">
-          <h2>Notes</h2>
-
-          <textarea placeholder="Write your notes here..."></textarea>
+          <div class="tool-card-header">
+            <h2>Notes</h2>
+          </div>
+          <textarea
+            placeholder="Jot down ideas, key points, or anything worth remembering…"
+          ></textarea>
         </div>
 
         <div class="todo-section">
-          <div class="todo-header">
-            <h2>To do</h2>
-
-            <button>+</button>
+          <div class="tool-card-header todo-header">
+            <div class="tool-card-title">
+              <h2>To-Do</h2>
+            </div>
+            <button class="add-task-btn" title="Add task">+</button>
           </div>
 
           <div class="todo-list">
@@ -71,22 +87,18 @@
               <input type="checkbox" />
               <span>Activity 1</span>
             </div>
-
             <div class="todo-item">
               <input type="checkbox" />
               <span>Activity 2</span>
             </div>
-
             <div class="todo-item">
               <input type="checkbox" />
               <span>Activity 3</span>
             </div>
-
             <div class="todo-item">
               <input type="checkbox" />
               <span>Activity 4</span>
             </div>
-
             <div class="todo-item completed-task">
               <input type="checkbox" checked />
               <span>Activity 5</span>
@@ -101,19 +113,15 @@
         <div class="footer-logo">
           <img src="assets/logo.png" alt="EduHub Logo" />
         </div>
-
         <div class="footer-about">
           <h3>EduHub Learning Platform</h3>
-
           <p>
             Empowering students with accessible learning resources and smart
             study tools.
           </p>
         </div>
-
         <div class="footer-links">
           <h3>Quick Links</h3>
-
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="resources.html">Learning Resources</a></li>
@@ -122,10 +130,8 @@
             <li><a href="about.html">About</a></li>
           </ul>
         </div>
-
         <div class="footer-socials">
           <h3>Connect With Us</h3>
-
           <div class="social-icons">
             <a href="#">Facebook</a>
             <a href="#">X</a>
@@ -133,13 +139,11 @@
           </div>
         </div>
       </div>
-
       <div class="footer-bottom">
         <p>
           © 2026 EduHub Learning Platform | Developed by Charlie's Angels + 1 |
           INF243
         </p>
-
         <p>Supporting SDG 4: Quality Education</p>
       </div>
     </footer>
