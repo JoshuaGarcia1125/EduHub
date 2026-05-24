@@ -8,8 +8,13 @@
 }
 
 .about-header h1 {
-  font-size: 48px;
-  color: #001b50;
+  font-family: "Sora", sans-serif;
+  font-size: 52px;
+  font-weight: 800;
+  color: #0d1b45;
+  letter-spacing: -1.5px;
+  line-height: 1.1;
+  margin-bottom: 14px;
 }
 
 .about-content {
@@ -32,6 +37,7 @@
   display: flex;
   gap: 25px;
   color: white;
+  align-items: center;
 }
 
 .about-icon {
@@ -47,9 +53,14 @@
   flex-shrink: 0;
 }
 
+.about-icon img {
+  scale: 0.8;
+}
+
 .about-text h2 {
   margin-bottom: 10px;
   font-size: 28px;
+  font-family: "Sora", sans-serif;
 }
 
 .about-text p {
@@ -77,7 +88,8 @@
 
 .sdg-card h2 {
   margin-bottom: 20px;
-  font-size: 32px;
+  font-size: 30px;
+  font-family: "Sora", sans-serif;
 }
 
 .sdg-card p {

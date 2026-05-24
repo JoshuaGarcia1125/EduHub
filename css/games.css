@@ -8,20 +8,6 @@
   background: #f0f2f8;
 }
 
-.games-header-badge {
-  display: inline-block;
-  background: #e8ecf8;
-  color: #0d1b45;
-  font-family: "Sora", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  padding: 6px 16px;
-  border-radius: 999px;
-  margin-bottom: 18px;
-}
-
 .games-header h1 {
   font-family: "Sora", sans-serif;
   font-size: 52px;
