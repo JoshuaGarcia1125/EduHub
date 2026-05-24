@@ -550,6 +550,19 @@ playAgainBtn.addEventListener("click", () => {
   startBattleBtn.disabled = false;
   resetGame();
 });
+
+closeEndBtn.addEventListener("click", () => {
+  clearInterval(timer);
+
+  endScreen.classList.remove("show-end-screen");
+
+  gameModal.classList.remove("show-modal");
+
+  document.body.classList.remove("modal-open");
+
+  resetGame();
+});
+
 closeModalBtn.addEventListener("click", () => {
   clearInterval(timer);
   resetGame();
