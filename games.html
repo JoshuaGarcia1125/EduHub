@@ -12,7 +12,6 @@
   <body>
     <header class="navbar">
       <div class="logo">
-        <img src="assets/logo.png" alt="EduHub Logo" />
         <h1>EduHub</h1>
       </div>
 
@@ -34,106 +33,82 @@
 
       <section class="games-grid">
         <div class="game-card">
-          <img src="https://via.placeholder.com/300x180" alt="Game Thumbnail" />
+          <div class="game-thumb" style="background: #1a3a7c">
+            <div class="game-badge">Popular</div>
 
-          <div class="game-content">
-            <h3>History Timeline Quest</h3>
+            ⚔️
+          </div>
 
-            <h4>History/Araling Panlipunan</h4>
+          <div class="game-info">
+            <h3>Math Battle Arena</h3>
 
-            <p>
-              Arrange Historical events in the correct chronological order.
-              Features Philippine history and global events.
+            <p class="game-meta">All Grades | Mathematics</p>
+
+            <p class="game-desc">
+              Answer math problems to attack opponents! Compete with timers,
+              scores, and health mechanics across elementary, high school, and
+              senior high levels.
             </p>
 
-            <a href="#"> Play </a>
+            <button class="play-btn math-play-btn">▶ PLAY</button>
           </div>
         </div>
 
         <div class="game-card">
-          <img src="" alt="Game Thumbnail" />
+          <div class="game-thumb" style="background: #1f7a43">
+            <div class="game-badge">New</div>
 
-          <div class="game-content">
-            <h3>Math Adventure</h3>
+            🔬
+          </div>
 
-            <h4>Mathematics</h4>
+          <div class="game-info">
+            <h3>Science Quiz Adventure</h3>
 
-            <p>
-              Embark on a mathematical journey and solve exciting problems!
-              Enhance your arithmetic skills with this interactive adventure.
+            <p class="game-meta">All Grades | Science</p>
+
+            <p class="game-desc">
+              A story-based quiz game where you progress through stages by
+              answering science questions about animals, plants, chemistry,
+              biology, and physics.
             </p>
 
-            <a href="#"> Play </a>
+            <button class="play-btn science-play-btn">▶ PLAY</button>
           </div>
         </div>
 
         <div class="game-card">
-          <img src="" alt="Game Thumbnail" />
+          <div class="game-thumb" style="background: #6b2fa3">📝</div>
 
-          <div class="game-content">
-            <h3>Science Explorer</h3>
+          <div class="game-info">
+            <h3>Word Builder Challenge</h3>
 
-            <h4>Science</h4>
+            <p class="game-meta">All Grades | Language</p>
 
-            <p>
-              Discover the wonders of science through interactive experiments
-              and engaging activities! Expand your knowledge of the natural
-              world while having fun.
+            <p class="game-desc"></p>
+            <p class="game-desc">
+              Form words from scrambled letters or match words with their
+              meanings. Develop vocabulary, spelling, and reading comprehension!
             </p>
 
-            <a href="#"> Play </a>
+            <button id="wordBuilderPlayBtn" class="play-btn">▶ PLAY</button>
           </div>
         </div>
 
         <div class="game-card">
-          <img src="https://via.placeholder.com/300x180" alt="Game Thumbnail" />
+          <div class="game-thumb history-banner">📜</div>
 
-          <div class="game-content">
-            <h3>Word Explorer</h3>
+          <div class="game-info">
+            <h3>History Timeline Race</h3>
 
-            <h4>English</h4>
+            <p class="game-meta">All Grades | History</p>
 
-            <p>
-              Explore the world of words and expand your vocabulary! Solve
-              puzzles, play word games, and enhance your language skills in a
-              fun and interactive way.
+            <p class="game-desc">
+              Race against time by arranging historical events in chronological
+              order. Explore Philippine history, world events, revolutions, and
+              ancient civilizations.
             </p>
 
-            <a href="#"> Play </a>
-          </div>
-        </div>
-
-        <div class="game-card">
-          <img src="https://via.placeholder.com/300x180" alt="Game Thumbnail" />
-
-          <div class="game-content">
-            <h3>Game Name</h3>
-
-            <h4>Grade 5 | Subject</h4>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
-            </p>
-
-            <a href="#"> Play </a>
-          </div>
-        </div>
-
-        <div class="game-card">
-          <img src="https://via.placeholder.com/300x180" alt="Game Thumbnail" />
-
-          <div class="game-content">
-            <h3>Game Name</h3>
-
-            <h4>Grade 5 | Subject</h4>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt.
-            </p>
-
-            <a href="#"> Play </a>
+            <button class="play-btn" id="historyTimelinePlayBtn">▶ PLAY</button>
           </div>
         </div>
       </section>
@@ -141,9 +116,6 @@
 
     <footer class="footer">
       <div class="footer-container">
-        <div class="footer-logo">
-          <img src="assets/logo.png" alt="EduHub Logo" />
-        </div>
         <div class="footer-about">
           <h3>EduHub Learning Platform</h3>
 
@@ -185,5 +157,416 @@
         <p>Supporting SDG 4: Quality Education</p>
       </div>
     </footer>
+
+    <!-- =========================
+     GAMES MODAL
+    ========================= -->
+    <div class="game-modal" id="gameModal">
+      <div class="modal-content" id="modalContent">
+        <div class="unified-modal-header">
+          <div class="unified-modal-title">
+            ⚔️
+            <span>Math Battle Arena</span>
+          </div>
+
+          <button type="button" class="close-modal-btn" id="closeModal">
+            ✕
+          </button>
+        </div>
+
+        <p class="unified-modal-subtitle">
+          Answer math questions correctly to defeat the enemy.
+        </p>
+
+        <div class="difficulty-tabs">
+          <button
+            class="difficulty-btn active-difficulty"
+            data-difficulty="elementary"
+          >
+            Elementary
+          </button>
+
+          <button class="difficulty-btn" data-difficulty="highschool">
+            High School
+          </button>
+
+          <button class="difficulty-btn" data-difficulty="seniorhigh">
+            Senior High
+          </button>
+        </div>
+        <div class="battle-status">
+          <div class="health-section">
+            <div class="player-health">
+              <h3>You</h3>
+
+              <div class="health-bar">
+                <div class="health-fill player-fill"></div>
+              </div>
+
+              <span id="playerHealthText"> 100 / 100 </span>
+            </div>
+
+            <div class="enemy-health">
+              <h3>Enemy</h3>
+
+              <div class="health-bar">
+                <div class="health-fill enemy-fill"></div>
+              </div>
+
+              <span id="enemyHealthText"> 100 / 100 </span>
+            </div>
+          </div>
+
+          <div class="battle-characters">
+            <div class="player-character">🦸</div>
+
+            <div class="vs-text">VS</div>
+
+            <div class="enemy-character">🤖</div>
+          </div>
+
+          <div class="battle-stats">
+            <div class="stat-box">
+              <p>Score</p>
+              <h3 id="scoreValue">0</h3>
+            </div>
+
+            <div class="stat-box">
+              <p>Time</p>
+              <h3 id="timeValue">--</h3>
+            </div>
+
+            <div class="stat-box">
+              <p>Best Streak</p>
+              <h3 id="streakValue">0</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="start-battle-section">
+          <div id="currentDifficultyLabel" class="difficulty-label">
+            Elementary Mode
+          </div>
+
+          <button id="startBattleBtn" class="start-battle-btn">
+            Start Battle
+          </button>
+        </div>
+        <div class="question-section" id="questionSection">
+          <div class="question-box hidden-question">
+            <h2 id="questionText"></h2>
+          </div>
+
+          <div class="answers-grid" id="answersGrid"></div>
+
+          <div class="answer-result correct-result">
+            Correct! You attacked the enemy.
+          </div>
+        </div>
+      </div>
+      <div class="end-screen" id="endScreen">
+        <div class="end-card">
+          <h2 id="endTitle">Victory!</h2>
+
+          <p id="finalScore">Final Score: 0</p>
+
+          <p id="finalStreak">Best Streak: 0</p>
+
+          <div class="end-buttons">
+            <button class="end-btn" id="playAgainBtn">Play Again</button>
+
+            <button class="end-btn secondary-btn" id="closeEndBtn">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="science-modal" id="scienceModal">
+      <div class="science-modal-content">
+        <div class="unified-modal-header">
+          <div class="unified-modal-title">
+            🔬
+            <span>Science Quiz Adventure</span>
+          </div>
+
+          <button class="close-modal-btn" id="scienceCloseBtn">✕</button>
+        </div>
+
+        <p class="unified-modal-subtitle">
+          Explore science topics, answer quizzes, and earn stars.
+        </p>
+
+        <div class="science-stage-selection">
+          <button
+            class="science-stage-btn active-science-stage"
+            data-stage="plantsAnimals"
+          >
+            Plants & Animals
+          </button>
+
+          <button
+            class="science-stage-btn locked-stage"
+            data-stage="earthEnvironment"
+          >
+            Earth & Environment
+          </button>
+
+          <button class="science-stage-btn locked-stage" data-stage="chemistry">
+            Chemistry Basics
+          </button>
+
+          <button class="science-stage-btn locked-stage" data-stage="biology">
+            Biology
+          </button>
+
+          <button class="science-stage-btn locked-stage" data-stage="physics">
+            Physics
+          </button>
+        </div>
+
+        <div class="science-reset-wrapper">
+          <button id="resetScienceProgressBtn">Reset Progress</button>
+        </div>
+
+        <div class="science-reset-wrapper"></div>
+
+        <div id="scienceGameplaySection">
+          <div class="science-progress-section">
+            <div class="science-progress-top">
+              <div class="science-stage-title" id="scienceStageTitle">
+                🌿 Plants & Animals
+              </div>
+
+              <div class="science-score-display">
+                <span id="scienceLivesText">❤️❤️❤️❤️</span>
+              </div>
+            </div>
+
+            <div class="science-progress-bar">
+              <div class="science-progress-fill" id="scienceProgressFill"></div>
+            </div>
+          </div>
+
+          <div class="science-question-section">
+            <div class="science-question-icon">🌎</div>
+
+            <div class="science-question-box">
+              <p id="scienceQuestionCounter">Question 1 of 4</p>
+
+              <h2 id="scienceQuestionText">Loading question...</h2>
+            </div>
+
+            <div class="science-answers-grid" id="scienceAnswersGrid">
+              <button class="science-answer-btn"></button>
+
+              <button class="science-answer-btn"></button>
+
+              <button class="science-answer-btn"></button>
+
+              <button class="science-answer-btn"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="science-end-screen" id="scienceEndScreen">
+        <div class="science-end-card">
+          <h2 id="scienceEndTitle">Stage Complete!</h2>
+
+          <button id="scienceNextStageBtn">Next Stage</button>
+
+          <button id="sciencePlayAgainBtn">Play Again</button>
+
+          <button id="scienceCloseEndBtn">Back to Stages</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="wordBuilderModal" class="game-modal">
+      <div class="modal-content word-builder-content">
+        <div class="game-modal-header">
+          <h2>📝 Word Builder Challenge</h2>
+
+          <button id="closeWordBuilderBtn" class="close-modal-btn">✕</button>
+        </div>
+
+        <div class="word-builder-stats">
+          <div class="word-stat-box">
+            <span class="stat-label">Score</span>
+
+            <span class="stat-value" id="wordBuilderScore"> 0 </span>
+          </div>
+
+          <div class="word-stat-box combo-box">
+            <span class="stat-label"> Combo </span>
+
+            <span class="stat-value" id="wordComboValue"> 0 </span>
+          </div>
+
+          <div class="word-stat-box">
+            <span class="stat-label">Time</span>
+            <span class="stat-value" id="wordBuilderTimer"> 30 </span>
+          </div>
+
+          <div class="word-stat-box">
+            <span class="stat-label">Highest</span>
+            <span class="stat-value" id="wordBuilderHighest"> 0 </span>
+          </div>
+
+          <div class="word-stat-box">
+            <span class="stat-label">Lives</span>
+            <span class="stat-value" id="wordBuilderLives"> 3 </span>
+          </div>
+        </div>
+
+        <div class="word-gameplay-area">
+          <div class="word-category">
+            Category:
+            <span id="wordCategory">Animals</span>
+          </div>
+
+          <div class="word-hint">
+            Hint:
+            <span id="wordHint">King of the jungle</span>
+          </div>
+
+          <div id="wordSlots" class="word-slots"></div>
+
+          <div id="letterBank" class="letter-bank"></div>
+
+          <div class="word-action-buttons">
+            <button id="clearWordBtn" class="secondary-btn">Clear</button>
+
+            <button id="removeLetterBtn" class="secondary-btn">
+              Backspace
+            </button>
+
+            <button id="submitWordBtn" class="primary-btn">Submit</button>
+          </div>
+
+          <div id="wordMessage" class="word-feedback"></div>
+        </div>
+        <div class="word-game-over-screen" id="wordGameOverScreen">
+          <h2>Game Over!</h2>
+
+          <p>
+            Final Score:
+            <span id="finalWordScore">0</span>
+          </p>
+
+          <p>
+            Highest Score:
+            <span id="finalHighestScore">0</span>
+          </p>
+
+          <div class="word-game-over-buttons">
+            <button id="playAgainWordBtn">Play Again</button>
+
+            <button id="closeGameOverBtn">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HISTORY TIMELINE MODAL -->
+
+    <div id="historyTimelineModal" class="game-modal">
+      <div class="modal-content history-timeline-content">
+        <div class="history-modal-top">
+          <div class="history-title-wrap">
+            <span class="history-title-icon">📜</span>
+
+            <h2>History Timeline Race</h2>
+          </div>
+
+          <button id="closeHistoryTimelineBtn" class="history-close-btn">
+            ×
+          </button>
+        </div>
+
+        <div class="history-stats">
+          <div class="history-stat-box">
+            <span class="stat-label">Score</span>
+            <span class="stat-value" id="historyScoreValue">0</span>
+          </div>
+
+          <div class="history-stat-box">
+            <span class="stat-label">Combo</span>
+            <span class="stat-value" id="historyComboValue">0</span>
+          </div>
+
+          <div class="history-stat-box">
+            <span class="stat-label">Time</span>
+            <span class="stat-value" id="historyTimerValue">60</span>
+          </div>
+
+          <div class="history-stat-box">
+            <span class="stat-label">Highest</span>
+            <span class="stat-value" id="historyHighestValue">0</span>
+          </div>
+        </div>
+
+        <div class="history-category-buttons">
+          <button
+            id="historyPhilippineBtn"
+            class="history-category-btn active-history-category"
+            onclick="setHistoryCategory('philippine')"
+          >
+            Philippine History
+          </button>
+
+          <button
+            id="historyWorldBtn"
+            class="history-category-btn"
+            onclick="setHistoryCategory('world')"
+          >
+            World History
+          </button>
+        </div>
+
+        <div class="history-game-area">
+          <h3 class="history-instruction">
+            Arrange the events from EARLIEST to LATEST
+          </h3>
+
+          <div id="historyEventsContainer"></div>
+
+          <button
+            id="checkHistoryOrderBtn"
+            class="history-check-btn"
+            onclick="checkHistoryTimelineOrder()"
+          >
+            Check Order
+          </button>
+
+          <div id="historyFeedbackMessage"></div>
+        </div>
+        <div class="history-game-over-screen" id="historyGameOverScreen">
+          <div class="history-game-over-card">
+            <h2 id="historyGameOverTitle">Time's Up!</h2>
+
+            <p>
+              Final Score:
+              <span id="historyFinalScore">0</span>
+            </p>
+
+            <p>
+              Highest Score:
+              <span id="historyFinalHighest">0</span>
+            </p>
+
+            <div class="history-game-over-buttons">
+              <button id="historyPlayAgainBtn">Play Again</button>
+
+              <button id="historyCloseGameBtn">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
   </body>
 </html>
