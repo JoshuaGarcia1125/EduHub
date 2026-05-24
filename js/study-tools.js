@@ -136,12 +136,12 @@ function createTodoItem(text, completed = false) {
   actions.classList.add("todo-actions");
 
   const editBtn = document.createElement("button");
-  editBtn.textContent = "✏️";
+  editBtn.innerHTML = `<img src="assets/tools/edit-icon.png" alt="Edit">`;
   editBtn.classList.add("todo-edit-btn");
   editBtn.title = "Edit task";
 
   const deleteBtn = document.createElement("button");
-  deleteBtn.textContent = "🗑️";
+  deleteBtn.innerHTML = `<img src="assets/tools/delete-icon.png" alt="Delete">`;
   deleteBtn.classList.add("todo-delete-btn");
   deleteBtn.title = "Delete task";
 
