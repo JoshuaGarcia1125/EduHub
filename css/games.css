@@ -1,11 +1,6 @@
-/* =========================
-   GAMES PAGE
-========================= */
-
 .games-header {
   text-align: center;
   padding: 72px 20px 52px;
-  background: #f0f2f8;
 }
 
 .games-header h1 {
@@ -26,14 +21,11 @@
   margin: 0 auto;
 }
 
-/* ---- Grid ---- */
-
 .games-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 24px;
   padding: 0 80px 80px;
-  background: #f0f2f8;
 }
 
 /* ---- Card ---- */
@@ -70,6 +62,11 @@
   font-size: 72px;
   line-height: 1;
   filter: drop-shadow(0 6px 16px rgba(0, 0, 0, 0.25));
+}
+
+.game-thumb-icon img {
+  scale: 0.3;
+  z-index: 1;
 }
 
 .game-badge {
@@ -187,9 +184,7 @@
   transform: scale(0.98);
 }
 
-/* =========================
-   MODAL SHARED
-========================= */
+/* -------- MODAL SHARED -----*/
 
 .game-modal {
   position: fixed;
@@ -301,26 +296,6 @@
 .close-modal-btn:hover {
   background: rgba(255, 255, 255, 0.25);
   transform: scale(1.08);
-}
-
-/* ---- Game modal header variant (word builder) ---- */
-
-.game-modal-header {
-  background: #0d1b45;
-  border-radius: 20px 20px 0 0;
-  padding: 20px 28px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 0;
-}
-
-.game-modal-header h2 {
-  font-family: "Sora", sans-serif;
-  font-size: 22px;
-  font-weight: 800;
-  color: white;
-  margin: 0;
 }
 
 /* ---- Scrollbar ---- */

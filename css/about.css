@@ -1,7 +1,3 @@
-/* =========================
-   ABOUT PAGE
-========================= */
-
 .about-header {
   text-align: center;
   padding: 70px 20px 40px;
@@ -31,7 +27,7 @@
 }
 
 .about-card {
-  background-color: #001f6b;
+  background: linear-gradient(135deg, #0d1b45 0%, #162566 60%, #1a3080 100%);
   border-radius: 14px;
   padding: 24px;
   display: flex;
@@ -42,7 +38,6 @@
 
 .about-icon {
   background-color: white;
-  color: #001f6b;
   width: 70px;
   height: 70px;
   border-radius: 10px;
@@ -69,7 +64,7 @@
 }
 
 .sdg-card {
-  background-color: #001f6b;
+  background: linear-gradient(135deg, #0d1b45 0%, #162566 60%, #1a3080 100%);
   border-radius: 14px;
   padding: 28px 24px;
   text-align: center;
