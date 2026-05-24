@@ -399,6 +399,21 @@ let timer;
 
 let gameStarted = false;
 
+difficultyButtons.forEach((button) => {
+  button.addEventListener("click", () => {
+    difficultyButtons.forEach((btn) => {
+      btn.classList.remove("active-difficulty");
+    });
+
+    button.classList.add("active-difficulty");
+
+    currentDifficulty = button.dataset.difficulty;
+
+    document.getElementById("currentDifficultyLabel").textContent =
+      button.textContent + " Mode";
+  });
+});
+
 function lockDifficultyButtons() {
   difficultyButtons.forEach((button) => {
     button.disabled = true;
