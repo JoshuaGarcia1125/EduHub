@@ -219,13 +219,13 @@ function render() {
   badge.textContent = `Showing ${items.length} resource${items.length !== 1 ? 's' : ''}`;
   grid.innerHTML = '';
   if (!items.length) {
-    empty.style.display = 'block';
+    empty.style.display = 'flex';
     grid.style.display  = 'none';
     return;
   }
   empty.style.display = 'none';
   grid.style.display  = '';
-  grid.className = state.view === 'list' ? 'cards-grid cards-grid--list' : 'cards-grid';
+  grid.className = state.view === 'list' ? 'resources-grid resources-grid--list' : 'resources-grid';
   items.forEach((r, i) => {
     const col   = SUBJECT_COLORS[r.subject] || '#6366F1';
     const icon  = SUBJECT_ICONS[r.subject]  || '📚';
@@ -233,34 +233,34 @@ function render() {
     const bm    = state.bookmarks.has(r.file);
     const idx   = RESOURCES.indexOf(r);
     const card = document.createElement('div');
-    card.className = 'rcard';
+    card.className = 'resource-card';
     card.style.animationDelay = `${Math.min(i, 8) * 0.04}s`;
     card.innerHTML = `
-      <div class="rcard__thumb">
-        <div class="rcard__thumb-skin" style="background:linear-gradient(135deg,${col}33,${col}88)"></div>
-        <span class="rcard__thumb-icon">${icon}</span>
-        <span class="rcard__type-pill">${r.type} ${tIcon}</span>
-        <button class="rcard__bookmark ${bm ? 'active' : ''}" data-idx="${idx}" title="Bookmark" aria-label="Bookmark">
+      <div class="card-thumb">
+        <div class="card-thumb__bg" style="background:linear-gradient(135deg,${col}33,${col}88)"></div>
+        <span class="card-thumb__icon">${icon}</span>
+        <span class="card-thumb__type">${r.type} ${tIcon}</span>
+        <button class="card-bookmark ${bm ? 'active' : ''}" data-idx="${idx}" title="Bookmark" aria-label="Bookmark">
           ${bm ? '★' : '☆'}
         </button>
       </div>
-      <div class="rcard__body">
-        <span class="rcard__grade">${r.grade}</span>
-        <p class="rcard__title">${r.title}</p>
-        <span class="rcard__subject">
-          <span class="rcard__subject-dot" style="background:${col}"></span>
+      <div class="resource-content">
+        <h4>${r.grade}</h4>
+        <h3>${r.title}</h3>
+        <span class="resource-subject">
+          <span class="resource-subject__dot" style="background:${col}"></span>
           ${r.subject}
         </span>
-        <p class="rcard__desc">${r.desc}</p>
+        <p>${r.desc}</p>
       </div>
-      <div class="rcard__actions">
-        <button class="rcard__btn rcard__btn--view" data-idx="${idx}">
+      <div class="resource-buttons">
+        <button class="btn-view" data-idx="${idx}">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
             <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>
           </svg>
           View
         </button>
-        <a class="rcard__btn rcard__btn--dl" href="${r.file}" download title="Download">
+        <a class="btn-dl" href="${r.file}" download title="Download">
           <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
             <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
             <polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/>
@@ -271,10 +271,10 @@ function render() {
     `;
     grid.appendChild(card);
   });
-  grid.querySelectorAll('.rcard__btn--view').forEach(btn => {
+  grid.querySelectorAll('.btn-view').forEach(btn => {
     btn.addEventListener('click', () => openModal(RESOURCES[+btn.dataset.idx]));
   });
-  grid.querySelectorAll('.rcard__bookmark').forEach(btn => {
+  grid.querySelectorAll('.card-bookmark').forEach(btn => {
     btn.addEventListener('click', e => { e.stopPropagation(); toggleBookmark(+btn.dataset.idx); });
   });
 }
