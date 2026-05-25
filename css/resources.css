@@ -1025,3 +1025,14 @@ canvas {
     display: none;
   }
 }
+.book-stage {
+  max-height: 70vh;
+  overflow: hidden;
+}
+.open-book {
+  max-height: 65vh;
+  overflow-y: auto;
+}
+.book-page {
+  min-height: unset !important;
+}
