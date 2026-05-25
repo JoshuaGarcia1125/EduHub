@@ -9,7 +9,7 @@
   max-width: 1050px;
   background: white;
   border-radius: 24px;
-  padding: 24px;
+  padding: 22px 24px 24px;
   position: relative;
   max-height: 92vh;
   overflow-y: auto;
@@ -50,6 +50,24 @@
   font-weight: 800;
 }
 
+.history-combo-pulse {
+  animation: historyComboPulse 0.45s ease;
+}
+
+@keyframes historyComboPulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.22);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
 .history-category-buttons {
   display: flex;
   justify-content: center;
@@ -81,7 +99,7 @@
 .history-game-area {
   background: #f8fafc;
   border-radius: 28px;
-  padding: 26px;
+  padding: 28px;
   margin-top: 18px;
 }
 
@@ -107,15 +125,78 @@
   border-radius: 18px;
   background: white;
   min-height: 68px;
+
   transition:
+    background-color 0.4s ease,
+    border-color 0.4s ease,
     transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
+    box-shadow 0.3s ease;
+}
+
+.history-correct-card {
+  border: 2px solid #22c55e;
+  background: #dcfce7;
+}
+
+.history-wrong-card {
+  border: 2px solid #ef4444;
+  background: #fee2e2;
 }
 
 .history-event-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.history-success-flash {
+  animation: historySuccessFlash 0.7s ease;
+}
+
+.history-fail-shake {
+  animation: historyFailShake 0.45s ease;
+}
+
+@keyframes historySuccessFlash {
+  0% {
+    transform: scale(1);
+    background: white;
+  }
+
+  40% {
+    transform: scale(1.02);
+    background: #dcfce7;
+  }
+
+  100% {
+    transform: scale(1);
+    background: white;
+  }
+}
+
+@keyframes historyFailShake {
+  0% {
+    transform: translateX(0);
+  }
+
+  20% {
+    transform: translateX(-8px);
+  }
+
+  40% {
+    transform: translateX(8px);
+  }
+
+  60% {
+    transform: translateX(-6px);
+  }
+
+  80% {
+    transform: translateX(6px);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .history-move-btn:active {
@@ -190,7 +271,30 @@
   font-weight: 700;
   font-size: 1rem;
   text-align: center;
-  transition: 0.25s;
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s ease;
+}
+
+.history-feedback-hidden {
+  opacity: 0;
+  transform: translateY(-5px);
+}
+
+.history-feedback-pop {
+  animation: historyFeedbackPop 0.35s ease;
+}
+
+@keyframes historyFeedbackPop {
+  0% {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .history-feedback-correct {
@@ -269,8 +373,9 @@
 .history-modal-top {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 28px;
+  padding-top: 10px;
 }
 
 .history-title-wrap {
@@ -341,6 +446,11 @@
   font-weight: 700;
   color: #0b1f5c;
   margin-bottom: 12px;
+}
+
+#historyRoundsText,
+#historyBestComboText {
+  color: #334155;
 }
 
 .history-game-over-buttons {
@@ -465,7 +575,7 @@
   transition: 0.22s ease;
 }
 
-.history-move-arrow {
+.history-floating-arrow {
   position: fixed;
   z-index: 999999;
   font-size: 58px;
@@ -494,38 +604,4 @@
 
     transform: scale(1) translateY(-55px);
   }
-}
-
-.history-moving-up {
-  transform: translateY(-72px) scale(1.02);
-  z-index: 30;
-  box-shadow: 0 18px 35px rgba(37, 99, 235, 0.28);
-  position: relative;
-}
-
-.history-moving-down {
-  transform: translateY(72px) scale(1.02);
-  z-index: 30;
-  box-shadow: 0 18px 35px rgba(37, 99, 235, 0.28);
-  position: relative;
-}
-
-.timeline-event-card {
-  position: relative;
-  transition:
-    transform 0.42s cubic-bezier(0.22, 1, 0.36, 1),
-    box-shadow 0.3s ease,
-    border-color 0.3s ease;
-}
-
-.timeline-moving-up {
-  transform: translateY(-78px) scale(1.02);
-  z-index: 200;
-  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.28);
-}
-
-.timeline-moving-down {
-  transform: translateY(78px) scale(1.02);
-  z-index: 200;
-  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.28);
 }

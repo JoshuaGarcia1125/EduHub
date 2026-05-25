@@ -161,11 +161,6 @@ const historyTimelineData = {
     },
 
     {
-      year: 1986,
-      event: "EDSA People Power Revolution",
-    },
-
-    {
       year: 1992,
       event: "Subic Naval Base returned to the Philippines",
     },
@@ -198,18 +193,8 @@ const historyTimelineData = {
     },
 
     {
-      year: 1789,
-      event: "French Revolution begins",
-    },
-
-    {
       year: 1914,
       event: "World War I begins",
-    },
-
-    {
-      year: 1969,
-      event: "Apollo 11 Moon Landing",
     },
 
     {
@@ -273,11 +258,6 @@ const historyTimelineData = {
     },
 
     {
-      year: 1215,
-      event: "Magna Carta signed",
-    },
-
-    {
       year: 1517,
       event: "Protestant Reformation begins",
     },
@@ -290,11 +270,6 @@ const historyTimelineData = {
     {
       year: 1789,
       event: "French Revolution begins",
-    },
-
-    {
-      year: 1914,
-      event: "World War I begins",
     },
 
     {
@@ -329,7 +304,11 @@ let historyCombo = 0;
 
 let historyHighest = localStorage.getItem("historyHighest") || 0;
 
-let historyTimeLeft = 60;
+let historyHighestCombo = 0;
+
+let historyTimeLeft = 50;
+
+let historyRound = 1;
 
 let historyTimer;
 
@@ -338,30 +317,33 @@ function loadHistoryTimelineEvents() {
 
   let eventCount = 3;
 
-  if (historyScore >= 400) {
+  if (historyRound >= 2) {
     eventCount = 4;
   }
 
-  if (historyScore >= 900) {
+  if (historyRound >= 4) {
     eventCount = 5;
   }
 
-  if (historyScore >= 1600) {
+  if (historyRound >= 6) {
     eventCount = 6;
   }
 
-  if (historyScore >= 2500) {
-    eventCount = 7;
-  }
+  const shuffledPool = allEvents.sort(() => Math.random() - 0.5);
 
-  if (currentHistoryEvents.length === 0) {
-    const shuffledPool = allEvents.sort(() => Math.random() - 0.5);
+  currentHistoryEvents = shuffledPool.slice(0, eventCount);
 
-    currentHistoryEvents = shuffledPool.slice(0, eventCount);
+  currentHistoryEvents.sort(() => Math.random() - 0.5);
 
-    currentHistoryEvents.sort(() => Math.random() - 0.5);
-  }
+  document.querySelector(".history-timeline-content").scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 
+  renderHistoryEvents();
+}
+
+function renderHistoryEvents() {
   const historyEventsContainer = document.getElementById(
     "historyEventsContainer",
   );
@@ -369,40 +351,40 @@ function loadHistoryTimelineEvents() {
   historyEventsContainer.innerHTML = currentHistoryEvents
     .map(
       (event, index) => `
-          <div class="history-event-card">
+      <div class="history-event-card">
 
-  <span class="history-event-number">
-    ${index + 1}
-  </span>
+        <span class="history-event-number">
+          ${index + 1}
+        </span>
 
-  <span class="history-event-text">
-    ${event.event}
-  </span>
+        <span class="history-event-text">
+          ${event.event}
+        </span>
 
-  <div class="history-move-buttons">
+        <div class="history-move-buttons">
 
-  <button
-    class="history-move-btn
-    ${index === 0 ? "disabled-history-btn" : ""}"
-    onclick="moveHistoryEventUp(${index})"
-    ${index === 0 ? "disabled" : ""}
-  >
-    ↑
-  </button>
+          <button
+            class="history-move-btn
+            ${index === 0 ? "disabled-history-btn" : ""}"
+            onclick="moveHistoryEventUp(${index})"
+            ${index === 0 ? "disabled" : ""}
+          >
+            ↑
+          </button>
 
-  <button
-    class="history-move-btn
-    ${index === currentHistoryEvents.length - 1 ? "disabled-history-btn" : ""}"
-    onclick="moveHistoryEventDown(${index})"
-    ${index === currentHistoryEvents.length - 1 ? "disabled" : ""}
-  >
-    ↓
-  </button>
+          <button
+            class="history-move-btn
+            ${index === currentHistoryEvents.length - 1 ? "disabled-history-btn" : ""}"
+            onclick="moveHistoryEventDown(${index})"
+            ${index === currentHistoryEvents.length - 1 ? "disabled" : ""}
+          >
+            ↓
+          </button>
 
-</div>
+        </div>
 
-</div>
-        `,
+      </div>
+    `,
     )
     .join("");
 }
@@ -439,7 +421,7 @@ function moveHistoryEventUp(index) {
       currentHistoryEvents[index - 1],
     ];
 
-    loadHistoryTimelineEvents();
+    renderHistoryEvents();
   }, 420);
 }
 
@@ -476,7 +458,7 @@ function moveHistoryEventDown(index) {
       currentHistoryEvents[index + 1],
     ];
 
-    loadHistoryTimelineEvents();
+    renderHistoryEvents();
   }, 420);
 }
 
@@ -485,13 +467,23 @@ function resetHistoryGame() {
 
   historyCombo = 0;
 
-  historyTimeLeft = 60;
+  historyRound = 1;
 
-  document.getElementById("historyTimerValue").textContent = 60;
+  historyTimeLeft = 50;
+
+  document.getElementById("historyGameOverScreen").style.display = "none";
+
+  document.getElementById("historyTimerValue").textContent = 50;
 
   document
     .getElementById("historyTimerValue")
     .classList.remove("warning-time", "danger-time");
+
+  document.getElementById("historyFeedbackMessage").textContent = "";
+
+  document.querySelectorAll(".history-event-card").forEach((card) => {
+    card.classList.remove("history-correct-card", "history-wrong-card");
+  });
 
   updateHistoryUI();
 
@@ -504,6 +496,22 @@ function resetHistoryGame() {
 
 function setHistoryCategory(category) {
   currentHistoryCategory = category;
+
+  historyScore = 0;
+
+  historyCombo = 0;
+
+  historyRound = 1;
+
+  historyTimeLeft = 50;
+
+  clearInterval(historyTimer);
+
+  document.getElementById("historyFeedbackMessage").textContent = "";
+
+  document
+    .getElementById("historyTimerValue")
+    .classList.remove("warning-time", "danger-time");
 
   currentHistoryEvents = [];
 
@@ -520,6 +528,10 @@ function setHistoryCategory(category) {
       .getElementById("historyWorldBtn")
       .classList.add("active-history-category");
   }
+
+  updateHistoryUI();
+
+  startHistoryTimer();
 
   loadHistoryTimelineEvents();
 }
@@ -563,10 +575,40 @@ function startHistoryTimer() {
 
       document.getElementById("historyFinalScore").textContent = historyScore;
 
+      const historyRoundsText = document.getElementById("historyRoundsText");
+
+      const historyBestComboText = document.getElementById(
+        "historyBestComboText",
+      );
+
+      historyRoundsText.textContent = `Rounds Survived: ${historyRound}`;
+
+      historyBestComboText.textContent = `Best Combo: ${historyHighestCombo}`;
+
       document.getElementById("historyFinalHighest").textContent =
         historyHighest;
     }
   }, 1000);
+}
+
+let historyFeedbackTimeout;
+
+function clearHistoryFeedback() {
+  clearTimeout(historyFeedbackTimeout);
+
+  const historyFeedbackMessage = document.getElementById(
+    "historyFeedbackMessage",
+  );
+
+  historyFeedbackTimeout = setTimeout(() => {
+    historyFeedbackMessage.classList.add("history-feedback-hidden");
+
+    setTimeout(() => {
+      historyFeedbackMessage.textContent = "";
+
+      historyFeedbackMessage.classList.remove("history-feedback-hidden");
+    }, 350);
+  }, 1450);
 }
 
 function checkHistoryTimelineOrder() {
@@ -576,12 +618,22 @@ function checkHistoryTimelineOrder() {
 
   let correctCount = 0;
 
+  const historyCards = document.querySelectorAll(".history-event-card");
+
+  historyCards.forEach((card) => {
+    card.classList.remove("history-correct-card", "history-wrong-card");
+  });
+
   currentHistoryEvents.forEach((event, index) => {
     if (
       event.year === correctOrder[index].year &&
       event.event === correctOrder[index].event
     ) {
       correctCount++;
+
+      historyCards[index].classList.add("history-correct-card");
+    } else {
+      historyCards[index].classList.add("history-wrong-card");
     }
   });
 
@@ -592,17 +644,69 @@ function checkHistoryTimelineOrder() {
   if (correctCount === currentHistoryEvents.length) {
     historyCombo++;
 
+    if (historyCombo > historyHighestCombo) {
+      historyHighestCombo = historyCombo;
+    }
+
+    historyRound++;
+
     const comboBonus = historyCombo * 10;
 
     historyScore += 50 + comboBonus;
 
-    historyTimeLeft += 8;
+    if (historyCombo >= 3) {
+      historyTimeLeft += 5;
+    } else {
+      historyTimeLeft += 3;
+    }
 
-    historyFeedbackMessage.textContent = `Perfect Timeline! +${
-      50 + comboBonus
-    } score • +8 sec`;
+    if (historyTimeLeft > 50) {
+      historyTimeLeft = 50;
+    }
+
+    const timeReward = historyCombo >= 3 ? 5 : 3;
+
+    historyFeedbackMessage.textContent = `Perfect Timeline! +${50 + comboBonus} score • +${timeReward} sec`;
+
+    historyFeedbackMessage.classList.remove("history-feedback-hidden");
+
+    if (historyCombo >= 8) {
+      historyFeedbackMessage.textContent += " HISTORY GENIUS!";
+    } else if (historyCombo >= 5) {
+      historyFeedbackMessage.textContent += " TIMELINE MASTER!";
+    } else if (historyCombo >= 3) {
+      historyFeedbackMessage.textContent += " HOT STREAK!";
+    }
+
+    clearHistoryFeedback();
 
     historyFeedbackMessage.style.color = "#22c55e";
+
+    document.querySelectorAll(".history-event-card").forEach((card) => {
+      card.classList.add("history-success-flash");
+    });
+
+    document
+      .getElementById("historyComboValue")
+      .classList.add("history-combo-pulse");
+
+    historyFeedbackMessage.classList.remove("history-feedback-pop");
+
+    void historyFeedbackMessage.offsetWidth;
+
+    historyFeedbackMessage.classList.add("history-feedback-pop");
+
+    setTimeout(() => {
+      document
+        .getElementById("historyComboValue")
+        .classList.remove("history-combo-pulse");
+    }, 450);
+
+    setTimeout(() => {
+      document.querySelectorAll(".history-event-card").forEach((card) => {
+        card.classList.remove("history-success-flash");
+      });
+    }, 700);
 
     if (historyScore > historyHighest) {
       historyHighest = historyScore;
@@ -613,10 +717,22 @@ function checkHistoryTimelineOrder() {
     updateHistoryUI();
 
     setTimeout(() => {
+      historyCards.forEach((card) => {
+        card.style.opacity = "0.92";
+
+        card.classList.remove("history-correct-card", "history-wrong-card");
+      });
+    }, 950);
+
+    setTimeout(() => {
+      historyCards.forEach((card) => {
+        card.style.opacity = "1";
+      });
+
       currentHistoryEvents = [];
 
       loadHistoryTimelineEvents();
-    }, 300);
+    }, 1350);
   } else {
     historyCombo = 0;
 
@@ -624,12 +740,26 @@ function checkHistoryTimelineOrder() {
 
     historyScore += earnedScore;
 
-    if (correctCount >= 3) {
+    if (correctCount >= Math.floor(currentHistoryEvents.length / 2)) {
       historyTimeLeft += 3;
+
+      if (historyTimeLeft > 50) {
+        historyTimeLeft = 50;
+      }
 
       historyFeedbackMessage.textContent = `${correctCount} correctly placed • +3 sec`;
 
+      historyFeedbackMessage.classList.remove("history-feedback-hidden");
+
+      clearHistoryFeedback();
+
       historyFeedbackMessage.style.color = "#2563eb";
+
+      historyFeedbackMessage.classList.remove("history-feedback-pop");
+
+      void historyFeedbackMessage.offsetWidth;
+
+      historyFeedbackMessage.classList.add("history-feedback-pop");
     } else {
       historyTimeLeft -= 5;
 
@@ -639,8 +769,42 @@ function checkHistoryTimelineOrder() {
 
       historyFeedbackMessage.textContent = `${correctCount} correctly placed • -5 sec`;
 
+      historyFeedbackMessage.classList.remove("history-feedback-hidden");
+
       historyFeedbackMessage.style.color = "#ef4444";
+
+      document.querySelectorAll(".history-event-card").forEach((card) => {
+        card.classList.add("history-fail-shake");
+      });
+
+      historyFeedbackMessage.classList.remove("history-feedback-pop");
+
+      void historyFeedbackMessage.offsetWidth;
+
+      historyFeedbackMessage.classList.add("history-feedback-pop");
+
+      setTimeout(() => {
+        document.querySelectorAll(".history-event-card").forEach((card) => {
+          card.classList.remove("history-fail-shake");
+        });
+      }, 500);
     }
+
+    clearHistoryFeedback();
+
+    setTimeout(() => {
+      historyCards.forEach((card) => {
+        card.style.opacity = "0.92";
+
+        card.classList.remove("history-correct-card", "history-wrong-card");
+      });
+    }, 1450);
+
+    setTimeout(() => {
+      historyCards.forEach((card) => {
+        card.style.opacity = "1";
+      });
+    }, 1850);
 
     updateHistoryUI();
   }
