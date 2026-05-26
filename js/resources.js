@@ -145,16 +145,16 @@ const SUBJECT_COLORS = {
 };
 
 const SUBJECT_ICONS = {
-  'Mathematics':        '📐',
-  'Science':            '🔬',
-  'Filipino':           '📖',
-  'English':            '✏️',
-  'Araling Panlipunan': '🌏',
-  'ESP':                '🌱',
-  'MAPEH':              '🎨',
-  'Health':             '💊',
-  'Applied':            '⚙️',
-  'General':            '📚',
+  Mathematics: `<img src="assets/resources/math-icon.png"          alt="Mathematics">`,
+  Science: `<img src="assets/resources/science-icon.png"        alt="Science">`,
+  Filipino: `<img src="assets/resources/filipino-icon.png"       alt="Filipino">`,
+  English: `<img src="assets/resources/english-icon.png"        alt="English">`,
+  "Araling Panlipunan": `<img src="assets/resources/araling-panlipunan-icon.png"        alt="Araling Panlipunan">`,
+  ESP: `<img src="assets/resources/esp-icon.png"            alt="ESP">`,
+  MAPEH: `<img src="assets/resources/mapeh-icon.png"          alt="MAPEH">`,
+  Health: `<img src="assets/resources/health-icon.png"         alt="Health">`,
+  Applied: `<img src="assets/resources/applied-icon.png"        alt="Applied">`,
+  General: `<img src="assets/resources/general-icon.png"
 };
 
 const TYPE_ICONS = { PDF:'📄', DOCX:'📝', DOC:'📝', PPT:'📊', PPTX:'📊' };
